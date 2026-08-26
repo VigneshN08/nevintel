@@ -1,13 +1,13 @@
 {
-  "builtAt": "2026-08-26T21:51:50Z",
-  "articles": 230,
+  "builtAt": "2026-08-26T21:53:33Z",
+  "articles": 231,
   "sources": 13,
-  "rendered": 230,
+  "rendered": 231,
   "live": {
-    "storiesToday": 53,
-    "storiesWeek": 135,
+    "storiesToday": 54,
+    "storiesWeek": 136,
     "cvesWeek": 5,
-    "sourcesOk": 12,
+    "sourcesOk": 13,
     "sourcesTotal": 13
   },
   "lead": {
@@ -46,6 +46,26 @@
       "hue": 8,
       "topics": [
         "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "8c2afd7b565c7abc02e8ae7e33cf018b",
+      "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
+      "domain": "darkreading.com",
+      "snippet": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
+      "author": "Jai Vijayan",
+      "date": "2026-08-26T21:33:06Z",
+      "slug": "dark-caracal-adds-new-malware-to-cyber-espionage-arsenal-8c2afd7b",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "apt",
+        "malware"
       ],
       "cves": []
     },
@@ -1093,23 +1113,6 @@
       "hue": 210,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "8466ee8584a33fb7f56ad0a1949cd274",
-      "title": "The patch window is collapsing: Why security needs a new control plane",
-      "url": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-      "domain": "azure.microsoft.com",
-      "snippet": "Organizations need protection that operates in the gap between discovery and remediation.",
-      "author": "Igor Sakhnov",
-      "date": "2026-08-25T16:00:00Z",
-      "slug": "the-patch-window-is-collapsing-why-security-needs-a-new-control-plane-8466ee85",
-      "sourceId": "msrc",
-      "sourceName": "Microsoft Security",
-      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
-      "short": "MS",
-      "hue": 202,
-      "topics": [],
-      "cves": []
     }
   ],
   "rail": [
@@ -1129,6 +1132,26 @@
       "hue": 8,
       "topics": [
         "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "8c2afd7b565c7abc02e8ae7e33cf018b",
+      "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
+      "domain": "darkreading.com",
+      "snippet": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
+      "author": "Jai Vijayan",
+      "date": "2026-08-26T21:33:06Z",
+      "slug": "dark-caracal-adds-new-malware-to-cyber-espionage-arsenal-8c2afd7b",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "apt",
+        "malware"
       ],
       "cves": []
     },
@@ -1237,23 +1260,6 @@
         "malware"
       ],
       "cves": []
-    },
-    {
-      "id": "1c8a510b7d00790bf37dcbefab1a5d98",
-      "title": "When AI infrastructure becomes the target: Securing gateways and control points",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
-      "domain": "microsoft.com",
-      "snippet": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity.",
-      "author": "Microsoft Security Research, Yash Gund and Sumith Maniath",
-      "date": "2026-08-26T16:43:53Z",
-      "slug": "when-ai-infrastructure-becomes-the-target-securing-gateways-and-contro-1c8a510b",
-      "sourceId": "msrc",
-      "sourceName": "Microsoft Security",
-      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
-      "short": "MS",
-      "hue": 202,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1319,7 +1325,7 @@
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 19
+      "count": 20
     },
     {
       "id": "phishing",
@@ -1331,7 +1337,7 @@
       "id": "apt",
       "label": "Nation-State",
       "blurb": "State-linked intrusion sets, espionage campaigns, and attribution reporting.",
-      "count": 7
+      "count": 8
     },
     {
       "id": "supplychain",
@@ -1396,10 +1402,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 50,
-      "last_run": "2026-08-26T21:51:47Z",
-      "last_status": "http_error",
-      "newest": "2026-08-26T19:21:24Z",
+      "held": 51,
+      "last_run": "2026-08-26T21:53:30Z",
+      "last_status": "ok",
+      "newest": "2026-08-26T21:33:06Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1411,7 +1417,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 50,
-      "last_run": "2026-08-26T21:51:46Z",
+      "last_run": "2026-08-26T21:53:29Z",
       "last_status": "ok",
       "newest": "2026-08-26T16:42:03Z",
       "home": "https://thehackernews.com/",
@@ -1425,7 +1431,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 20,
-      "last_run": "2026-08-26T21:51:50Z",
+      "last_run": "2026-08-26T21:53:33Z",
       "last_status": "ok",
       "newest": "2026-08-20T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1439,8 +1445,8 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 15,
-      "last_run": "2026-08-26T21:51:46Z",
-      "last_status": "not_modified",
+      "last_run": "2026-08-26T21:53:29Z",
+      "last_status": "ok",
       "newest": "2026-08-26T21:33:20Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
@@ -1453,7 +1459,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 15,
-      "last_run": "2026-08-26T21:51:47Z",
+      "last_run": "2026-08-26T21:53:31Z",
       "last_status": "not_modified",
       "newest": "2026-08-26T10:00:05Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1467,7 +1473,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 15,
-      "last_run": "2026-08-26T21:51:47Z",
+      "last_run": "2026-08-26T21:53:31Z",
       "last_status": "not_modified",
       "newest": "2026-08-25T10:00:57Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1481,7 +1487,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 10,
-      "last_run": "2026-08-26T21:51:47Z",
+      "last_run": "2026-08-26T21:53:30Z",
       "last_status": "not_modified",
       "newest": "2026-08-26T12:46:44Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1495,7 +1501,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 10,
-      "last_run": "2026-08-26T21:51:47Z",
+      "last_run": "2026-08-26T21:53:30Z",
       "last_status": "not_modified",
       "newest": "2026-08-14T11:24:35Z",
       "home": "https://krebsonsecurity.com/",
@@ -1509,7 +1515,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 10,
-      "last_run": "2026-08-26T21:51:50Z",
+      "last_run": "2026-08-26T21:53:33Z",
       "last_status": "not_modified",
       "newest": "2026-08-26T16:43:53Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1523,7 +1529,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-08-26T21:51:50Z",
+      "last_run": "2026-08-26T21:53:33Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
@@ -1537,8 +1543,8 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 10,
-      "last_run": "2026-08-26T21:51:50Z",
-      "last_status": "ok",
+      "last_run": "2026-08-26T21:53:33Z",
+      "last_status": "not_modified",
       "newest": "2026-08-26T15:58:15Z",
       "home": "https://isc.sans.edu/diary.html",
       "kind": "research",
@@ -1551,7 +1557,7 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 10,
-      "last_run": "2026-08-26T21:51:47Z",
+      "last_run": "2026-08-26T21:53:30Z",
       "last_status": "not_modified",
       "newest": "2026-08-26T15:23:45Z",
       "home": "https://www.securityweek.com/",
@@ -1565,7 +1571,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 5,
-      "last_run": "2026-08-26T21:51:46Z",
+      "last_run": "2026-08-26T21:53:29Z",
       "last_status": "ok",
       "newest": "2026-08-26T20:53:00Z",
       "home": "https://therecord.media/",
