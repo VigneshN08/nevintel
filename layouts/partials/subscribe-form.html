@@ -1,0 +1,37 @@
+{{- $ctx := .ctx -}}
+{{- $id := .id -}}
+{{- $endpoint := $ctx.Site.Params.subscribeEndpoint -}}
+{{- /*
+  A static site cannot store an email address by itself -- there is no server
+  to receive the POST. This form posts to whatever endpoint is configured in
+  hugo.toml (Buttondown, Listmonk, Formspree, Mailchimp all give you one).
+
+  Until that is set, the form is deliberately DISABLED rather than fake. A
+  signup box that silently discards addresses is worse than no signup box:
+  people believe they subscribed.
+*/ -}}
+
+{{ if $endpoint }}
+<form class="sub-form" action="{{ $endpoint }}" method="post" target="_blank">
+  <label class="visually-hidden" for="email-{{ $id }}">Email address</label>
+  <input type="email" id="email-{{ $id }}" name="email" required
+         autocomplete="email" placeholder="you@example.com">
+  {{/* Honeypot: bots fill hidden fields, humans cannot see this one. */}}
+  <input type="text" name="hp_field" tabindex="-1" autocomplete="off"
+         aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+  <button class="sub-go" type="submit">Subscribe</button>
+</form>
+{{ else }}
+<form class="sub-form" aria-describedby="sub-note-{{ $id }}">
+  <label class="visually-hidden" for="email-{{ $id }}">Email address</label>
+  <input type="email" id="email-{{ $id }}" placeholder="you@example.com" disabled>
+  <button class="sub-go" type="button" disabled>Subscribe</button>
+</form>
+<p class="sub-alt" id="sub-note-{{ $id }}" style="margin-top:9px">
+  Email signup is not wired up yet. Set <code>subscribeEndpoint</code> in
+  <code>hugo.toml</code> to a Buttondown, Listmonk or Formspree URL and this
+  form goes live. Until then it stays disabled rather than quietly dropping
+  addresses &mdash; the <a href="{{ "index.xml" | relURL }}">RSS feed</a> works
+  today.
+</p>
+{{ end }}

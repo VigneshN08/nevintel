@@ -1,0 +1,82 @@
+# Hash-pinned dependency lock for the NeviSec pipeline.
+#
+# The workflow installs with `pip install --require-hashes`, so a compromised
+# or re-uploaded package version cannot silently enter the build. This matters
+# more than usual here: the build pipeline has write access to what every
+# visitor executes, and the May 2026 "Mini Shai-Hulud" compromise pulled CI
+# secrets straight out of the GitHub Actions runner's memory.
+#
+# To change a dependency:
+#   printf 'feedparser==X\nnh3==Y\nhttpx==Z\n' > requirements.in
+#   pip-compile --generate-hashes --output-file=requirements.txt requirements.in
+#   rm requirements.in
+#
+# Direct dependencies: feedparser, nh3, httpx. Everything else is transitive.
+
+anyio==4.14.2 \
+    --hash=sha256:9f505dda5ac9f0c8309b5e8bd445a8c2bf7246f3ce950121e45ea15bc41d1494 \
+    --hash=sha256:cfa139f3ed1a23ee8f88a145ddb5ac7605b8bbfd8592baacd7ce3d8bb4313c7f
+    # via httpx
+certifi==2026.7.22 \
+    --hash=sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775 \
+    --hash=sha256:741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55
+    # via
+    #   httpcore
+    #   httpx
+feedparser==6.0.11 \
+    --hash=sha256:0be7ee7b395572b19ebeb1d6aafb0028dee11169f1c934e0ed67d54992f4ad45 \
+    --hash=sha256:c9d0407b64c6f2a065d0ebb292c2b35c01050cc0dc33757461aaabdc4c4184d5
+    # via -r requirements.in
+h11==0.16.0 \
+    --hash=sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1 \
+    --hash=sha256:63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86
+    # via httpcore
+httpcore==1.0.9 \
+    --hash=sha256:2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55 \
+    --hash=sha256:6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8
+    # via httpx
+httpx==0.28.1 \
+    --hash=sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc \
+    --hash=sha256:d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad
+    # via -r requirements.in
+idna==3.19 \
+    --hash=sha256:5e0811a4383b21dc5838069f801c4fb62113b7447663d2530d2bd6e77b49bf15 \
+    --hash=sha256:815e7be7a7806d54abb586dc943addc79e8b2ee16915059658cbeff4b1b43bf4
+    # via
+    #   anyio
+    #   httpx
+nh3==0.3.1 \
+    --hash=sha256:0f454ba4c6aabafcaae964ae6f0a96cecef970216a57335fabd229a265fbe007 \
+    --hash=sha256:1de5c1a35bed19a1b1286bab3c3abfe42e990a8a6c4ce9bb9ab4bde49107ea3b \
+    --hash=sha256:22b9e9c9eda497b02b7273b79f7d29e1f1170d2b741624c1b8c566aef28b1f48 \
+    --hash=sha256:2cb6d9e192fbe0d451c7cb1350dadedbeae286207dbf101a28210193d019752e \
+    --hash=sha256:38b4872499ab15b17c5c6e9f091143d070d75ddad4a4d1ce388d043ca556629c \
+    --hash=sha256:42e426f36e167ed29669b77ae3c4b9e185e4a1b130a86d7c3249194738a1d7b2 \
+    --hash=sha256:474b176124c1b495ccfa1c20f61b7eb83ead5ecccb79ab29f602c148e8378489 \
+    --hash=sha256:48425995d37880281b467f7cf2b3218c1f4750c55bcb1ff4f47f2320a2bb159c \
+    --hash=sha256:489ca5ecd58555c2865701e65f614b17555179e71ecc76d483b6f3886b813a9b \
+    --hash=sha256:4a2434668f4eef4eab17c128e565ce6bea42113ce10c40b928e42c578d401800 \
+    --hash=sha256:5a25662b392b06f251da6004a1f8a828dca7f429cd94ac07d8a98ba94d644438 \
+    --hash=sha256:669a908706cd28203d9cfce2f567575686e364a1bc6074d413d88d456066f743 \
+    --hash=sha256:670f18b09f75c86c3865f79543bf5acd4bbe2a5a4475672eef2399dd8cdb69d2 \
+    --hash=sha256:6a854480058683d60bdc7f0456105092dae17bef1f300642856d74bd4201da93 \
+    --hash=sha256:80dc7563a2a3b980e44b221f69848e3645bbf163ab53e3d1add4f47b26120355 \
+    --hash=sha256:8f600ad86114df21efc4a3592faa6b1d099c0eebc7e018efebb1c133376097da \
+    --hash=sha256:94292dd1bd2a2e142fa5bb94c0ee1d84433a5d9034640710132da7e0376fca3a \
+    --hash=sha256:a3e810a92fb192373204456cac2834694440af73d749565b4348e30235da7f0b \
+    --hash=sha256:a5721f59afa0ab3dcaa0d47e58af33a5fcd254882e1900ee4a8968692a40f79d \
+    --hash=sha256:b0d6c834d3c07366ecbdcecc1f4804c5ce0a77fa52ee4653a2a26d2d909980ea \
+    --hash=sha256:b222c05ae5139320da6caa1c5aed36dd0ee36e39831541d9b56e048a63b4d701 \
+    --hash=sha256:b74bbd047b361c0f21d827250c865ff0895684d9fcf85ea86131a78cfa0b835b \
+    --hash=sha256:c0acef923a1c3a2df3ee5825ea79c149b6748c6449781c53ab6923dc75e87d26 \
+    --hash=sha256:d7431b2a39431017f19cd03144005b6c014201b3e73927c05eab6ca37bb1d98c \
+    --hash=sha256:dd6d1be301123a9af3263739726eeeb208197e5e78fc4f522408c50de77a5354 \
+    --hash=sha256:eaba26591867f697cffdbc539faddeb1d75a36273f5bfe957eb421d3f87d7da1
+    # via -r requirements.in
+sgmllib3k==1.0.0 \
+    --hash=sha256:7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9
+    # via feedparser
+typing-extensions==4.16.0 \
+    --hash=sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8 \
+    --hash=sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5
+    # via anyio

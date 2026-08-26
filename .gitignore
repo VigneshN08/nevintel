@@ -1,0 +1,32 @@
+# Hugo build output — regenerated every run
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Generated content — render.py rebuilds this tree from the corpus
+/content/story/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Never commit credentials. There should be none in this repo at all —
+# the pipeline in Phase 1 uses no API keys.
+.env
+*.pem
+*.key
+
+# The corpus is committed by CI in production (see README: it is the history,
+# and committing it counts as repo activity, which stops GitHub auto-disabling
+# the scheduled workflow after 60 days). It is ignored here only so the initial
+# clone starts empty rather than shipping test data. CI force-adds it.
+/corpus/
+/data/site.json

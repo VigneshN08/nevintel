@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ $site := site.Data.site | default (dict "builtAt" "not yet built" "sources_detail" slice) }}
+<main id="main" class="shell" style="grid-template-columns:minmax(0,1fr)">
+<div class="core">
+
+  <div class="pagehead">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.standfirst }}<p>{{ . }}</p>{{ end }}
+  </div>
+
+  <div class="panel"><div class="panel-b"><div class="prose">{{ .Content }}</div></div></div>
+
+  <section class="panel">
+    <div class="panel-h">{{ partial "icon.html" "feed" }}<h2>Feed Status</h2>
+      <span class="more">{{ $site.builtAt }}</span></div>
+    <div class="tw">
+      <table>
+        <thead><tr>
+          <th>Source</th><th class="num">Held</th><th class="num">Newest</th>
+          <th>Last fetch</th><th>Extract</th>
+        </tr></thead>
+        <tbody>
+        {{ range $site.sources_detail }}
+          <tr id="{{ .id }}">
+            <td>
+              <span style="display:flex;gap:10px;align-items:center">
+                <span class="tile" style="--h:{{ .hue | default 190 }}">{{ .short | default "?" }}</span>
+                <span>{{ if .home }}<a href="{{ .home }}" rel="noopener noreferrer external">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}<br>
+                <code style="font-size:10.5px;color:var(--ink-3)">{{ .id }}</code></span>
+              </span>
+            </td>
+            <td class="num">{{ .held }}</td>
+            <td class="num">{{ if .newest }}{{ substr .newest 0 10 }}{{ else }}&mdash;{{ end }}</td>
+            <td>
+              <span class="dot {{ if eq .last_status "ok" }}ok{{ else if eq .last_status "not_modified" }}ok{{ else if eq .last_status "empty" }}warn{{ else }}bad{{ end }}"></span>
+              <span class="src-c">{{ .last_status }} &middot; {{ .last_run }}</span>
+            </td>
+            <td>{{ if .headlineOnly }}<span class="badge cve" title="{{ .licenceNote }}">headline only</span>
+                {{ else }}<span class="badge agg">25 words max</span>{{ end }}</td>
+          </tr>
+        {{ end }}
+        </tbody>
+      </table>
+    </div>
+    <p class="note">A source showing <code>http_error</code> is usually a publisher
+      blocking datacenter traffic rather than an outage. The fetcher retries once
+      with a browser user-agent and records the outcome either way. One bad feed
+      never fails the build; every feed failing does, so the site cannot go
+      silently stale.</p>
+  </section>
+
+</div>
+</main>
+{{ end }}

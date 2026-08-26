@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main id="main" class="shell" style="grid-template-columns:minmax(0,1fr)">
+<div class="core">
+  <div class="pagehead">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.standfirst }}<p>{{ . }}</p>{{ end }}
+  </div>
+  <div class="panel"><div class="panel-b"><div class="prose">{{ .Content }}</div></div></div>
+</div>
+</main>
+{{ end }}

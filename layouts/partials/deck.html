@@ -1,0 +1,199 @@
+{{ $s := site.Data.site | default dict }}
+{{ $topics := $s.topics | default slice }}
+{{ $srcs := $s.sources_detail | default slice }}
+
+<!-- ============================= EXPLAINER ============================= -->
+<section class="panel explain" id="explain">
+  <div class="panel-h">{{ partial "icon.html" "info" }}<h2>Story Explainer</h2>
+    <span class="more">Click &ldquo;Explain&rdquo; on any story</span></div>
+  <div class="panel-b">
+    <p class="explain-empty" id="explain-empty">
+      Select <b>Explain</b> on any headline above and the full attribution
+      appears here: which outlet reported it, the exact link, when it was
+      published, when we first saw it, and which of our rules produced each
+      tag. Nothing about a story is asserted without showing where it came from.
+    </p>
+
+    <div class="explain-body" id="explain-body" aria-live="polite">
+      <div class="ex-head">
+        <span class="tile lg" id="ex-tile" style="--h:190">?</span>
+        <div>
+          <h3 id="ex-title">&nbsp;</h3>
+          <div class="item-meta" id="ex-tags"></div>
+        </div>
+      </div>
+
+      <div class="ex-grid">
+        <div class="ex-cell">
+          <p class="ex-k">Reported by</p>
+          <p class="ex-v" id="ex-source">&mdash;</p>
+        </div>
+        <div class="ex-cell">
+          <p class="ex-k">Published</p>
+          <p class="ex-v mono" id="ex-date">&mdash;</p>
+        </div>
+        <div class="ex-cell">
+          <p class="ex-k">Source link</p>
+          <p class="ex-v" id="ex-link">&mdash;</p>
+        </div>
+        <div class="ex-cell wide">
+          <p class="ex-k">Why these tags</p>
+          <p class="ex-v" id="ex-rule">&mdash;</p>
+        </div>
+      </div>
+
+      <p class="ex-why">
+        NEVINTEL did not write this story and does not host it. The extract
+        shown is capped for identification; the full article lives at the
+        publisher, and that link is the one you should read and cite.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FILTERS ============================== -->
+<section class="panel filters" id="filters">
+  <div class="panel-h">{{ partial "icon.html" "filter" }}<h2>Filter The Feed</h2>
+    <span class="more">Applies to Latest Intelligence above</span></div>
+
+  <div class="filter-row">
+    <div class="filter-k">Topic</div>
+    <div class="chips">
+      {{ range $topics }}
+      <button class="chip" type="button" data-filter-topic="{{ .id }}"
+              aria-pressed="false" title="{{ .blurb }}">{{ .label }}</button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <div class="filter-k">Source</div>
+    <div class="chips">
+      {{ range $srcs }}
+      <button class="chip" type="button" data-filter-source="{{ .id }}"
+              aria-pressed="false">{{ .name }}<span class="n">{{ .held }}</span></button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <div class="filter-k">Published</div>
+    <div class="chips">
+      <button class="chip" type="button" data-filter-age="24" aria-pressed="false">Last 24 hours</button>
+      <button class="chip" type="button" data-filter-age="72" aria-pressed="false">Last 3 days</button>
+      <button class="chip" type="button" data-filter-age="168" aria-pressed="false">Last 7 days</button>
+      <button class="chip" type="button" data-filter-age="720" aria-pressed="false">Last 30 days</button>
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <div class="filter-k">Has CVE</div>
+    <div class="chips">
+      <button class="chip cve" type="button" data-filter-hascve="1" aria-pressed="false">
+        Only stories citing a CVE</button>
+    </div>
+  </div>
+
+  <div class="filter-foot">
+    <span class="filter-count" id="filter-count">Showing <b>all</b> stories</span>
+    <button class="btn-clear" type="button" id="filter-clear">Clear filters</button>
+  </div>
+
+  <p class="note">Filters run in your browser against the stories already on
+    this page &mdash; nothing is sent anywhere. Combining filters narrows
+    (topic <em>and</em> source), while several chips of the same kind widen
+    (this source <em>or</em> that one). With JavaScript off, every story stays
+    visible and every link still works.</p>
+</section>
+
+<!-- ============================= INDICATORS ============================= -->
+<section class="panel" id="ioc">
+  <div class="panel-h">{{ partial "icon.html" "target" }}<h2>Indicators of Compromise</h2>
+    <span class="more">Handling rules</span></div>
+
+  <div class="panel-b">
+    <p style="margin:0 0 12px;color:var(--ink-2);font-size:13.5px;line-height:1.55">
+      An indicator of compromise is an artefact that suggests a system was
+      attacked &mdash; a file hash, a domain, an IP address, a URL. NEVINTEL
+      currently extracts and displays <b>CVE identifiers only</b>, because that
+      is the one class we can verify by construction: a CVE either appears in
+      the text we hold or it does not. Live network indicators arrive in Phase
+      4, and these are the rules they will be published under.
+    </p>
+    <p class="ioc-demo">hxxps://malicious-example[.]com/payload &nbsp;·&nbsp; 203[.]0[.]113[.]45 &nbsp;·&nbsp; user[@]phish[.]example</p>
+  </div>
+
+  <ol class="ioc-rules">
+    <li><span class="num">01</span><span class="txt">
+      <b>Always defanged, never clickable.</b> Every indicator renders inside a
+      code element with dots bracketed and <code>http</code> written
+      <code>hxxp</code>. It is never wrapped in a link.</span></li>
+    <li><span class="num">02</span><span class="txt">
+      <b>Because link previews fetch things.</b> Slack, Teams, Discord and mail
+      gateways pre-fetch URLs to build previews. A live indicator link means
+      every paste of this page generates real requests to attacker
+      infrastructure from readers' networks, attributed to them.</span></li>
+    <li><span class="num">03</span><span class="txt">
+      <b>Defanged before storage, not before display.</b> Doing it in
+      client-side JavaScript means a failed script re-arms every indicator on
+      the page.</span></li>
+    <li><span class="num">04</span><span class="txt">
+      <b>Extracted, then proven.</b> Regex sweeps broadly, then anything that
+      does not appear verbatim in the source article is discarded. An indicator
+      that is not a substring of the text cannot be real, and that single check
+      removes the entire fabrication class.</span></li>
+    <li><span class="num">05</span><span class="txt">
+      <b>Known-good suppressed first.</b> MISP warninglists (public domain)
+      filter CDN ranges, cloud providers, public resolvers and popular domains
+      before anything is published, so <code>1[.]1[.]1[.]1</code> never gets
+      flagged for matching a shape.</span></li>
+    <li><span class="num">06</span><span class="txt">
+      <b>Hedged language, always.</b> &ldquo;Suspected&rdquo;, &ldquo;reported
+      as&rdquo;, &ldquo;associated with&rdquo; &mdash; never a flat assertion
+      that a live business's domain is malicious. Indicators expire, and
+      removal requests for remediated hosts are honoured.</span></li>
+    <li><span class="num">07</span><span class="txt">
+      <b>No third-party verdicts republished.</b> VirusTotal, AbuseIPDB,
+      GreyNoise and urlscan all forbid public redisplay of their results. We
+      link to those tools; we never mirror what they say.</span></li>
+  </ol>
+
+  <p class="ioc-status">{{ partial "icon.html" "alert" }}
+    <span><b>Status:</b> CVE extraction is live. Network indicators, warninglist
+    suppression and the verification gate are Phase 4 &mdash; the rules above
+    are published now so the design is auditable before the data exists.</span></p>
+</section>
+
+<!-- ============================= NEWS IS FROM ============================= -->
+<section class="panel" id="sources">
+  <div class="panel-h">{{ partial "icon.html" "feed" }}<h2>News Is From</h2>
+    <a class="more" href="{{ "sources/" | relURL }}">Feed health &rarr;</a></div>
+
+  <div class="src-grid">
+    {{ range $srcs }}
+    <div class="src-card">
+      <span class="tile lg" style="--h:{{ .hue | default 190 }}" aria-hidden="true">{{ .short | default "?" }}</span>
+      <div style="min-width:0">
+        {{ if .home }}
+        <a class="src-n" href="{{ .home }}" rel="noopener noreferrer external">{{ .name }}</a>
+        {{ else }}<span class="src-n">{{ .name }}</span>{{ end }}
+        <div class="src-m">
+          <span class="dot {{ if eq .last_status "ok" }}ok{{ else if eq .last_status "not_modified" }}ok{{ else if eq .last_status "empty" }}warn{{ else }}bad{{ end }}"></span>
+          <span class="src-c">{{ .held }} stories</span>
+          {{ if .headlineOnly }}<span class="src-c" title="{{ .licenceNote }}"
+            style="color:var(--med)">headline only</span>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <p class="note">Each tile is a monogram we generate, not the publisher's
+    logo &mdash; a logo is someone else's trademark and rehosting it is a fight
+    we do not need. Names link to the publisher's own home page. Sources marked
+    <span style="color:var(--med)">headline only</span> carry a non-commercial
+    licence, so we show no extract from them at all. A source appearing here is
+    not an endorsement or a partnership; these are public RSS feeds, read the
+    way any feed reader reads them. Publishers who want their feed shown
+    differently or dropped need only ask.</p>
+</section>

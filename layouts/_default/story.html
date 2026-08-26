@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<main id="main" class="shell" style="grid-template-columns:minmax(0,1fr)">
+<div class="core">
+
+  <article class="panel single" data-pagefind-body>
+    <div class="item-meta" style="margin-bottom:14px">
+      <span class="tile" style="--h:{{ $p.hue | default 190 }}">{{ $p.short | default "?" }}</span>
+      <span class="meta" data-pagefind-filter="source">{{ $p.sourceName }}</span>
+      <span class="meta">{{ partial "icon.html" "cal" }} {{ .Date.Format "2 January 2006, 15:04" }} UTC</span>
+      {{ range $p.cves }}<span class="badge cve">{{ . }}</span>{{ end }}
+    </div>
+
+    <h1>{{ .Title }}</h1>
+    {{ with $p.snippet }}<p class="single-snip">{{ . }}</p>{{ end }}
+
+    <p style="margin:0">
+      <a class="btn-out" href="{{ $p.originalUrl }}" rel="noopener noreferrer nofollow external">
+        Read the original at {{ $p.domain }} {{ partial "icon.html" "arrow" }}</a>
+    </p>
+
+    <p class="single-attrib" data-pagefind-ignore>
+      Reported by <strong>{{ $p.sourceName }}</strong>{{ with $p.author }}, {{ . }}{{ end }}.
+      NEVINTEL has not reproduced the article and does not host it; copyright
+      remains with the publisher.
+      {{ if $p.snippet }}The extract above is quoted for identification only and
+      is capped well below the length of the original.{{ end }}
+      {{ if $p.cves }}CVE identifiers shown were found in the text we hold —
+      that is a claim about this article, not a verified assessment of the
+      vulnerability.{{ end }}
+    </p>
+  </article>
+
+  <p data-pagefind-ignore style="margin:0">
+    <a class="chip" href="{{ "/" | relURL }}">&larr; All intelligence</a>
+  </p>
+
+</div>
+</main>
+{{ end }}

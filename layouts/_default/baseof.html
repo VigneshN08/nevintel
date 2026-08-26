@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark light">
+
+{{/* Applied before first paint so a stored theme choice does not flash the
+     other theme. Wrapped in try/catch because storage throws outright in
+     some contexts (private windows, blocked site data). */}}
+<script>
+(function(){try{var t=localStorage.getItem("nevintel-theme");
+if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(e){}})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+{{ if .IsHome }}<link rel="stylesheet" href="{{ "pagefind/pagefind-ui.css" | relURL }}">{{ end }}
+{{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="{{ .Site.Title }}">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <span class="brand-word"><span class="a">NEV</span><span class="b">INTEL</span></span>
+      <span class="brand-sub">Cybersecurity News Platform</span>
+    </a>
+
+    <nav class="mast-nav" aria-label="Sections">
+      <a href="{{ "/" | relURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
+      <a href="{{ "/#latest" | relURL }}">Intel</a>
+      <a href="{{ "/#filters" | relURL }}">Topics</a>
+      <a href="{{ "/#ioc" | relURL }}">Indicators</a>
+      <a href="{{ "/#sources" | relURL }}">Sources</a>
+      <a href="{{ "about/" | relURL }}">About</a>
+    </nav>
+
+    <div class="mast-tools">
+      {{ if .IsHome }}<div class="searchwrap"><div id="search"></div></div>{{ end }}
+      <button class="icon-btn" id="theme-btn" type="button"
+              aria-label="Switch between dark and light theme">
+        <span data-icon="dark">{{ partial "icon.html" "sun" }}</span>
+        <span data-icon="light" hidden>{{ partial "icon.html" "moon" }}</span>
+      </button>
+      <a class="icon-btn" href="{{ "index.xml" | relURL }}" aria-label="RSS feed">{{ partial "icon.html" "rss" }}</a>
+      <a class="btn-sub" href="{{ "/#subscribe" | relURL }}">Subscribe {{ partial "icon.html" "mail" }}</a>
+    </div>
+  </div>
+</header>
+
+{{ block "main" . }}{{ end }}
+
+{{ partial "footer.html" . }}
+
+{{ $js := resources.Get "js/app.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ if .IsHome }}<script src="{{ "pagefind/pagefind-ui.js" | relURL }}" defer></script>{{ end }}
+
+</body>
+</html>

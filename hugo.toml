@@ -1,0 +1,71 @@
+baseURL              = "https://VigneshN08.github.io/nevintel/"
+languageCode         = "en-us"
+title                = "NEVINTEL"
+enableRobotsTXT      = true
+disableKinds         = ["taxonomy", "term", "sitemap"]
+timeZone             = "UTC"
+summaryLength        = 20
+
+[pagination]
+  pagerSize = 60
+
+[params]
+  tagline      = "Cybersecurity News Platform"
+  description  = "NEVINTEL is an independent cybersecurity news platform. It aggregates security reporting and vulnerability intelligence from across the industry, rebuilds every two hours, and links every headline back to its original publisher."
+  takedown     = "nemmikantivignesh17@gmail.com"
+  repo         = "https://github.com/VigneshN08/nevisec"
+  cadenceHours = 2
+
+  # Email signup needs somewhere to POST -- a static site has no server of its
+  # own. Put a Buttondown / Listmonk / Formspree endpoint here and the forms go
+  # live. Left empty, they render disabled with an explanation rather than
+  # silently discarding addresses.
+  subscribeEndpoint = ""
+
+  # Outbound links only. NEVINTEL never queries these services from the build
+  # and never republishes their verdicts -- VirusTotal, AbuseIPDB, GreyNoise
+  # and urlscan all prohibit public redisplay in their terms.
+  [[params.tools]]
+    name = "VirusTotal"
+    desc = "Analyse files, domains and URLs"
+    url  = "https://www.virustotal.com/"
+    icon = "search"
+  [[params.tools]]
+    name = "CISA KEV Catalog"
+    desc = "Vulnerabilities known to be exploited"
+    url  = "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    icon = "alert"
+  [[params.tools]]
+    name = "NVD"
+    desc = "National Vulnerability Database"
+    url  = "https://nvd.nist.gov/"
+    icon = "bug"
+  [[params.tools]]
+    name = "EPSS"
+    desc = "Exploit prediction scoring"
+    url  = "https://www.first.org/epss/"
+    icon = "target"
+  [[params.tools]]
+    name = "MITRE ATT&CK"
+    desc = "Adversary tactics and techniques"
+    url  = "https://attack.mitre.org/"
+    icon = "grid"
+  [[params.tools]]
+    name = "urlscan.io"
+    desc = "Scan and inspect suspicious URLs"
+    url  = "https://urlscan.io/"
+    icon = "globe"
+
+[markup.goldmark.renderer]
+  # Never render raw HTML from content files. The pipeline already strips it
+  # and story bodies are empty; this is the second line of defence.
+  unsafe = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[minify]
+  disableHTML = false
+
+[security.funcs]
+  getenv = ["^HUGO_", "^CI$"]

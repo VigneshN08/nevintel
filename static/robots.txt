@@ -1,0 +1,7 @@
+# NeviSec links out to publishers; it does not host their articles.
+User-agent: *
+Allow: /
+
+# Individual story stubs are thin pages whose value is the outbound link.
+# Crawling them adds nothing and burns publisher goodwill.
+Disallow: /story/

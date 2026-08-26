@@ -1,0 +1,205 @@
+{{ define "main" }}
+{{ $s := site.Data.site | default dict }}
+{{ $live := $s.live | default dict }}
+{{ $feed := $s.feed | default slice }}
+{{ $lead := $s.lead }}
+{{ $topics := $s.topics | default slice }}
+{{ $srcs := $s.sources_detail | default slice }}
+
+<main id="main" class="shell">
+
+<!-- ============================ LEFT RAIL ============================ -->
+<aside class="rail-l">
+
+  <nav class="panel" aria-label="Site sections">
+    <div class="panel-h">{{ partial "icon.html" "grid" }}<h2>Navigation</h2></div>
+    <ul class="navlist">
+      <li><a class="on" href="#latest">{{ partial "icon.html" "shield" }} Latest Intelligence
+        <span class="n">{{ len $feed }}</span></a></li>
+      <li><a href="#filters">{{ partial "icon.html" "filter" }} Filter &amp; Topics
+        <span class="n">{{ len $topics }}</span></a></li>
+      <li><a href="#explain">{{ partial "icon.html" "info" }} Story Explainer</a></li>
+      <li><a href="#ioc">{{ partial "icon.html" "target" }} Indicators of Compromise</a></li>
+      <li><a href="#sources">{{ partial "icon.html" "feed" }} News Is From
+        <span class="n">{{ len $srcs }}</span></a></li>
+      <li><a href="#tools">{{ partial "icon.html" "wrench" }} Analyst Tools</a></li>
+      <li><a href="{{ "about/" | relURL }}">{{ partial "icon.html" "doc" }} About</a></li>
+    </ul>
+  </nav>
+
+  <section class="panel">
+    <div class="panel-h">{{ partial "icon.html" "globe" }}<h2>Corpus Status</h2>
+      <span class="pulse" title="Live"></span></div>
+    <div class="live-grid">
+      <div class="live-cell">
+        <div class="live-n">{{ $live.storiesToday | default 0 }}</div>
+        <div class="live-k">Stories / 24h</div>
+      </div>
+      <div class="live-cell c2">
+        <div class="live-n">{{ $live.storiesWeek | default 0 }}</div>
+        <div class="live-k">Stories / 7d</div>
+      </div>
+      <div class="live-cell c2">
+        <div class="live-n">{{ $live.cvesWeek | default 0 }}</div>
+        <div class="live-k">CVEs / 7d</div>
+      </div>
+      <div class="live-cell">
+        <div class="live-n">{{ $live.sourcesOk | default 0 }}<span
+          style="color:var(--ink-3);font-size:14px">/{{ $live.sourcesTotal | default 0 }}</span></div>
+        <div class="live-k">Feeds healthy</div>
+      </div>
+    </div>
+    <p class="live-note">These count rows in our own corpus &mdash; stories we
+      fetched, CVE identifiers found in them, feeds that answered. Not a global
+      attack count, because we have no way to measure one.</p>
+  </section>
+
+  <section class="panel sub-side">
+    <div class="panel-h">{{ partial "icon.html" "mail" }}<h2>Stay Updated</h2></div>
+    <div class="panel-b">
+      <p>Cybersecurity intelligence in your inbox. Or skip the middleman and
+        take the <a href="{{ "index.xml" | relURL }}">RSS feed</a>.</p>
+      {{ partial "subscribe-form.html" (dict "ctx" . "id" "side") }}
+    </div>
+  </section>
+
+</aside>
+
+<!-- ============================== CORE ============================== -->
+<div class="core">
+
+  {{ with $lead }}
+  <article class="lead">
+    <div class="lead-txt">
+      <p class="kicker">Lead Story</p>
+      <h1><a href="{{ .url }}" rel="noopener noreferrer nofollow external">{{ .title }}</a></h1>
+      {{ with .snippet }}<p class="lead-snip">{{ . }}</p>{{ end }}
+      <div class="lead-meta">
+        <span class="tile" style="--h:{{ .hue }}">{{ .short }}</span>
+        <span class="meta">{{ partial "icon.html" "cal" }} {{ dateFormat "2 Jan 2006, 15:04" .date }} UTC</span>
+        <span class="meta">{{ partial "icon.html" "link" }} {{ .domain }}</span>
+        {{ if .cves }}<span class="badge cve">{{ partial "icon.html" "bug" }} {{ index .cves 0 }}</span>{{ end }}
+        <button class="btn-why" type="button" data-explain="{{ .id }}"
+                aria-expanded="false" aria-controls="explain-body">Explain</button>
+      </div>
+    </div>
+    <div class="lead-art" aria-hidden="true"><canvas id="lead-art"></canvas></div>
+  </article>
+  {{ end }}
+
+  <section class="panel" id="latest">
+    <div class="panel-h">{{ partial "icon.html" "shield" }}<h2>Latest Intelligence</h2>
+      <a class="more" href="#filters">Filter &rarr;</a></div>
+
+    {{ if not $feed }}
+      <p class="note">No stories yet. Run <code>python pipeline/fetch.py</code>
+        then <code>python pipeline/render.py</code>.</p>
+    {{ end }}
+
+    <ul class="feed" id="feed">
+      {{ range $feed }}
+      <li class="item"
+          data-id="{{ .id }}"
+          data-source="{{ .sourceId }}"
+          data-topics="{{ delimit .topics " " }}"
+          data-cves="{{ delimit .cves " " }}"
+          data-date="{{ .date }}">
+        <span class="tile lg" style="--h:{{ .hue }}" aria-hidden="true">{{ .short }}</span>
+        <div>
+          <h3 class="item-title">
+            <a href="{{ .url }}" rel="noopener noreferrer nofollow external">{{ .title }}</a>
+          </h3>
+          {{ with .snippet }}<p class="item-snip">{{ . }}</p>{{ end }}
+          <div class="item-meta">
+            <span class="meta">{{ .sourceName }}</span>
+            <span class="meta">{{ partial "icon.html" "clock" }} {{ dateFormat "2 Jan, 15:04" .date }}</span>
+            {{ range .cves }}<span class="badge cve">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+        <div class="item-side">
+          <button class="btn-why" type="button" data-explain="{{ .id }}"
+                  aria-expanded="false" aria-controls="explain-body">Explain</button>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <!-- ========================= SUBSCRIBE (middle) ========================= -->
+  <section class="sub-mid" id="subscribe">
+    <h2>One digest. Every story we index.</h2>
+    <p>A plain summary of what moved in cybersecurity, assembled from the same
+      corpus this page is built from. No tracking pixels, no &ldquo;sponsored&rdquo;
+      entries, unsubscribe in one click.</p>
+    {{ partial "subscribe-form.html" (dict "ctx" . "id" "mid") }}
+    <p class="sub-alt">Prefer no middleman? The
+      <a href="{{ "index.xml" | relURL }}">RSS feed</a> carries the same stories
+      and asks for nothing.</p>
+  </section>
+
+  {{ partial "deck.html" . }}
+
+</div>
+
+<!-- ============================ RIGHT RAIL ============================ -->
+<aside class="rail-r">
+
+  <section class="panel">
+    <div class="panel-h">{{ partial "icon.html" "rss" }}<h3>Threat Feed</h3>
+      <a class="more" href="#latest">All &rarr;</a></div>
+    <ul class="thread">
+      {{ range $s.rail }}
+      <li style="border-left-color:hsl({{ .hue }} 55% 40%)">
+        <a class="t" href="{{ .url }}" rel="noopener noreferrer nofollow external">{{ .title }}</a>
+        <div class="r">
+          <span class="meta">{{ .sourceName }}</span>
+          <span class="ago" data-ago="{{ .date }}">{{ dateFormat "2 Jan" .date }}</span>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section class="panel">
+    <div class="panel-h">{{ partial "icon.html" "tag" }}<h3>Trending Topics</h3></div>
+    <div class="panel-b">
+      <div class="chips">
+        {{ range $s.trending }}
+        <button class="chip" type="button" data-filter-topic="{{ .id }}"
+                aria-pressed="false" title="{{ .blurb }}"># {{ .label }}<span class="n">{{ .count }}</span></button>
+        {{ else }}
+        <span class="explain-empty">Topics appear once the corpus holds a week of stories.</span>
+        {{ end }}
+      </div>
+      {{ with $s.topCves }}
+      <div class="chips" style="margin-top:11px">
+        {{ range . }}
+        <button class="chip cve" type="button" data-filter-cve="{{ .id }}"
+                aria-pressed="false">{{ .id }}<span class="n">{{ .count }}</span></button>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="panel" id="tools">
+    <div class="panel-h">{{ partial "icon.html" "wrench" }}<h3>Analyst Tools</h3></div>
+    <ul class="tools">
+      {{ range .Site.Params.tools }}
+      <li>
+        <span class="ic" aria-hidden="true">{{ partial "icon.html" .icon }}</span>
+        <span>
+          <a class="n" href="{{ .url }}" rel="noopener noreferrer external">{{ .name }}</a>
+          <span class="d">{{ .desc }}</span>
+        </span>
+      </li>
+      {{ end }}
+    </ul>
+    <p class="note">Outbound links only. NEVINTEL does not query these services
+      or republish their verdicts &mdash; their terms forbid it.</p>
+  </section>
+
+</aside>
+
+</main>
+{{ end }}

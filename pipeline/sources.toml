@@ -1,0 +1,150 @@
+# NeviSec feed sources
+#
+# snippet_words = 0  ->  headline + link only, no excerpt at all.
+# Use 0 for any source whose licence is non-commercial or restrictive.
+#
+# LEGAL NOTE (read before adding a source):
+#   AP v. Meltwater (SDNY 2013) held that reproducing an article's opening
+#   paragraph is NOT fair use, even with attribution and a link. Most RSS
+#   <description> fields ARE the opening paragraph. That is why the default
+#   cap here is 25 words and why Phase 5 replaces excerpts entirely with
+#   our own summaries. Do not raise these numbers without reading that case.
+
+[defaults]
+snippet_words = 25
+timeout       = 20
+user_agent    = "NeviSec/0.1 (+https://github.com/VigneshN08/nevisec; feed aggregator; contact: nemmikantivignesh17@gmail.com)"
+
+# ---------------------------------------------------------------------------
+# News — excerpt-bearing feeds. Snippets capped hard.
+# ---------------------------------------------------------------------------
+
+[[source]]
+id       = "bleepingcomputer"
+short    = "BC"
+hue      = 8
+name     = "BleepingComputer"
+url      = "https://www.bleepingcomputer.com/feed/"
+home     = "https://www.bleepingcomputer.com/"
+kind     = "news"
+# Known to return 403 to datacenter IPs. Fetcher retries with a browser UA.
+
+[[source]]
+id       = "thehackernews"
+short    = "HN"
+hue      = 168
+name     = "The Hacker News"
+url      = "https://feeds.feedburner.com/TheHackersNews"
+home     = "https://thehackernews.com/"
+kind     = "news"
+
+[[source]]
+id       = "therecord"
+short    = "TR"
+hue      = 190
+name     = "The Record"
+url      = "https://therecord.media/feed"
+home     = "https://therecord.media/"
+kind     = "news"
+# Only exposes 5 items. Poll reliably or stories are silently lost.
+
+[[source]]
+id       = "securityweek"
+short    = "SW"
+hue      = 210
+name     = "SecurityWeek"
+url      = "https://www.securityweek.com/feed/"
+home     = "https://www.securityweek.com/"
+kind     = "news"
+
+[[source]]
+id       = "darkreading"
+short    = "DR"
+hue      = 275
+name     = "Dark Reading"
+url      = "https://www.darkreading.com/rss.xml"
+home     = "https://www.darkreading.com/"
+kind     = "news"
+
+[[source]]
+id       = "helpnetsecurity"
+short    = "HN"
+hue      = 150
+name     = "Help Net Security"
+url      = "https://www.helpnetsecurity.com/feed/"
+home     = "https://www.helpnetsecurity.com/"
+kind     = "news"
+
+# ---------------------------------------------------------------------------
+# Research / vendor blogs — these publish FULL TEXT in the feed.
+# A full-text feed is not a licence to republish. Snippets stay capped.
+# ---------------------------------------------------------------------------
+
+[[source]]
+id       = "krebs"
+short    = "KS"
+hue      = 32
+name     = "Krebs on Security"
+url      = "https://krebsonsecurity.com/feed/"
+home     = "https://krebsonsecurity.com/"
+kind     = "research"
+
+[[source]]
+id       = "talos"
+short    = "TA"
+hue      = 196
+name     = "Cisco Talos"
+url      = "https://blog.talosintelligence.com/rss/"
+home     = "https://blog.talosintelligence.com/"
+kind     = "research"
+
+[[source]]
+id       = "unit42"
+short    = "U42"
+hue      = 22
+name     = "Unit 42"
+url      = "https://unit42.paloaltonetworks.com/feed/"
+home     = "https://unit42.paloaltonetworks.com/"
+kind     = "research"
+
+[[source]]
+id       = "googletil"
+short    = "GTI"
+hue      = 218
+name     = "Google Threat Intelligence"
+url      = "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/"
+home     = "https://cloud.google.com/blog/topics/threat-intelligence"
+kind     = "research"
+
+[[source]]
+id       = "projectzero"
+short    = "P0"
+hue      = 0
+name     = "Project Zero"
+url      = "https://projectzero.google/feed.xml"
+home     = "https://projectzero.google/"
+kind     = "research"
+
+[[source]]
+id       = "msrc"
+short    = "MS"
+hue      = 202
+name     = "Microsoft Security"
+url      = "https://www.microsoft.com/en-us/security/blog/feed/"
+home     = "https://www.microsoft.com/en-us/security/blog/"
+kind     = "research"
+
+# ---------------------------------------------------------------------------
+# Restricted licence — headline + link ONLY. Do not raise snippet_words.
+# ---------------------------------------------------------------------------
+
+[[source]]
+id            = "sans_isc"
+short         = "ISC"
+hue           = 350
+name          = "SANS ISC"
+url           = "https://isc.sans.edu/rssfeed.xml"
+home          = "https://isc.sans.edu/diary.html"
+kind          = "research"
+snippet_words = 0
+licence_note  = "Feed items carry CC BY-NC 3.0 US. This site is commercial. Headline + link only."

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main id="main" class="shell" style="grid-template-columns:minmax(0,1fr)">
+<div class="core">
+  <div class="pagehead">
+    <h1>404 &mdash; no such page</h1>
+    <p>Older stories roll out of the generated site as the archive advances,
+       though nothing is ever deleted from the corpus.</p>
+  </div>
+  <p><a class="btn-out" href="{{ "/" | relURL }}">Back to latest intelligence
+    {{ partial "icon.html" "arrow" }}</a></p>
+</div>
+</main>
+{{ end }}
