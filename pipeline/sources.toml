@@ -148,3 +148,15 @@ home          = "https://isc.sans.edu/diary.html"
 kind          = "research"
 snippet_words = 0
 licence_note  = "Feed items carry CC BY-NC 3.0 US. This site is commercial. Headline + link only."
+
+[[source]]
+id            = "sans_stormcast"
+short         = "SC"
+hue           = 60
+name          = "SANS Stormcast"
+url           = "https://isc.sans.edu/podcast.rss"
+home          = "https://isc.sans.edu/podcastdetail.html"
+kind          = "research"
+snippet_words = 0
+licence_note  = "Daily SANS ISC security podcast. Feed is CC BY-NC-SA 4.0. Headline + link only."
+
