@@ -1,33 +1,75 @@
 {
-  "builtAt": "2026-08-30T00:39:29Z",
-  "articles": 370,
+  "builtAt": "2026-08-30T08:31:42Z",
+  "articles": 372,
   "sources": 14,
-  "rendered": 370,
+  "rendered": 372,
   "live": {
-    "storiesToday": 5,
-    "storiesWeek": 205,
+    "storiesToday": 6,
+    "storiesWeek": 207,
     "cvesWeek": 6,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "9a78235c4a4b8177e78b4ac8707e0937",
-    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-    "domain": "bleepingcomputer.com",
-    "snippet": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good…",
-    "author": "Mayank Parmar",
-    "date": "2026-08-29T23:11:51Z",
-    "slug": "anthropic-is-cutting-claude-code-s-current-weekly-limits-by-17-9a78235c",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "sourceHome": "https://www.bleepingcomputer.com/",
-    "short": "BC",
-    "hue": 8,
-    "topics": [],
-    "cves": []
+    "id": "859ee8bcdd4387d10450078522579665",
+    "title": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+    "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+    "domain": "helpnetsecurity.com",
+    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks At least…",
+    "author": "Anamarija Pogorelec",
+    "date": "2026-08-30T08:00:48Z",
+    "slug": "week-in-review-compromised-zimbra-servers-previously-patched-citrix-ne-859ee8bc",
+    "sourceId": "helpnetsecurity",
+    "sourceName": "Help Net Security",
+    "sourceHome": "https://www.helpnetsecurity.com/",
+    "short": "HN",
+    "hue": 150,
+    "topics": [
+      "vuln"
+    ],
+    "cves": [
+      "CVE-2026-73570"
+    ]
   },
   "feed": [
+    {
+      "id": "859ee8bcdd4387d10450078522579665",
+      "title": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+      "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+      "domain": "helpnetsecurity.com",
+      "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks At least…",
+      "author": "Anamarija Pogorelec",
+      "date": "2026-08-30T08:00:48Z",
+      "slug": "week-in-review-compromised-zimbra-servers-previously-patched-citrix-ne-859ee8bc",
+      "sourceId": "helpnetsecurity",
+      "sourceName": "Help Net Security",
+      "sourceHome": "https://www.helpnetsecurity.com/",
+      "short": "HN",
+      "hue": 150,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-73570"
+      ]
+    },
+    {
+      "id": "c061647e3fd9d2f538e6fc515eeb4471",
+      "title": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
+      "url": "https://isc.sans.edu/diary/rss/33288",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-08-30T07:14:49Z",
+      "slug": "yara-x-1-20-0-release-sun-aug-30th-c061647e",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "9a78235c4a4b8177e78b4ac8707e0937",
       "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
@@ -1066,43 +1108,47 @@
       "hue": 8,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "52729de706686742fcb8c5befd5015f5",
-      "title": "​​​​​​What’s new in Microsoft Security: August 2026",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
-      "domain": "microsoft.com",
-      "snippet": "This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across…",
-      "author": "Alym Rayani",
-      "date": "2026-08-27T16:00:00Z",
-      "slug": "what-s-new-in-microsoft-security-august-2026-52729de7",
-      "sourceId": "msrc",
-      "sourceName": "Microsoft Security",
-      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
-      "short": "MS",
-      "hue": 202,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "766533b269b8a40065746a083479b918",
-      "title": "Finland appeals court revives case against Eagle S Officers over cable breaks",
-      "url": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s",
-      "domain": "therecord.media",
-      "snippet": "The appeals court sent the case back to the Helsinki District Court to be heard on its merits, although the three men, who had previously…",
-      "author": "",
-      "date": "2026-08-27T15:30:00Z",
-      "slug": "finland-appeals-court-revives-case-against-eagle-s-officers-over-cable-766533b2",
-      "sourceId": "therecord",
-      "sourceName": "The Record",
-      "sourceHome": "https://therecord.media/",
-      "short": "TR",
-      "hue": 190,
-      "topics": [],
-      "cves": []
     }
   ],
   "rail": [
+    {
+      "id": "859ee8bcdd4387d10450078522579665",
+      "title": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+      "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+      "domain": "helpnetsecurity.com",
+      "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks At least…",
+      "author": "Anamarija Pogorelec",
+      "date": "2026-08-30T08:00:48Z",
+      "slug": "week-in-review-compromised-zimbra-servers-previously-patched-citrix-ne-859ee8bc",
+      "sourceId": "helpnetsecurity",
+      "sourceName": "Help Net Security",
+      "sourceHome": "https://www.helpnetsecurity.com/",
+      "short": "HN",
+      "hue": 150,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-73570"
+      ]
+    },
+    {
+      "id": "c061647e3fd9d2f538e6fc515eeb4471",
+      "title": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
+      "url": "https://isc.sans.edu/diary/rss/33288",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-08-30T07:14:49Z",
+      "slug": "yara-x-1-20-0-release-sun-aug-30th-c061647e",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "9a78235c4a4b8177e78b4ac8707e0937",
       "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
@@ -1208,40 +1254,6 @@
       "hue": 275,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "dca03da12610f41326d165384ae95627",
-      "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
-      "url": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026",
-      "domain": "darkreading.com",
-      "snippet": "",
-      "author": "",
-      "date": "2026-08-28T23:40:15Z",
-      "slug": "virtual-event-building-a-secure-ai-strategy-for-the-enterprise-dca03da1",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "890fcf73be2f3ef7a4a4debf95a48d55",
-      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group…",
-      "author": "Lawrence Abrams",
-      "date": "2026-08-28T22:40:17Z",
-      "slug": "mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft-890fcf73",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1301,7 +1313,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 38
+      "count": 39
     },
     {
       "id": "malware",
@@ -1360,6 +1372,10 @@
   ],
   "topCves": [
     {
+      "id": "CVE-2026-73570",
+      "count": 2
+    },
+    {
       "id": "CVE-2026-8452",
       "count": 2
     },
@@ -1378,10 +1394,6 @@
     {
       "id": "CVE-2026-15981",
       "count": 1
-    },
-    {
-      "id": "CVE-2026-73570",
-      "count": 1
     }
   ],
   "sources_detail": [
@@ -1389,7 +1401,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 75,
-      "last_run": "2026-08-30T00:39:25Z",
+      "last_run": "2026-08-30T08:31:37Z",
       "last_status": "ok",
       "newest": "2026-08-29T16:25:03Z",
       "home": "https://thehackernews.com/",
@@ -1403,7 +1415,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 62,
-      "last_run": "2026-08-30T00:39:25Z",
+      "last_run": "2026-08-30T08:31:38Z",
       "last_status": "ok",
       "newest": "2026-08-28T23:40:15Z",
       "home": "https://www.darkreading.com/",
@@ -1417,7 +1429,7 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 37,
-      "last_run": "2026-08-30T00:39:24Z",
+      "last_run": "2026-08-30T08:31:37Z",
       "last_status": "ok",
       "newest": "2026-08-29T23:11:51Z",
       "home": "https://www.bleepingcomputer.com/",
@@ -1431,7 +1443,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 34,
-      "last_run": "2026-08-30T00:39:29Z",
+      "last_run": "2026-08-30T08:31:42Z",
       "last_status": "not_modified",
       "newest": "2026-08-28T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1445,7 +1457,7 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 27,
-      "last_run": "2026-08-30T00:39:25Z",
+      "last_run": "2026-08-30T08:31:38Z",
       "last_status": "not_modified",
       "newest": "2026-08-29T11:55:00Z",
       "home": "https://www.securityweek.com/",
@@ -1458,10 +1470,10 @@
     {
       "id": "helpnetsecurity",
       "name": "Help Net Security",
-      "held": 23,
-      "last_run": "2026-08-30T00:39:25Z",
-      "last_status": "not_modified",
-      "newest": "2026-08-28T11:16:25Z",
+      "held": 24,
+      "last_run": "2026-08-30T08:31:38Z",
+      "last_status": "ok",
+      "newest": "2026-08-30T08:00:48Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
       "short": "HN",
@@ -1473,7 +1485,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 20,
-      "last_run": "2026-08-30T00:39:28Z",
+      "last_run": "2026-08-30T08:31:41Z",
       "last_status": "ok",
       "newest": "2026-08-20T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1487,7 +1499,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 17,
-      "last_run": "2026-08-30T00:39:26Z",
+      "last_run": "2026-08-30T08:31:39Z",
       "last_status": "not_modified",
       "newest": "2026-08-27T18:00:24Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1501,7 +1513,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 16,
-      "last_run": "2026-08-30T00:39:26Z",
+      "last_run": "2026-08-30T08:31:39Z",
       "last_status": "not_modified",
       "newest": "2026-08-28T22:00:07Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1514,10 +1526,10 @@
     {
       "id": "sans_isc",
       "name": "SANS ISC",
-      "held": 14,
-      "last_run": "2026-08-30T00:39:29Z",
+      "held": 15,
+      "last_run": "2026-08-30T08:31:42Z",
       "last_status": "ok",
-      "newest": "2026-08-28T07:04:13Z",
+      "newest": "2026-08-30T07:14:49Z",
       "home": "https://isc.sans.edu/diary.html",
       "kind": "research",
       "short": "ISC",
@@ -1529,7 +1541,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 12,
-      "last_run": "2026-08-30T00:39:29Z",
+      "last_run": "2026-08-30T08:31:41Z",
       "last_status": "not_modified",
       "newest": "2026-08-29T03:43:27Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1543,7 +1555,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 12,
-      "last_run": "2026-08-30T00:39:25Z",
+      "last_run": "2026-08-30T08:31:37Z",
       "last_status": "ok",
       "newest": "2026-08-28T16:30:00Z",
       "home": "https://therecord.media/",
@@ -1557,8 +1569,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 11,
-      "last_run": "2026-08-30T00:39:25Z",
-      "last_status": "not_modified",
+      "last_run": "2026-08-30T08:31:39Z",
+      "last_status": "ok",
       "newest": "2026-08-27T11:04:15Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1571,7 +1583,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-08-30T00:39:29Z",
+      "last_run": "2026-08-30T08:31:41Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",

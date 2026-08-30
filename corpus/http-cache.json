@@ -1,28 +1,28 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-08-30T00:39:24Z",
-    "etag": "c0623806c2337d491ebf93190ac18d15",
-    "last_modified": "Sun, 30 Aug 2026 00:31:54 GMT"
+    "checked": "2026-08-30T08:31:37Z",
+    "etag": "9a24c6b48f6ba11a2bf1c78cd2eb2cbe",
+    "last_modified": "Sun, 30 Aug 2026 08:22:12 GMT"
   },
   "darkreading": {
-    "checked": "2026-08-30T00:39:25Z",
+    "checked": "2026-08-30T08:31:38Z",
     "etag": "",
-    "last_modified": "Sun, 30 Aug 2026 00:39:25 GMT"
+    "last_modified": "Sun, 30 Aug 2026 08:31:38 GMT"
   },
   "googletil": {
-    "checked": "2026-08-30T00:39:28Z",
+    "checked": "2026-08-30T08:31:41Z",
     "etag": "",
     "last_modified": ""
   },
   "helpnetsecurity": {
-    "checked": "2026-08-29T17:52:25Z",
+    "checked": "2026-08-30T08:31:38Z",
     "etag": "",
-    "last_modified": "Sat, 29 Aug 2026 13:57:50 GMT"
+    "last_modified": "Sun, 30 Aug 2026 08:00:48 GMT"
   },
   "krebs": {
-    "checked": "2026-08-29T21:10:29Z",
+    "checked": "2026-08-30T08:31:38Z",
     "etag": "",
-    "last_modified": "Sat, 29 Aug 2026 20:57:10 GMT"
+    "last_modified": "Sun, 30 Aug 2026 08:27:02 GMT"
   },
   "msrc": {
     "checked": "2026-08-29T07:20:17Z",
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 18 Aug 2026 20:08:55 GMT"
   },
   "sans_isc": {
-    "checked": "2026-08-30T00:39:29Z",
-    "etag": "W/\"223a-65a38d78c8587\"",
-    "last_modified": "Sun, 30 Aug 2026 00:34:01 GMT"
+    "checked": "2026-08-30T08:31:42Z",
+    "etag": "W/\"2300-65a3f7a438230\"",
+    "last_modified": "Sun, 30 Aug 2026 08:29:00 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-08-28T14:34:24Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-08-30T00:39:25Z",
+    "checked": "2026-08-30T08:31:37Z",
     "etag": "",
-    "last_modified": "Sun, 30 Aug 2026 00:09:48 GMT"
+    "last_modified": "Sun, 30 Aug 2026 07:33:24 GMT"
   },
   "therecord": {
-    "checked": "2026-08-30T00:39:25Z",
+    "checked": "2026-08-30T08:31:37Z",
     "etag": "",
     "last_modified": ""
   },
