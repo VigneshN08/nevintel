@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-30T08:31:42Z",
-  "articles": 372,
+  "builtAt": "2026-08-30T13:58:57Z",
+  "articles": 373,
   "sources": 14,
-  "rendered": 372,
+  "rendered": 373,
   "live": {
     "storiesToday": 6,
-    "storiesWeek": 207,
+    "storiesWeek": 208,
     "cvesWeek": 6,
     "sourcesOk": 14,
     "sourcesTotal": 14
@@ -52,6 +52,25 @@
       "cves": [
         "CVE-2026-73570"
       ]
+    },
+    {
+      "id": "e7fd30e89bca0fc1e82164ea014a1d32",
+      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+      "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+      "domain": "thehackernews.com",
+      "snippet": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-08-30T07:36:33Z",
+      "slug": "terminalfix-uses-fake-cloudflare-captchas-to-deploy-reverse-tunnel-bac-e7fd30e8",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "malware"
+      ],
+      "cves": []
     },
     {
       "id": "c061647e3fd9d2f538e6fc515eeb4471",
@@ -1091,23 +1110,6 @@
         "vuln"
       ],
       "cves": []
-    },
-    {
-      "id": "4599be345f0687dd49eee1fc13733217",
-      "title": "Manchester Airports Group says hackers stole travelers' data",
-      "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports.",
-      "author": "Bill Toulas",
-      "date": "2026-08-27T16:12:26Z",
-      "slug": "manchester-airports-group-says-hackers-stole-travelers-data-4599be34",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [],
-      "cves": []
     }
   ],
   "rail": [
@@ -1131,6 +1133,25 @@
       "cves": [
         "CVE-2026-73570"
       ]
+    },
+    {
+      "id": "e7fd30e89bca0fc1e82164ea014a1d32",
+      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+      "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+      "domain": "thehackernews.com",
+      "snippet": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-08-30T07:36:33Z",
+      "slug": "terminalfix-uses-fake-cloudflare-captchas-to-deploy-reverse-tunnel-bac-e7fd30e8",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "malware"
+      ],
+      "cves": []
     },
     {
       "id": "c061647e3fd9d2f538e6fc515eeb4471",
@@ -1237,23 +1258,6 @@
       "hue": 202,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "a5c502fdcf06e38109de03e2ec4c0c74",
-      "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
-      "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
-      "domain": "darkreading.com",
-      "snippet": "",
-      "author": "",
-      "date": "2026-08-28T23:40:15Z",
-      "slug": "virtual-event-what-every-enterprise-should-know-about-securing-cloud-a-a5c502fd",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1319,7 +1323,7 @@
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 23
+      "count": 24
     },
     {
       "id": "phishing",
@@ -1400,10 +1404,10 @@
     {
       "id": "thehackernews",
       "name": "The Hacker News",
-      "held": 75,
-      "last_run": "2026-08-30T08:31:37Z",
+      "held": 76,
+      "last_run": "2026-08-30T13:58:53Z",
       "last_status": "ok",
-      "newest": "2026-08-29T16:25:03Z",
+      "newest": "2026-08-30T07:36:33Z",
       "home": "https://thehackernews.com/",
       "kind": "news",
       "short": "HN",
@@ -1415,7 +1419,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 62,
-      "last_run": "2026-08-30T08:31:38Z",
+      "last_run": "2026-08-30T13:58:54Z",
       "last_status": "ok",
       "newest": "2026-08-28T23:40:15Z",
       "home": "https://www.darkreading.com/",
@@ -1429,7 +1433,7 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 37,
-      "last_run": "2026-08-30T08:31:37Z",
+      "last_run": "2026-08-30T13:58:53Z",
       "last_status": "ok",
       "newest": "2026-08-29T23:11:51Z",
       "home": "https://www.bleepingcomputer.com/",
@@ -1443,7 +1447,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 34,
-      "last_run": "2026-08-30T08:31:42Z",
+      "last_run": "2026-08-30T13:58:57Z",
       "last_status": "not_modified",
       "newest": "2026-08-28T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1457,7 +1461,7 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 27,
-      "last_run": "2026-08-30T08:31:38Z",
+      "last_run": "2026-08-30T13:58:53Z",
       "last_status": "not_modified",
       "newest": "2026-08-29T11:55:00Z",
       "home": "https://www.securityweek.com/",
@@ -1471,8 +1475,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 24,
-      "last_run": "2026-08-30T08:31:38Z",
-      "last_status": "ok",
+      "last_run": "2026-08-30T13:58:54Z",
+      "last_status": "not_modified",
       "newest": "2026-08-30T08:00:48Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1485,7 +1489,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 20,
-      "last_run": "2026-08-30T08:31:41Z",
+      "last_run": "2026-08-30T13:58:56Z",
       "last_status": "ok",
       "newest": "2026-08-20T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1499,7 +1503,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 17,
-      "last_run": "2026-08-30T08:31:39Z",
+      "last_run": "2026-08-30T13:58:54Z",
       "last_status": "not_modified",
       "newest": "2026-08-27T18:00:24Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1513,7 +1517,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 16,
-      "last_run": "2026-08-30T08:31:39Z",
+      "last_run": "2026-08-30T13:58:54Z",
       "last_status": "not_modified",
       "newest": "2026-08-28T22:00:07Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1527,7 +1531,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 15,
-      "last_run": "2026-08-30T08:31:42Z",
+      "last_run": "2026-08-30T13:58:57Z",
       "last_status": "ok",
       "newest": "2026-08-30T07:14:49Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1541,7 +1545,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 12,
-      "last_run": "2026-08-30T08:31:41Z",
+      "last_run": "2026-08-30T13:58:57Z",
       "last_status": "not_modified",
       "newest": "2026-08-29T03:43:27Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1555,7 +1559,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 12,
-      "last_run": "2026-08-30T08:31:37Z",
+      "last_run": "2026-08-30T13:58:53Z",
       "last_status": "ok",
       "newest": "2026-08-28T16:30:00Z",
       "home": "https://therecord.media/",
@@ -1569,7 +1573,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 11,
-      "last_run": "2026-08-30T08:31:39Z",
+      "last_run": "2026-08-30T13:58:54Z",
       "last_status": "ok",
       "newest": "2026-08-27T11:04:15Z",
       "home": "https://krebsonsecurity.com/",
@@ -1583,7 +1587,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-08-30T08:31:41Z",
+      "last_run": "2026-08-30T13:58:57Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
