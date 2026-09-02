@@ -1,24 +1,24 @@
 {
-  "builtAt": "2026-09-02T16:50:38Z",
-  "articles": 533,
+  "builtAt": "2026-09-02T21:14:56Z",
+  "articles": 543,
   "sources": 14,
-  "rendered": 533,
+  "rendered": 543,
   "live": {
-    "storiesToday": 66,
-    "storiesWeek": 278,
+    "storiesToday": 62,
+    "storiesWeek": 281,
     "cvesWeek": 11,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "2a5f36015133413d8f3b6fcfe3b1bd86",
-    "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+    "id": "b6a094e0db0f67fe6c27ad2d5ea8d6b2",
+    "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
     "domain": "bleepingcomputer.com",
-    "snippet": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access.",
+    "snippet": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution.",
     "author": "Bill Toulas",
-    "date": "2026-09-02T15:47:08Z",
-    "slug": "hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens-2a5f3601",
+    "date": "2026-09-02T21:00:13Z",
+    "slug": "hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells-b6a094e0",
     "sourceId": "bleepingcomputer",
     "sourceName": "BleepingComputer",
     "sourceHome": "https://www.bleepingcomputer.com/",
@@ -28,10 +28,195 @@
       "vuln"
     ],
     "cves": [
-      "CVE-2026-82329"
+      "CVE-2026-9586"
     ]
   },
   "feed": [
+    {
+      "id": "b6a094e0db0f67fe6c27ad2d5ea8d6b2",
+      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution.",
+      "author": "Bill Toulas",
+      "date": "2026-09-02T21:00:13Z",
+      "slug": "hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells-b6a094e0",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-9586"
+      ]
+    },
+    {
+      "id": "1ae2c66d0e1d7dea13200d2f591e40d5",
+      "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+      "domain": "darkreading.com",
+      "snippet": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
+      "author": "Alexander Culafi",
+      "date": "2026-09-02T20:43:59Z",
+      "slug": "sonicwall-sma-1000-zero-days-enable-unauthenticated-rce-1ae2c66d",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "1e03a98a6efbfe0ad892279ffea7ad43",
+      "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
+      "url": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
+      "domain": "darkreading.com",
+      "snippet": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
+      "author": "Kristina Beek",
+      "date": "2026-09-02T19:46:31Z",
+      "slug": "ai-gives-cybercriminals-a-dangerous-time-advantage-1e03a98a",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "c660b2e46ae1f109ea20f23c48c45817",
+      "title": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
+      "url": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
+      "domain": "securityweek.com",
+      "snippet": "The security tool intercepts potentially dangerous agent actions, blocking clear threats and requesting human approval when intent is uncertain.",
+      "author": "Kevin Townsend",
+      "date": "2026-09-02T19:30:00Z",
+      "slug": "openleash-adds-a-human-check-to-risky-ai-agent-actions-c660b2e4",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "da96442218d6978807a4057951e2632d",
+      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control…",
+      "author": "Bill Toulas",
+      "date": "2026-09-02T19:28:46Z",
+      "slug": "wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-att-da964422",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "eb292c4b1181bdb7d01056765e824ad3",
+      "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
+      "url": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
+      "domain": "therecord.media",
+      "snippet": "Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court on Monday after being arrested in Cyprus in May 2025 and extradited to the U.S…",
+      "author": "",
+      "date": "2026-09-02T18:43:00Z",
+      "slug": "russian-national-facing-20-years-for-malware-campaign-that-infected-80-eb292c4b",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
+      "topics": [
+        "malware"
+      ],
+      "cves": []
+    },
+    {
+      "id": "9885e3b9c4a2864eae0b8b69b387455d",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "domain": "thehackernews.com",
+      "snippet": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-02T18:27:49Z",
+      "slug": "google-anthropic-and-openai-unveil-cyber-ai-models-safeguards-and-acce-9885e3b9",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "062504a817a7142df93ca8e7d5d3be06",
+      "title": "Health data of more than 9.5 million people leaked from Aesto record system",
+      "url": "https://therecord.media/health-data-aesto-cyberattack-leak",
+      "domain": "therecord.media",
+      "snippet": "The healthcare data company Aesto informed federal regulators this week that more than 9.5 million people had sensitive information leaked during a cyberattack last December.",
+      "author": "",
+      "date": "2026-09-02T17:15:00Z",
+      "slug": "health-data-of-more-than-9-5-million-people-leaked-from-aesto-record-s-062504a8",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "e7f4b958f210e001ac96d93dedf7080a",
+      "title": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users",
+      "domain": "darkreading.com",
+      "snippet": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
+      "author": "Elizabeth Montalbano",
+      "date": "2026-09-02T16:51:21Z",
+      "slug": "threat-gang-springs-vishing-attacks-on-microsoft-teams-users-e7f4b958",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "phishing",
+        "malware"
+      ],
+      "cves": []
+    },
+    {
+      "id": "64ac102057daee2e8ab43e28e0bce328",
+      "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+      "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+      "domain": "thehackernews.com",
+      "snippet": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers. \"The campaign has targeted users looking to download…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-02T16:41:06Z",
+      "slug": "fake-software-installers-disable-windows-update-and-weaken-microsoft-d-64ac1020",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "malware"
+      ],
+      "cves": []
+    },
     {
       "id": "2a5f36015133413d8f3b6fcfe3b1bd86",
       "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
@@ -945,342 +1130,152 @@
       "hue": 275,
       "topics": [],
       "cves": []
+    }
+  ],
+  "rail": [
+    {
+      "id": "b6a094e0db0f67fe6c27ad2d5ea8d6b2",
+      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution.",
+      "author": "Bill Toulas",
+      "date": "2026-09-02T21:00:13Z",
+      "slug": "hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells-b6a094e0",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-9586"
+      ]
     },
     {
-      "id": "7d2c7d56417c2e49348ba05735807350",
-      "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
-      "domain": "microsoft.com",
-      "snippet": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack…",
-      "author": "Microsoft Security Research, Microsoft Defender Experts and Parth Jomadkar",
-      "date": "2026-09-01T22:48:28Z",
-      "slug": "counterfeit-installers-to-system-compromise-tracking-a-deceptive-softw-7d2c7d56",
-      "sourceId": "msrc",
-      "sourceName": "Microsoft Security",
-      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
-      "short": "MS",
-      "hue": 202,
+      "id": "1ae2c66d0e1d7dea13200d2f591e40d5",
+      "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+      "domain": "darkreading.com",
+      "snippet": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
+      "author": "Alexander Culafi",
+      "date": "2026-09-02T20:43:59Z",
+      "slug": "sonicwall-sma-1000-zero-days-enable-unauthenticated-rce-1ae2c66d",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "1e03a98a6efbfe0ad892279ffea7ad43",
+      "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
+      "url": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
+      "domain": "darkreading.com",
+      "snippet": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
+      "author": "Kristina Beek",
+      "date": "2026-09-02T19:46:31Z",
+      "slug": "ai-gives-cybercriminals-a-dangerous-time-advantage-1e03a98a",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "c660b2e46ae1f109ea20f23c48c45817",
+      "title": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
+      "url": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
+      "domain": "securityweek.com",
+      "snippet": "The security tool intercepts potentially dangerous agent actions, blocking clear threats and requesting human approval when intent is uncertain.",
+      "author": "Kevin Townsend",
+      "date": "2026-09-02T19:30:00Z",
+      "slug": "openleash-adds-a-human-check-to-risky-ai-agent-actions-c660b2e4",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "da96442218d6978807a4057951e2632d",
+      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control…",
+      "author": "Bill Toulas",
+      "date": "2026-09-02T19:28:46Z",
+      "slug": "wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-att-da964422",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "eb292c4b1181bdb7d01056765e824ad3",
+      "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
+      "url": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
+      "domain": "therecord.media",
+      "snippet": "Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court on Monday after being arrested in Cyprus in May 2025 and extradited to the U.S…",
+      "author": "",
+      "date": "2026-09-02T18:43:00Z",
+      "slug": "russian-national-facing-20-years-for-malware-campaign-that-infected-80-eb292c4b",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
       "topics": [
         "malware"
       ],
       "cves": []
     },
     {
-      "id": "6df08faed0b3ab6aa28677a8f5eef580",
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "domain": "krebsonsecurity.com",
-      "snippet": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people…",
-      "author": "BrianKrebs",
-      "date": "2026-09-01T22:40:28Z",
-      "slug": "fbi-probes-service-selling-153m-drivers-licenses-6df08fae",
-      "sourceId": "krebs",
-      "sourceName": "Krebs on Security",
-      "sourceHome": "https://krebsonsecurity.com/",
-      "short": "KS",
-      "hue": 32,
+      "id": "9885e3b9c4a2864eae0b8b69b387455d",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "domain": "thehackernews.com",
+      "snippet": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-02T18:27:49Z",
+      "slug": "google-anthropic-and-openai-unveil-cyber-ai-models-safeguards-and-acce-9885e3b9",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
       "topics": [],
       "cves": []
     },
     {
-      "id": "a73d4ab6e1d564a1ce40d8f6f8273fcc",
-      "title": "Attackers Pounce on Critical Artifactory Flaw Following Disclosure",
-      "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
-      "domain": "darkreading.com",
-      "snippet": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
-      "author": "Jai Vijayan",
-      "date": "2026-09-01T21:05:53Z",
-      "slug": "attackers-pounce-on-critical-artifactory-flaw-following-disclosure-a73d4ab6",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-82329"
-      ]
-    },
-    {
-      "id": "2d2ba1572e7b24962c8708131c22ba43",
-      "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-      "url": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
-      "domain": "darkreading.com",
-      "snippet": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-      "author": "Arielle Waldman",
-      "date": "2026-09-01T21:03:19Z",
-      "slug": "stronger-security-drives-ransomware-groups-to-recruit-from-within-2d2ba157",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [
-        "ransomware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "da2eb27b1ffaee0f57a781709e115074",
-      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers and install the ScreenConnect remote support software.",
-      "author": "Bill Toulas",
-      "date": "2026-09-01T20:53:23Z",
-      "slug": "hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect-da2eb27b",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "phishing"
-      ],
-      "cves": []
-    },
-    {
-      "id": "f8a09cf47f83f9efb20903b914b0eb25",
-      "title": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
-      "domain": "darkreading.com",
-      "snippet": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
-      "author": "Rob Wright",
-      "date": "2026-09-01T20:48:52Z",
-      "slug": "critical-langflow-flaw-exploited-as-attacks-on-ai-platform-rise-f8a09cf4",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-0768"
-      ]
-    },
-    {
-      "id": "1f806f4f0ff9ae65b258606659e2c12d",
-      "title": "China's 'Fire Ant' campaign used compromised Cisco routers as platform for more attacks",
-      "url": "https://therecord.media/router-hacks-fire-ant-group-china",
+      "id": "062504a817a7142df93ca8e7d5d3be06",
+      "title": "Health data of more than 9.5 million people leaked from Aesto record system",
+      "url": "https://therecord.media/health-data-aesto-cyberattack-leak",
       "domain": "therecord.media",
-      "snippet": "A hacking operation dubbed Fire Ant \"didn’t just compromise systems,\" according to researchers. \"It compromised the trust layer those systems depend on.\"",
+      "snippet": "The healthcare data company Aesto informed federal regulators this week that more than 9.5 million people had sensitive information leaked during a cyberattack last December.",
       "author": "",
-      "date": "2026-09-01T20:35:00Z",
-      "slug": "china-s-fire-ant-campaign-used-compromised-cisco-routers-as-platform-f-1f806f4f",
+      "date": "2026-09-02T17:15:00Z",
+      "slug": "health-data-of-more-than-9-5-million-people-leaked-from-aesto-record-s-062504a8",
       "sourceId": "therecord",
       "sourceName": "The Record",
       "sourceHome": "https://therecord.media/",
       "short": "TR",
       "hue": 190,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "b863aea53e6a837fad9301cbafa56bc5",
-      "title": "Palo Alto Networks Acquires AI Agent Platform Console",
-      "url": "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console/",
-      "domain": "securityweek.com",
-      "snippet": "The cybersecurity giant announced the acquisition alongside quarterly results showing a 34% increase in revenue and strong growth in next-generation security ARR.",
-      "author": "SecurityWeek News",
-      "date": "2026-09-01T20:29:42Z",
-      "slug": "palo-alto-networks-acquires-ai-agent-platform-console-b863aea5",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "19d1bd440ccb395f1a51db1e606142c4",
-      "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
-      "url": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
-      "domain": "darkreading.com",
-      "snippet": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security…",
-      "author": "Alexander Culafi",
-      "date": "2026-09-01T20:13:09Z",
-      "slug": "ai-model-evaluator-metr-hit-by-credential-theft-probing-19d1bd44",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "c0d1439f223d302b3629b0e0e79e3769",
-      "title": "Aesto Health says data breach affects over 9.5 million patients",
-      "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals.",
-      "author": "Bill Toulas",
-      "date": "2026-09-01T19:28:17Z",
-      "slug": "aesto-health-says-data-breach-affects-over-9-5-million-patients-c0d1439f",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "breach"
-      ],
-      "cves": []
-    }
-  ],
-  "rail": [
-    {
-      "id": "2a5f36015133413d8f3b6fcfe3b1bd86",
-      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access.",
-      "author": "Bill Toulas",
-      "date": "2026-09-02T15:47:08Z",
-      "slug": "hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens-2a5f3601",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-82329"
-      ]
-    },
-    {
-      "id": "d74130c360e38e09d6e0e32224ea087b",
-      "title": "UK Moves to Block High-Risk Tech Suppliers From Critical Infrastructure",
-      "url": "https://www.securityweek.com/uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructure/",
-      "domain": "securityweek.com",
-      "snippet": "Late amendments to the Cyber Security and Resilience Bill would give ministers new powers to restrict risky technology providers as supply chain attacks intensify.",
-      "author": "Kevin Townsend",
-      "date": "2026-09-02T15:45:08Z",
-      "slug": "uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructur-d74130c3",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [
-        "supplychain"
-      ],
-      "cves": []
-    },
-    {
-      "id": "d74c0790e0e81e8d4de5ab1c230bb2fb",
-      "title": "New pro-Ukraine hacker group targets Russian companies with custom ransomware",
-      "url": "https://therecord.media/new-pro-ukraine-hacker-group-custom-ransomware-russia",
-      "domain": "therecord.media",
-      "snippet": "The group, which calls itself VantaCore, has targeted at least seven known victims, Russian cybersecurity firm F6 said in a report published this week.",
-      "author": "",
-      "date": "2026-09-02T15:07:00Z",
-      "slug": "new-pro-ukraine-hacker-group-targets-russian-companies-with-custom-ran-d74c0790",
-      "sourceId": "therecord",
-      "sourceName": "The Record",
-      "sourceHome": "https://therecord.media/",
-      "short": "TR",
-      "hue": 190,
-      "topics": [
-        "ransomware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "335721a8136cc299e91a1e581f90399c",
-      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
-      "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
-      "domain": "thehackernews.com",
-      "snippet": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-02T14:06:59Z",
-      "slug": "malicious-git-configs-can-make-claude-codex-cursor-and-other-ai-agents-335721a8",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "3cfac59fe43e51338c243dc308b66e44",
-      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting…",
-      "author": "Sponsored by Acronis",
-      "date": "2026-09-02T14:02:12Z",
-      "slug": "ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery-3cfac59f",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "ransomware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "cc6eebb4ccdc34f3f6671b29775230fa",
-      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
-      "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
-      "domain": "thehackernews.com",
-      "snippet": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-02T13:44:16Z",
-      "slug": "malicious-apache-modules-hijack-brazilian-government-site-traffic-to-p-cc6eebb4",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "f1e23f6a63c31406fbc72c3407415747",
-      "title": "Nearly 22,000 Microsoft Exchange servers remain exposed to critical security flaw (CVE-2026-62911)",
-      "url": "https://www.helpnetsecurity.com/2026/09/02/microsoft-exchange-cve-2026-62911-critical-authentication-bypass-flaw/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Nearly 22,000 Microsoft Exchange servers remain unpatched against CVE-2026-62911, a critical authentication bypass vulnerability, according to daily scans from the Shadowserver Foundation. The United States…",
-      "author": "Sinisa Markovic",
-      "date": "2026-09-02T13:24:09Z",
-      "slug": "nearly-22-000-microsoft-exchange-servers-remain-exposed-to-critical-se-f1e23f6a",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-62911"
-      ]
-    },
-    {
-      "id": "0c1e353de769530beb65b43b6c37d471",
-      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-      "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-      "domain": "thehackernews.com",
-      "snippet": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-02T13:12:45Z",
-      "slug": "bgp-hijack-delivers-malicious-virtualizor-update-that-establishes-pers-0c1e353d",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
       "topics": [],
       "cves": []
     }
@@ -1342,25 +1337,25 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 56
+      "count": 58
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 39
+      "count": 41
+    },
+    {
+      "id": "phishing",
+      "label": "Phishing & Fraud",
+      "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
+      "count": 11
     },
     {
       "id": "ransomware",
       "label": "Ransomware",
       "blurb": "Extortion operations: encryption, data-leak sites, and the crews and affiliates running them.",
       "count": 11
-    },
-    {
-      "id": "phishing",
-      "label": "Phishing & Fraud",
-      "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 10
     },
     {
       "id": "breach",
@@ -1409,6 +1404,10 @@
       "count": 3
     },
     {
+      "id": "CVE-2026-9586",
+      "count": 2
+    },
+    {
       "id": "CVE-2026-83548",
       "count": 2
     },
@@ -1427,20 +1426,16 @@
     {
       "id": "CVE-2026-8452",
       "count": 2
-    },
-    {
-      "id": "CVE-2026-62911",
-      "count": 1
     }
   ],
   "sources_detail": [
     {
       "id": "thehackernews",
       "name": "The Hacker News",
-      "held": 102,
-      "last_run": "2026-09-02T16:50:33Z",
+      "held": 104,
+      "last_run": "2026-09-02T21:14:51Z",
       "last_status": "ok",
-      "newest": "2026-09-02T14:06:59Z",
+      "newest": "2026-09-02T18:27:49Z",
       "home": "https://thehackernews.com/",
       "kind": "news",
       "short": "HN",
@@ -1451,10 +1446,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 72,
-      "last_run": "2026-09-02T16:50:34Z",
+      "held": 75,
+      "last_run": "2026-09-02T21:14:53Z",
       "last_status": "ok",
-      "newest": "2026-09-02T01:00:00Z",
+      "newest": "2026-09-02T20:43:59Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1465,10 +1460,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 66,
-      "last_run": "2026-09-02T16:50:33Z",
+      "held": 68,
+      "last_run": "2026-09-02T21:14:51Z",
       "last_status": "ok",
-      "newest": "2026-09-02T15:47:08Z",
+      "newest": "2026-09-02T21:00:13Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1480,7 +1475,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 62,
-      "last_run": "2026-09-02T16:50:34Z",
+      "last_run": "2026-09-02T21:14:53Z",
       "last_status": "ok",
       "newest": "2026-09-02T13:24:09Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1493,10 +1488,10 @@
     {
       "id": "securityweek",
       "name": "SecurityWeek",
-      "held": 58,
-      "last_run": "2026-09-02T16:50:34Z",
+      "held": 59,
+      "last_run": "2026-09-02T21:14:52Z",
       "last_status": "ok",
-      "newest": "2026-09-02T15:45:08Z",
+      "newest": "2026-09-02T19:30:00Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
       "short": "SW",
@@ -1508,7 +1503,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 37,
-      "last_run": "2026-09-02T16:50:37Z",
+      "last_run": "2026-09-02T21:14:56Z",
       "last_status": "not_modified",
       "newest": "2026-09-02T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1521,10 +1516,10 @@
     {
       "id": "therecord",
       "name": "The Record",
-      "held": 24,
-      "last_run": "2026-09-02T16:50:33Z",
+      "held": 26,
+      "last_run": "2026-09-02T21:14:51Z",
       "last_status": "ok",
-      "newest": "2026-09-02T15:07:00Z",
+      "newest": "2026-09-02T18:43:00Z",
       "home": "https://therecord.media/",
       "kind": "news",
       "short": "TR",
@@ -1536,7 +1531,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 21,
-      "last_run": "2026-09-02T16:50:37Z",
+      "last_run": "2026-09-02T21:14:55Z",
       "last_status": "ok",
       "newest": "2026-09-01T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1550,7 +1545,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 20,
-      "last_run": "2026-09-02T16:50:37Z",
+      "last_run": "2026-09-02T21:14:56Z",
       "last_status": "ok",
       "newest": "2026-09-02T02:00:02Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1564,7 +1559,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 18,
-      "last_run": "2026-09-02T16:50:35Z",
+      "last_run": "2026-09-02T21:14:53Z",
       "last_status": "not_modified",
       "newest": "2026-09-02T10:00:46Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1578,7 +1573,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 17,
-      "last_run": "2026-09-02T16:50:35Z",
+      "last_run": "2026-09-02T21:14:53Z",
       "last_status": "not_modified",
       "newest": "2026-08-27T18:00:24Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1592,8 +1587,8 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 14,
-      "last_run": "2026-09-02T16:50:37Z",
-      "last_status": "not_modified",
+      "last_run": "2026-09-02T21:14:55Z",
+      "last_status": "ok",
       "newest": "2026-09-01T22:48:28Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
       "kind": "research",
@@ -1606,8 +1601,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 12,
-      "last_run": "2026-09-02T16:50:34Z",
-      "last_status": "ok",
+      "last_run": "2026-09-02T21:14:53Z",
+      "last_status": "not_modified",
       "newest": "2026-09-01T22:40:28Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1620,7 +1615,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-09-02T16:50:37Z",
+      "last_run": "2026-09-02T21:14:55Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
