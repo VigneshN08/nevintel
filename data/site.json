@@ -1,35 +1,71 @@
 {
-  "builtAt": "2026-09-01T21:18:16Z",
-  "articles": 480,
+  "builtAt": "2026-09-02T00:30:14Z",
+  "articles": 482,
   "sources": 14,
-  "rendered": 480,
+  "rendered": 482,
   "live": {
-    "storiesToday": 51,
+    "storiesToday": 53,
     "storiesWeek": 273,
     "cvesWeek": 8,
-    "sourcesOk": 14,
+    "sourcesOk": 13,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "2d2ba1572e7b24962c8708131c22ba43",
-    "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-    "url": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
-    "domain": "darkreading.com",
-    "snippet": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-    "author": "Arielle Waldman",
-    "date": "2026-09-01T21:03:19Z",
-    "slug": "stronger-security-drives-ransomware-groups-to-recruit-from-within-2d2ba157",
-    "sourceId": "darkreading",
-    "sourceName": "Dark Reading",
-    "sourceHome": "https://www.darkreading.com/",
-    "short": "DR",
-    "hue": 275,
-    "topics": [
-      "ransomware"
-    ],
+    "id": "6df08faed0b3ab6aa28677a8f5eef580",
+    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+    "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "domain": "krebsonsecurity.com",
+    "snippet": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people…",
+    "author": "BrianKrebs",
+    "date": "2026-09-01T22:40:28Z",
+    "slug": "fbi-probes-service-selling-153m-drivers-licenses-6df08fae",
+    "sourceId": "krebs",
+    "sourceName": "Krebs on Security",
+    "sourceHome": "https://krebsonsecurity.com/",
+    "short": "KS",
+    "hue": 32,
+    "topics": [],
     "cves": []
   },
   "feed": [
+    {
+      "id": "6df08faed0b3ab6aa28677a8f5eef580",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "domain": "krebsonsecurity.com",
+      "snippet": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people…",
+      "author": "BrianKrebs",
+      "date": "2026-09-01T22:40:28Z",
+      "slug": "fbi-probes-service-selling-153m-drivers-licenses-6df08fae",
+      "sourceId": "krebs",
+      "sourceName": "Krebs on Security",
+      "sourceHome": "https://krebsonsecurity.com/",
+      "short": "KS",
+      "hue": 32,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "a73d4ab6e1d564a1ce40d8f6f8273fcc",
+      "title": "Attackers Pounce on Critical Artifactory Flaw Following Disclosure",
+      "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+      "domain": "darkreading.com",
+      "snippet": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
+      "author": "Jai Vijayan",
+      "date": "2026-09-01T21:05:53Z",
+      "slug": "attackers-pounce-on-critical-artifactory-flaw-following-disclosure-a73d4ab6",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-82329"
+      ]
+    },
     {
       "id": "2d2ba1572e7b24962c8708131c22ba43",
       "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
@@ -1088,43 +1124,47 @@
       "hue": 190,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "aab94ee8133c548e003a213a780b1685",
-      "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal.",
-      "author": "Bill Toulas",
-      "date": "2026-08-31T18:51:04Z",
-      "slug": "microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels-aab94ee8",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
+      "id": "6df08faed0b3ab6aa28677a8f5eef580",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "domain": "krebsonsecurity.com",
+      "snippet": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people…",
+      "author": "BrianKrebs",
+      "date": "2026-09-01T22:40:28Z",
+      "slug": "fbi-probes-service-selling-153m-drivers-licenses-6df08fae",
+      "sourceId": "krebs",
+      "sourceName": "Krebs on Security",
+      "sourceHome": "https://krebsonsecurity.com/",
+      "short": "KS",
+      "hue": 32,
       "topics": [],
       "cves": []
     },
     {
-      "id": "156933d900879b89ae0087fa70ef0803",
-      "title": "AI Model Rules Are Not Security Controls",
-      "url": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
+      "id": "a73d4ab6e1d564a1ce40d8f6f8273fcc",
+      "title": "Attackers Pounce on Critical Artifactory Flaw Following Disclosure",
+      "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
       "domain": "darkreading.com",
-      "snippet": "OpenAI's Hugging Face attack postmortem shows agents don't care about rules — they need strong controls.",
-      "author": "Jacob Krell",
-      "date": "2026-08-31T17:34:26Z",
-      "slug": "ai-model-rules-are-not-security-controls-156933d9",
+      "snippet": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
+      "author": "Jai Vijayan",
+      "date": "2026-09-01T21:05:53Z",
+      "slug": "attackers-pounce-on-critical-artifactory-flaw-following-disclosure-a73d4ab6",
       "sourceId": "darkreading",
       "sourceName": "Dark Reading",
       "sourceHome": "https://www.darkreading.com/",
       "short": "DR",
       "hue": 275,
-      "topics": [],
-      "cves": []
-    }
-  ],
-  "rail": [
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-82329"
+      ]
+    },
     {
       "id": "2d2ba1572e7b24962c8708131c22ba43",
       "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
@@ -1234,42 +1274,6 @@
       "hue": 275,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "c0d1439f223d302b3629b0e0e79e3769",
-      "title": "Aesto Health says data breach affects over 9.5 million patients",
-      "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals.",
-      "author": "Bill Toulas",
-      "date": "2026-09-01T19:28:17Z",
-      "slug": "aesto-health-says-data-breach-affects-over-9-5-million-patients-c0d1439f",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "breach"
-      ],
-      "cves": []
-    },
-    {
-      "id": "4ce6063e889b73749913c821814cd933",
-      "title": "Cybersecurity IR Workshop: The workshop you shouldn’t miss",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/01/cybersecurity-ir-workshop-you-shouldnt-miss/",
-      "domain": "microsoft.com",
-      "snippet": "Cyber resilience starts before a crisis. Gain practical insights from DART to strengthen readiness and response.",
-      "author": "Microsoft Defender Experts Cybersecurity Incident Response",
-      "date": "2026-09-01T18:55:35Z",
-      "slug": "cybersecurity-ir-workshop-the-workshop-you-shouldn-t-miss-4ce6063e",
-      "sourceId": "msrc",
-      "sourceName": "Microsoft Security",
-      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
-      "short": "MS",
-      "hue": 202,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1329,7 +1333,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 50
+      "count": 51
     },
     {
       "id": "malware",
@@ -1341,13 +1345,13 @@
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 13
+      "count": 12
     },
     {
       "id": "breach",
       "label": "Data Breach",
       "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
-      "count": 12
+      "count": 11
     },
     {
       "id": "apt",
@@ -1392,6 +1396,10 @@
       "count": 3
     },
     {
+      "id": "CVE-2026-82329",
+      "count": 2
+    },
+    {
       "id": "CVE-2026-82078",
       "count": 2
     },
@@ -1408,10 +1416,6 @@
       "count": 2
     },
     {
-      "id": "CVE-2026-82329",
-      "count": 1
-    },
-    {
       "id": "CVE-2026-73570",
       "count": 1
     },
@@ -1425,7 +1429,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 91,
-      "last_run": "2026-09-01T21:18:13Z",
+      "last_run": "2026-09-02T00:30:08Z",
       "last_status": "ok",
       "newest": "2026-09-01T17:53:11Z",
       "home": "https://thehackernews.com/",
@@ -1438,10 +1442,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 70,
-      "last_run": "2026-09-01T21:18:13Z",
+      "held": 71,
+      "last_run": "2026-09-02T00:30:09Z",
       "last_status": "ok",
-      "newest": "2026-09-01T21:03:19Z",
+      "newest": "2026-09-01T21:05:53Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1453,7 +1457,7 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 59,
-      "last_run": "2026-09-01T21:18:13Z",
+      "last_run": "2026-09-02T00:30:08Z",
       "last_status": "ok",
       "newest": "2026-09-01T20:53:23Z",
       "home": "https://www.bleepingcomputer.com/",
@@ -1467,8 +1471,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 49,
-      "last_run": "2026-09-01T21:18:13Z",
-      "last_status": "ok",
+      "last_run": "2026-09-02T00:30:08Z",
+      "last_status": "not_modified",
       "newest": "2026-09-01T20:29:42Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1481,7 +1485,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 46,
-      "last_run": "2026-09-01T21:18:13Z",
+      "last_run": "2026-09-02T00:30:09Z",
       "last_status": "not_modified",
       "newest": "2026-09-01T15:23:19Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1495,7 +1499,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 36,
-      "last_run": "2026-09-01T21:18:16Z",
+      "last_run": "2026-09-02T00:30:13Z",
       "last_status": "not_modified",
       "newest": "2026-09-01T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1509,7 +1513,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 21,
-      "last_run": "2026-09-01T21:18:15Z",
+      "last_run": "2026-09-02T00:30:12Z",
       "last_status": "ok",
       "newest": "2026-09-01T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1523,7 +1527,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 21,
-      "last_run": "2026-09-01T21:18:13Z",
+      "last_run": "2026-09-02T00:30:08Z",
       "last_status": "ok",
       "newest": "2026-09-01T20:35:00Z",
       "home": "https://therecord.media/",
@@ -1537,7 +1541,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 19,
-      "last_run": "2026-09-01T21:18:16Z",
+      "last_run": "2026-09-02T00:30:13Z",
       "last_status": "ok",
       "newest": "2026-09-01T02:00:03Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1551,8 +1555,8 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 17,
-      "last_run": "2026-09-01T21:18:14Z",
-      "last_status": "ok",
+      "last_run": "2026-09-02T00:30:09Z",
+      "last_status": "not_modified",
       "newest": "2026-08-27T18:00:24Z",
       "home": "https://blog.talosintelligence.com/",
       "kind": "research",
@@ -1565,7 +1569,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 17,
-      "last_run": "2026-09-01T21:18:14Z",
+      "last_run": "2026-09-02T00:30:09Z",
       "last_status": "not_modified",
       "newest": "2026-08-31T10:00:36Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1579,8 +1583,8 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 13,
-      "last_run": "2026-09-01T21:18:16Z",
-      "last_status": "ok",
+      "last_run": "2026-09-02T00:30:13Z",
+      "last_status": "not_modified",
       "newest": "2026-09-01T18:55:35Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
       "kind": "research",
@@ -1592,10 +1596,10 @@
     {
       "id": "krebs",
       "name": "Krebs on Security",
-      "held": 11,
-      "last_run": "2026-09-01T21:18:13Z",
+      "held": 12,
+      "last_run": "2026-09-02T00:30:09Z",
       "last_status": "ok",
-      "newest": "2026-08-27T11:04:15Z",
+      "newest": "2026-09-01T22:40:28Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
       "short": "KS",
@@ -1607,8 +1611,8 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-09-01T21:18:16Z",
-      "last_status": "not_modified",
+      "last_run": "2026-09-02T00:30:13Z",
+      "last_status": "empty",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
       "kind": "research",

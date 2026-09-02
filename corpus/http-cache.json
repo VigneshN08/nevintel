@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-09-01T21:18:13Z",
-    "etag": "52293b981d8425329f83227db0f79469",
-    "last_modified": "Tue, 01 Sep 2026 21:13:25 GMT"
+    "checked": "2026-09-02T00:30:08Z",
+    "etag": "9e0fec4f692ccd6fd89ca9c5999f3c7c",
+    "last_modified": "Wed, 02 Sep 2026 00:23:31 GMT"
   },
   "darkreading": {
-    "checked": "2026-09-01T21:18:13Z",
+    "checked": "2026-09-02T00:30:09Z",
     "etag": "",
-    "last_modified": "Tue, 01 Sep 2026 21:18:13 GMT"
+    "last_modified": "Wed, 02 Sep 2026 00:30:09 GMT"
   },
   "googletil": {
-    "checked": "2026-09-01T21:18:15Z",
+    "checked": "2026-09-02T00:30:11Z",
     "etag": "",
     "last_modified": ""
   },
@@ -20,9 +20,9 @@
     "last_modified": "Tue, 01 Sep 2026 15:24:06 GMT"
   },
   "krebs": {
-    "checked": "2026-09-01T21:18:13Z",
+    "checked": "2026-09-02T00:30:09Z",
     "etag": "",
-    "last_modified": "Tue, 01 Sep 2026 21:10:21 GMT"
+    "last_modified": "Tue, 01 Sep 2026 22:58:48 GMT"
   },
   "msrc": {
     "checked": "2026-09-01T21:18:16Z",
@@ -30,14 +30,14 @@
     "last_modified": "Tue, 01 Sep 2026 18:55:38 GMT"
   },
   "projectzero": {
-    "checked": "2026-08-26T21:39:53Z",
+    "checked": "2026-09-02T00:30:12Z",
     "etag": "",
-    "last_modified": "Tue, 18 Aug 2026 20:08:55 GMT"
+    "last_modified": "Tue, 01 Sep 2026 21:48:59 GMT"
   },
   "sans_isc": {
-    "checked": "2026-09-01T21:18:16Z",
-    "etag": "W/\"2229-65a7265d09cc2\"",
-    "last_modified": "Tue, 01 Sep 2026 21:14:01 GMT"
+    "checked": "2026-09-02T00:30:13Z",
+    "etag": "W/\"2229-65a751f2bfdda\"",
+    "last_modified": "Wed, 02 Sep 2026 00:29:00 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-09-01T05:37:04Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-09-01T21:18:13Z",
+    "checked": "2026-09-02T00:30:08Z",
     "etag": "",
     "last_modified": "Tue, 1 Sep 2026 19:25:00 GMT"
   },
   "therecord": {
-    "checked": "2026-09-01T21:18:13Z",
+    "checked": "2026-09-02T00:30:08Z",
     "etag": "",
     "last_modified": ""
   },
