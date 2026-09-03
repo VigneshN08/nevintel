@@ -1,37 +1,50 @@
 {
-  "builtAt": "2026-09-02T21:14:56Z",
-  "articles": 543,
+  "builtAt": "2026-09-03T00:36:44Z",
+  "articles": 544,
   "sources": 14,
-  "rendered": 543,
+  "rendered": 544,
   "live": {
-    "storiesToday": 62,
-    "storiesWeek": 281,
+    "storiesToday": 61,
+    "storiesWeek": 280,
     "cvesWeek": 11,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "b6a094e0db0f67fe6c27ad2d5ea8d6b2",
-    "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
-    "domain": "bleepingcomputer.com",
-    "snippet": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution.",
-    "author": "Bill Toulas",
-    "date": "2026-09-02T21:00:13Z",
-    "slug": "hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells-b6a094e0",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "sourceHome": "https://www.bleepingcomputer.com/",
-    "short": "BC",
-    "hue": 8,
-    "topics": [
-      "vuln"
-    ],
-    "cves": [
-      "CVE-2026-9586"
-    ]
+    "id": "013d5372927c03fb2219c9834ab3c4e8",
+    "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "url": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+    "domain": "darkreading.com",
+    "snippet": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+    "author": "Jai Vijayan",
+    "date": "2026-09-02T21:14:06Z",
+    "slug": "ai-s-vulnerability-surge-may-be-more-manageable-than-first-feared-013d5372",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "sourceHome": "https://www.darkreading.com/",
+    "short": "DR",
+    "hue": 275,
+    "topics": [],
+    "cves": []
   },
   "feed": [
+    {
+      "id": "013d5372927c03fb2219c9834ab3c4e8",
+      "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+      "url": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+      "domain": "darkreading.com",
+      "snippet": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+      "author": "Jai Vijayan",
+      "date": "2026-09-02T21:14:06Z",
+      "slug": "ai-s-vulnerability-surge-may-be-more-manageable-than-first-feared-013d5372",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "b6a094e0db0f67fe6c27ad2d5ea8d6b2",
       "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
@@ -1113,16 +1126,18 @@
       "hue": 60,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "1c58c50319dd219bebcc9335168ce379",
-      "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+      "id": "013d5372927c03fb2219c9834ab3c4e8",
+      "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+      "url": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
       "domain": "darkreading.com",
-      "snippet": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-      "author": "Robert Lemos",
-      "date": "2026-09-02T01:00:00Z",
-      "slug": "old-unpatched-flaws-give-attackers-access-to-philippines-nuclear-agenc-1c58c503",
+      "snippet": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+      "author": "Jai Vijayan",
+      "date": "2026-09-02T21:14:06Z",
+      "slug": "ai-s-vulnerability-surge-may-be-more-manageable-than-first-feared-013d5372",
       "sourceId": "darkreading",
       "sourceName": "Dark Reading",
       "sourceHome": "https://www.darkreading.com/",
@@ -1130,9 +1145,7 @@
       "hue": 275,
       "topics": [],
       "cves": []
-    }
-  ],
-  "rail": [
+    },
     {
       "id": "b6a094e0db0f67fe6c27ad2d5ea8d6b2",
       "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
@@ -1261,23 +1274,6 @@
       "hue": 168,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "062504a817a7142df93ca8e7d5d3be06",
-      "title": "Health data of more than 9.5 million people leaked from Aesto record system",
-      "url": "https://therecord.media/health-data-aesto-cyberattack-leak",
-      "domain": "therecord.media",
-      "snippet": "The healthcare data company Aesto informed federal regulators this week that more than 9.5 million people had sensitive information leaked during a cyberattack last December.",
-      "author": "",
-      "date": "2026-09-02T17:15:00Z",
-      "slug": "health-data-of-more-than-9-5-million-people-leaked-from-aesto-record-s-062504a8",
-      "sourceId": "therecord",
-      "sourceName": "The Record",
-      "sourceHome": "https://therecord.media/",
-      "short": "TR",
-      "hue": 190,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1337,13 +1333,13 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 58
+      "count": 57
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 41
+      "count": 40
     },
     {
       "id": "phishing",
@@ -1364,15 +1360,15 @@
       "count": 10
     },
     {
-      "id": "apt",
-      "label": "Nation-State",
-      "blurb": "State-linked intrusion sets, espionage campaigns, and attribution reporting.",
-      "count": 8
-    },
-    {
       "id": "supplychain",
       "label": "Supply Chain",
       "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
+      "count": 7
+    },
+    {
+      "id": "apt",
+      "label": "Nation-State",
+      "blurb": "State-linked intrusion sets, espionage campaigns, and attribution reporting.",
       "count": 7
     },
     {
@@ -1433,7 +1429,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 104,
-      "last_run": "2026-09-02T21:14:51Z",
+      "last_run": "2026-09-03T00:36:39Z",
       "last_status": "ok",
       "newest": "2026-09-02T18:27:49Z",
       "home": "https://thehackernews.com/",
@@ -1446,10 +1442,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 75,
-      "last_run": "2026-09-02T21:14:53Z",
+      "held": 76,
+      "last_run": "2026-09-03T00:36:40Z",
       "last_status": "ok",
-      "newest": "2026-09-02T20:43:59Z",
+      "newest": "2026-09-02T21:14:06Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1461,7 +1457,7 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 68,
-      "last_run": "2026-09-02T21:14:51Z",
+      "last_run": "2026-09-03T00:36:39Z",
       "last_status": "ok",
       "newest": "2026-09-02T21:00:13Z",
       "home": "https://www.bleepingcomputer.com/",
@@ -1475,8 +1471,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 62,
-      "last_run": "2026-09-02T21:14:53Z",
-      "last_status": "ok",
+      "last_run": "2026-09-03T00:36:40Z",
+      "last_status": "not_modified",
       "newest": "2026-09-02T13:24:09Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1489,8 +1485,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 59,
-      "last_run": "2026-09-02T21:14:52Z",
-      "last_status": "ok",
+      "last_run": "2026-09-03T00:36:39Z",
+      "last_status": "not_modified",
       "newest": "2026-09-02T19:30:00Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1503,7 +1499,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 37,
-      "last_run": "2026-09-02T21:14:56Z",
+      "last_run": "2026-09-03T00:36:44Z",
       "last_status": "not_modified",
       "newest": "2026-09-02T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1517,7 +1513,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 26,
-      "last_run": "2026-09-02T21:14:51Z",
+      "last_run": "2026-09-03T00:36:39Z",
       "last_status": "ok",
       "newest": "2026-09-02T18:43:00Z",
       "home": "https://therecord.media/",
@@ -1531,7 +1527,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 21,
-      "last_run": "2026-09-02T21:14:55Z",
+      "last_run": "2026-09-03T00:36:43Z",
       "last_status": "ok",
       "newest": "2026-09-01T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1545,7 +1541,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 20,
-      "last_run": "2026-09-02T21:14:56Z",
+      "last_run": "2026-09-03T00:36:43Z",
       "last_status": "ok",
       "newest": "2026-09-02T02:00:02Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1559,7 +1555,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 18,
-      "last_run": "2026-09-02T21:14:53Z",
+      "last_run": "2026-09-03T00:36:41Z",
       "last_status": "not_modified",
       "newest": "2026-09-02T10:00:46Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1573,7 +1569,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 17,
-      "last_run": "2026-09-02T21:14:53Z",
+      "last_run": "2026-09-03T00:36:41Z",
       "last_status": "not_modified",
       "newest": "2026-08-27T18:00:24Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1587,7 +1583,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 14,
-      "last_run": "2026-09-02T21:14:55Z",
+      "last_run": "2026-09-03T00:36:43Z",
       "last_status": "ok",
       "newest": "2026-09-01T22:48:28Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1601,8 +1597,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 12,
-      "last_run": "2026-09-02T21:14:53Z",
-      "last_status": "not_modified",
+      "last_run": "2026-09-03T00:36:40Z",
+      "last_status": "ok",
       "newest": "2026-09-01T22:40:28Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1615,7 +1611,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-09-02T21:14:55Z",
+      "last_run": "2026-09-03T00:36:43Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
