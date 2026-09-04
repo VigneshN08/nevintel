@@ -1,33 +1,56 @@
 {
-  "builtAt": "2026-09-04T16:35:15Z",
-  "articles": 633,
+  "builtAt": "2026-09-04T19:08:11Z",
+  "articles": 636,
   "sources": 14,
-  "rendered": 633,
+  "rendered": 636,
   "live": {
-    "storiesToday": 47,
-    "storiesWeek": 280,
+    "storiesToday": 46,
+    "storiesWeek": 279,
     "cvesWeek": 15,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "f44fd1189325eb59cb66a8733d4bc2d6",
-    "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
-    "url": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
-    "domain": "securityweek.com",
-    "snippet": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now…",
-    "author": "SecurityWeek News",
-    "date": "2026-09-04T16:18:30Z",
-    "slug": "in-other-news-microsoft-s-cloud-patches-hacked-dropbox-accounts-guardi-f44fd118",
-    "sourceId": "securityweek",
-    "sourceName": "SecurityWeek",
-    "sourceHome": "https://www.securityweek.com/",
-    "short": "SW",
-    "hue": 210,
-    "topics": [],
+    "id": "5c7b6ad938baf62c72b3e5ed562f42a5",
+    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+    "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+    "domain": "bleepingcomputer.com",
+    "snippet": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's…",
+    "author": "Bill Toulas",
+    "date": "2026-09-04T16:56:45Z",
+    "slug": "idscan-sued-over-alleged-data-breach-affecting-153-million-drivers-5c7b6ad9",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "sourceHome": "https://www.bleepingcomputer.com/",
+    "short": "BC",
+    "hue": 8,
+    "topics": [
+      "breach",
+      "policy"
+    ],
     "cves": []
   },
   "feed": [
+    {
+      "id": "5c7b6ad938baf62c72b3e5ed562f42a5",
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's…",
+      "author": "Bill Toulas",
+      "date": "2026-09-04T16:56:45Z",
+      "slug": "idscan-sued-over-alleged-data-breach-affecting-153-million-drivers-5c7b6ad9",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "breach",
+        "policy"
+      ],
+      "cves": []
+    },
     {
       "id": "f44fd1189325eb59cb66a8733d4bc2d6",
       "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
@@ -699,6 +722,23 @@
       "cves": []
     },
     {
+      "id": "286d4cbedbed35fecc4142c90a380cff",
+      "title": "US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure",
+      "url": "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks",
+      "domain": "therecord.media",
+      "snippet": "Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a…",
+      "author": "",
+      "date": "2026-09-04T04:00:00Z",
+      "slug": "us-offers-10-million-for-info-on-iranian-allegedly-behind-cyberattacks-286d4cbe",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
+      "topics": [],
+      "cves": []
+    },
+    {
       "id": "fa8ce1d3f578e6238b2abdb5c794db96",
       "title": "ISC Stormcast For Friday, September 4th, 2026 https://isc.sans.edu/podcastdetail/10082, (Fri, Sep 4th)",
       "url": "https://isc.sans.edu/diary/rss/33310",
@@ -871,6 +911,23 @@
       "sourceHome": "https://blog.talosintelligence.com/",
       "short": "TA",
       "hue": 196,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "9f1cf6b5657fd4e8f8b6d7d55d478116",
+      "title": "What the AI Warning Letter Completely Missed",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-warning-letter-missed-people",
+      "domain": "darkreading.com",
+      "snippet": "The recent AI warning letter is right about the \"window,\" but it omits naming who is coming through it or, critically, who will close it.",
+      "author": "James Lyne",
+      "date": "2026-09-03T17:23:14Z",
+      "slug": "what-the-ai-warning-letter-completely-missed-9f1cf6b5",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
       "topics": [],
       "cves": []
     },
@@ -1054,64 +1111,29 @@
       "hue": 168,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "95772abdc7f44951c9edaeb3ffddaf40",
-      "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours",
-      "domain": "darkreading.com",
-      "snippet": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
-      "author": "Elizabeth Montalbano",
-      "date": "2026-09-03T14:38:49Z",
-      "slug": "ai-machine-speed-cuts-2-week-attack-down-to-10-hours-95772abd",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "e41d05713645fe7a3c0ef3ae28fa1876",
-      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-      "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+      "id": "5c7b6ad938baf62c72b3e5ed562f42a5",
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
       "domain": "bleepingcomputer.com",
-      "snippet": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine…",
-      "author": "Sponsored by Flare",
-      "date": "2026-09-03T13:50:59Z",
-      "slug": "your-employee-s-password-appeared-in-an-infostealer-log-now-what-e41d0571",
+      "snippet": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's…",
+      "author": "Bill Toulas",
+      "date": "2026-09-04T16:56:45Z",
+      "slug": "idscan-sued-over-alleged-data-breach-affecting-153-million-drivers-5c7b6ad9",
       "sourceId": "bleepingcomputer",
       "sourceName": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
       "short": "BC",
       "hue": 8,
       "topics": [
-        "malware"
+        "breach",
+        "policy"
       ],
       "cves": []
     },
-    {
-      "id": "9388becd9dabeba5fdfb7e809fa60e04",
-      "title": "Thomson Reuters reveals breach that exposed U.S. and Canadian court records",
-      "url": "https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Thomson Reuters has disclosed a data breach affecting C-Track, a court case management platform operated by its subsidiaries, exposing court records and sensitive personal information…",
-      "author": "Zeljka Zorz",
-      "date": "2026-09-03T13:50:36Z",
-      "slug": "thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-rec-9388becd",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [
-        "breach"
-      ],
-      "cves": []
-    }
-  ],
-  "rail": [
     {
       "id": "f44fd1189325eb59cb66a8733d4bc2d6",
       "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
@@ -1240,23 +1262,6 @@
       "cves": [
         "CVE-2026-19490"
       ]
-    },
-    {
-      "id": "d7ed15b40cfe81867e53a959ad03b92c",
-      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-      "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-      "domain": "thehackernews.com",
-      "snippet": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-04T15:20:19Z",
-      "slug": "postgresql-fixes-12-year-old-logical-decoding-flaw-enabling-replicatio-d7ed15b4",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1316,7 +1321,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 59
+      "count": 58
     },
     {
       "id": "malware",
@@ -1325,16 +1330,16 @@
       "count": 40
     },
     {
+      "id": "breach",
+      "label": "Data Breach",
+      "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
+      "count": 11
+    },
+    {
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
       "count": 11
-    },
-    {
-      "id": "breach",
-      "label": "Data Breach",
-      "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
-      "count": 10
     },
     {
       "id": "ransomware",
@@ -1349,16 +1354,16 @@
       "count": 6
     },
     {
+      "id": "policy",
+      "label": "Policy & Regulation",
+      "blurb": "Law, enforcement, sanctions, disclosure mandates, and government advisories.",
+      "count": 4
+    },
+    {
       "id": "supplychain",
       "label": "Supply Chain",
       "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
       "count": 4
-    },
-    {
-      "id": "policy",
-      "label": "Policy & Regulation",
-      "blurb": "Law, enforcement, sanctions, disclosure mandates, and government advisories.",
-      "count": 3
     },
     {
       "id": "apt",
@@ -1406,7 +1411,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 121,
-      "last_run": "2026-09-04T16:35:08Z",
+      "last_run": "2026-09-04T19:08:05Z",
       "last_status": "ok",
       "newest": "2026-09-04T15:57:15Z",
       "home": "https://thehackernews.com/",
@@ -1419,10 +1424,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 85,
-      "last_run": "2026-09-04T16:35:08Z",
+      "held": 86,
+      "last_run": "2026-09-04T19:08:05Z",
       "last_status": "ok",
-      "newest": "2026-09-04T15:25:59Z",
+      "newest": "2026-09-04T16:56:45Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1433,8 +1438,8 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 82,
-      "last_run": "2026-09-04T16:35:12Z",
+      "held": 83,
+      "last_run": "2026-09-04T19:08:07Z",
       "last_status": "ok",
       "newest": "2026-09-04T15:57:31Z",
       "home": "https://www.darkreading.com/",
@@ -1448,8 +1453,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 80,
-      "last_run": "2026-09-04T16:35:12Z",
-      "last_status": "ok",
+      "last_run": "2026-09-04T19:08:07Z",
+      "last_status": "not_modified",
       "newest": "2026-09-04T12:19:50Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1462,8 +1467,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 75,
-      "last_run": "2026-09-04T16:35:11Z",
-      "last_status": "ok",
+      "last_run": "2026-09-04T19:08:06Z",
+      "last_status": "not_modified",
       "newest": "2026-09-04T16:18:30Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1476,7 +1481,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 39,
-      "last_run": "2026-09-04T16:35:15Z",
+      "last_run": "2026-09-04T19:08:11Z",
       "last_status": "not_modified",
       "newest": "2026-09-04T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1489,8 +1494,8 @@
     {
       "id": "therecord",
       "name": "The Record",
-      "held": 32,
-      "last_run": "2026-09-04T16:35:11Z",
+      "held": 33,
+      "last_run": "2026-09-04T19:08:06Z",
       "last_status": "ok",
       "newest": "2026-09-04T15:42:00Z",
       "home": "https://therecord.media/",
@@ -1504,7 +1509,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 23,
-      "last_run": "2026-09-04T16:35:15Z",
+      "last_run": "2026-09-04T19:08:11Z",
       "last_status": "ok",
       "newest": "2026-09-04T02:00:02Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1518,7 +1523,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 21,
-      "last_run": "2026-09-04T16:35:14Z",
+      "last_run": "2026-09-04T19:08:10Z",
       "last_status": "ok",
       "newest": "2026-09-01T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1532,8 +1537,8 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 19,
-      "last_run": "2026-09-04T16:35:12Z",
-      "last_status": "ok",
+      "last_run": "2026-09-04T19:08:08Z",
+      "last_status": "not_modified",
       "newest": "2026-09-03T10:00:58Z",
       "home": "https://unit42.paloaltonetworks.com/",
       "kind": "research",
@@ -1546,7 +1551,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 18,
-      "last_run": "2026-09-04T16:35:12Z",
+      "last_run": "2026-09-04T19:08:08Z",
       "last_status": "not_modified",
       "newest": "2026-09-03T18:00:13Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1560,7 +1565,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 16,
-      "last_run": "2026-09-04T16:35:15Z",
+      "last_run": "2026-09-04T19:08:10Z",
       "last_status": "not_modified",
       "newest": "2026-09-03T16:00:00Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1574,8 +1579,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 12,
-      "last_run": "2026-09-04T16:35:12Z",
-      "last_status": "not_modified",
+      "last_run": "2026-09-04T19:08:07Z",
+      "last_status": "ok",
       "newest": "2026-09-01T22:40:28Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1588,7 +1593,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-09-04T16:35:14Z",
+      "last_run": "2026-09-04T19:08:10Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
