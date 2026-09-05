@@ -1,33 +1,107 @@
 {
-  "builtAt": "2026-09-05T10:53:58Z",
-  "articles": 641,
+  "builtAt": "2026-09-05T15:31:23Z",
+  "articles": 645,
   "sources": 14,
-  "rendered": 641,
+  "rendered": 645,
   "live": {
-    "storiesToday": 31,
-    "storiesWeek": 275,
+    "storiesToday": 15,
+    "storiesWeek": 277,
     "cvesWeek": 15,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "1c98993ec175f54aefd3a20cdf8f6d52",
-    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-    "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-    "domain": "thehackernews.com",
-    "snippet": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant…",
-    "author": "info@thehackernews.com (The Hacker News)",
-    "date": "2026-09-05T07:55:10Z",
-    "slug": "thousands-of-openai-agents-quietly-turned-an-abandoned-wiki-into-their-1c98993e",
-    "sourceId": "thehackernews",
-    "sourceName": "The Hacker News",
-    "sourceHome": "https://thehackernews.com/",
-    "short": "HN",
-    "hue": 168,
+    "id": "1305dd241c3053569966bb43529cc430",
+    "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+    "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+    "domain": "bleepingcomputer.com",
+    "snippet": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC).",
+    "author": "Bill Toulas",
+    "date": "2026-09-05T14:29:13Z",
+    "slug": "over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockcha-1305dd24",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "sourceHome": "https://www.bleepingcomputer.com/",
+    "short": "BC",
+    "hue": 8,
     "topics": [],
     "cves": []
   },
   "feed": [
+    {
+      "id": "1305dd241c3053569966bb43529cc430",
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC).",
+      "author": "Bill Toulas",
+      "date": "2026-09-05T14:29:13Z",
+      "slug": "over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockcha-1305dd24",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "28549037149e3e816adc732a41af3cf3",
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "domain": "thehackernews.com",
+      "snippet": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-05T14:17:02Z",
+      "slug": "trezor-says-shipmonk-breach-exposed-67-000-u-s-customers-data-it-said-28549037",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "cf822ca0e892e571708015aedf1677f9",
+      "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+      "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+      "domain": "securityweek.com",
+      "snippet": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.",
+      "author": "Ionut Arghire",
+      "date": "2026-09-05T13:00:28Z",
+      "slug": "elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites-cf822ca0",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-32475"
+      ]
+    },
+    {
+      "id": "1503c662885bcd2ac0b8feabe40843cc",
+      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying…",
+      "author": "Ax Sharma",
+      "date": "2026-09-05T11:11:50Z",
+      "slug": "openai-admits-it-didn-t-disclose-rogue-ai-wiki-hijacking-incident-1503c662",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "1c98993ec175f54aefd3a20cdf8f6d52",
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
@@ -1032,71 +1106,18 @@
         "ai"
       ],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "10869e1cb2f94267097db0303e292e74",
-      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-      "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-      "domain": "thehackernews.com",
-      "snippet": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-03T15:52:07Z",
-      "slug": "critical-cisco-nexus-9000-flaw-lets-unauthenticated-remote-attackers-r-10869e1c",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "ccbb703251575fb6f2ae765cffc04abe",
-      "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
-      "url": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
-      "domain": "securityweek.com",
-      "snippet": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin…",
-      "author": "Ionut Arghire",
-      "date": "2026-09-03T15:35:19Z",
-      "slug": "manchester-airports-group-data-on-8-8-million-people-leaked-after-rans-ccbb7032",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "9d9736b815d582ed8ce686114c0b3206",
-      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-      "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-      "domain": "thehackernews.com",
-      "snippet": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. \"Unlike…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-03T15:26:47Z",
-      "slug": "brazetsu-malware-turns-compromised-windows-hosts-into-criminal-marketp-9d9736b8",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "malware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "3ffce2a0f3619f80d8acde52e8680b95",
-      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+      "id": "1305dd241c3053569966bb43529cc430",
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
       "domain": "bleepingcomputer.com",
-      "snippet": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-09-03T15:22:33Z",
-      "slug": "microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs-3ffce2a0",
+      "snippet": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC).",
+      "author": "Bill Toulas",
+      "date": "2026-09-05T14:29:13Z",
+      "slug": "over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockcha-1305dd24",
       "sourceId": "bleepingcomputer",
       "sourceName": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
@@ -1104,9 +1125,64 @@
       "hue": 8,
       "topics": [],
       "cves": []
-    }
-  ],
-  "rail": [
+    },
+    {
+      "id": "28549037149e3e816adc732a41af3cf3",
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "domain": "thehackernews.com",
+      "snippet": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-05T14:17:02Z",
+      "slug": "trezor-says-shipmonk-breach-exposed-67-000-u-s-customers-data-it-said-28549037",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "cf822ca0e892e571708015aedf1677f9",
+      "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+      "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+      "domain": "securityweek.com",
+      "snippet": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.",
+      "author": "Ionut Arghire",
+      "date": "2026-09-05T13:00:28Z",
+      "slug": "elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites-cf822ca0",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-32475"
+      ]
+    },
+    {
+      "id": "1503c662885bcd2ac0b8feabe40843cc",
+      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying…",
+      "author": "Ax Sharma",
+      "date": "2026-09-05T11:11:50Z",
+      "slug": "openai-admits-it-didn-t-disclose-rogue-ai-wiki-hijacking-incident-1503c662",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "1c98993ec175f54aefd3a20cdf8f6d52",
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
@@ -1174,81 +1250,6 @@
       "hue": 202,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "5c7b6ad938baf62c72b3e5ed562f42a5",
-      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's…",
-      "author": "Bill Toulas",
-      "date": "2026-09-04T16:56:45Z",
-      "slug": "idscan-sued-over-alleged-data-breach-affecting-153-million-drivers-5c7b6ad9",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "breach",
-        "policy"
-      ],
-      "cves": []
-    },
-    {
-      "id": "f44fd1189325eb59cb66a8733d4bc2d6",
-      "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
-      "url": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
-      "domain": "securityweek.com",
-      "snippet": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now…",
-      "author": "SecurityWeek News",
-      "date": "2026-09-04T16:18:30Z",
-      "slug": "in-other-news-microsoft-s-cloud-patches-hacked-dropbox-accounts-guardi-f44fd118",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "e3bb2f8e1bb8ef8aadc40ab0c6f9ae63",
-      "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
-      "url": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
-      "domain": "securityweek.com",
-      "snippet": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates.",
-      "author": "Ionut Arghire",
-      "date": "2026-09-04T16:11:06Z",
-      "slug": "hpe-patches-critical-rce-vulnerabilities-in-aos-cx-e3bb2f8e",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-73749"
-      ]
-    },
-    {
-      "id": "20a83447bcd20f8a9bd407a63c1b7282",
-      "title": "OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders",
-      "url": "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/",
-      "domain": "securityweek.com",
-      "snippet": "The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility.",
-      "author": "Kevin Townsend",
-      "date": "2026-09-04T16:07:22Z",
-      "slug": "openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructu-20a83447",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1308,7 +1309,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 56
+      "count": 57
     },
     {
       "id": "malware",
@@ -1373,6 +1374,10 @@
       "count": 3
     },
     {
+      "id": "CVE-2026-32475",
+      "count": 2
+    },
+    {
       "id": "CVE-2026-83548",
       "count": 2
     },
@@ -1387,20 +1392,16 @@
     {
       "id": "CVE-2026-81578",
       "count": 2
-    },
-    {
-      "id": "CVE-2026-73749",
-      "count": 1
     }
   ],
   "sources_detail": [
     {
       "id": "thehackernews",
       "name": "The Hacker News",
-      "held": 123,
-      "last_run": "2026-09-05T10:53:53Z",
+      "held": 124,
+      "last_run": "2026-09-05T15:31:19Z",
       "last_status": "ok",
-      "newest": "2026-09-05T07:55:10Z",
+      "newest": "2026-09-05T14:17:02Z",
       "home": "https://thehackernews.com/",
       "kind": "news",
       "short": "HN",
@@ -1411,10 +1412,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 86,
-      "last_run": "2026-09-05T10:53:52Z",
+      "held": 88,
+      "last_run": "2026-09-05T15:31:19Z",
       "last_status": "ok",
-      "newest": "2026-09-04T16:56:45Z",
+      "newest": "2026-09-05T14:29:13Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1426,7 +1427,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 84,
-      "last_run": "2026-09-05T10:53:53Z",
+      "last_run": "2026-09-05T15:31:20Z",
       "last_status": "ok",
       "newest": "2026-09-04T15:57:31Z",
       "home": "https://www.darkreading.com/",
@@ -1440,7 +1441,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 80,
-      "last_run": "2026-09-05T10:53:54Z",
+      "last_run": "2026-09-05T15:31:20Z",
       "last_status": "not_modified",
       "newest": "2026-09-04T12:19:50Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1453,10 +1454,10 @@
     {
       "id": "securityweek",
       "name": "SecurityWeek",
-      "held": 75,
-      "last_run": "2026-09-05T10:53:53Z",
-      "last_status": "not_modified",
-      "newest": "2026-09-04T16:18:30Z",
+      "held": 76,
+      "last_run": "2026-09-05T15:31:19Z",
+      "last_status": "ok",
+      "newest": "2026-09-05T13:00:28Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
       "short": "SW",
@@ -1468,7 +1469,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 39,
-      "last_run": "2026-09-05T10:53:58Z",
+      "last_run": "2026-09-05T15:31:23Z",
       "last_status": "not_modified",
       "newest": "2026-09-04T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1482,7 +1483,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 33,
-      "last_run": "2026-09-05T10:53:53Z",
+      "last_run": "2026-09-05T15:31:19Z",
       "last_status": "ok",
       "newest": "2026-09-04T15:42:00Z",
       "home": "https://therecord.media/",
@@ -1496,7 +1497,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 24,
-      "last_run": "2026-09-05T10:53:58Z",
+      "last_run": "2026-09-05T15:31:22Z",
       "last_status": "ok",
       "newest": "2026-09-05T03:39:52Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1510,7 +1511,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 21,
-      "last_run": "2026-09-05T10:53:57Z",
+      "last_run": "2026-09-05T15:31:22Z",
       "last_status": "ok",
       "newest": "2026-09-01T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1524,7 +1525,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 19,
-      "last_run": "2026-09-05T10:53:55Z",
+      "last_run": "2026-09-05T15:31:20Z",
       "last_status": "not_modified",
       "newest": "2026-09-03T10:00:58Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1538,7 +1539,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 18,
-      "last_run": "2026-09-05T10:53:54Z",
+      "last_run": "2026-09-05T15:31:20Z",
       "last_status": "not_modified",
       "newest": "2026-09-03T18:00:13Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1552,7 +1553,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 17,
-      "last_run": "2026-09-05T10:53:57Z",
+      "last_run": "2026-09-05T15:31:22Z",
       "last_status": "not_modified",
       "newest": "2026-09-04T19:10:10Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1566,7 +1567,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 12,
-      "last_run": "2026-09-05T10:53:54Z",
+      "last_run": "2026-09-05T15:31:20Z",
       "last_status": "ok",
       "newest": "2026-09-01T22:40:28Z",
       "home": "https://krebsonsecurity.com/",
@@ -1580,7 +1581,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 10,
-      "last_run": "2026-09-05T10:53:57Z",
+      "last_run": "2026-09-05T15:31:22Z",
       "last_status": "not_modified",
       "newest": "2026-05-13T07:00:00Z",
       "home": "https://projectzero.google/",
