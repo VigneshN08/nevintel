@@ -1,33 +1,60 @@
 {
-  "builtAt": "2026-09-12T11:13:41Z",
-  "articles": 938,
+  "builtAt": "2026-09-12T15:47:57Z",
+  "articles": 939,
   "sources": 14,
-  "rendered": 938,
+  "rendered": 939,
   "live": {
-    "storiesToday": 30,
-    "storiesWeek": 296,
-    "cvesWeek": 11,
+    "storiesToday": 20,
+    "storiesWeek": 294,
+    "cvesWeek": 10,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "5fcbcfa827600c4b49eb9a74cc3312ce",
-    "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
-    "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
-    "domain": "securityweek.com",
-    "snippet": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
-    "author": "Ionut Arghire",
-    "date": "2026-09-12T11:10:00Z",
-    "slug": "bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days-5fcbcfa8",
-    "sourceId": "securityweek",
-    "sourceName": "SecurityWeek",
-    "sourceHome": "https://www.securityweek.com/",
-    "short": "SW",
-    "hue": 210,
-    "topics": [],
-    "cves": []
+    "id": "59b3d76728f85f892241f551191eeb31",
+    "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "domain": "bleepingcomputer.com",
+    "snippet": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103.",
+    "author": "Bill Toulas",
+    "date": "2026-09-12T14:14:32Z",
+    "slug": "dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent-59b3d767",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "sourceHome": "https://www.bleepingcomputer.com/",
+    "short": "BC",
+    "hue": 8,
+    "topics": [
+      "vuln"
+    ],
+    "cves": [
+      "CVE-2026-85102",
+      "CVE-2026-85103"
+    ]
   },
   "feed": [
+    {
+      "id": "59b3d76728f85f892241f551191eeb31",
+      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103.",
+      "author": "Bill Toulas",
+      "date": "2026-09-12T14:14:32Z",
+      "slug": "dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent-59b3d767",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-85102",
+        "CVE-2026-85103"
+      ]
+    },
     {
       "id": "5fcbcfa827600c4b49eb9a74cc3312ce",
       "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
@@ -1106,26 +1133,31 @@
       "hue": 8,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "835d48f9f589804259968dc2dbccba68",
-      "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
-      "url": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
-      "domain": "securityweek.com",
-      "snippet": "Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board.",
-      "author": "Mike Lennon",
-      "date": "2026-09-10T20:30:44Z",
-      "slug": "mandiant-founder-kevin-mandia-joins-amazon-board-835d48f9",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
     }
   ],
   "rail": [
+    {
+      "id": "59b3d76728f85f892241f551191eeb31",
+      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103.",
+      "author": "Bill Toulas",
+      "date": "2026-09-12T14:14:32Z",
+      "slug": "dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent-59b3d767",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-85102",
+        "CVE-2026-85103"
+      ]
+    },
     {
       "id": "5fcbcfa827600c4b49eb9a74cc3312ce",
       "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
@@ -1250,25 +1282,6 @@
       "hue": 275,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "a16d62911725a1cb6cfce739f9247717",
-      "title": "Florida confirms DMV database breached via stolen police account",
-      "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained…",
-      "author": "Lawrence Abrams",
-      "date": "2026-09-11T19:00:29Z",
-      "slug": "florida-confirms-dmv-database-breached-via-stolen-police-account-a16d6291",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "breach"
-      ],
-      "cves": []
     }
   ],
   "topics": [
@@ -1352,7 +1365,7 @@
       "id": "breach",
       "label": "Data Breach",
       "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
-      "count": 11
+      "count": 10
     },
     {
       "id": "apt",
@@ -1391,19 +1404,19 @@
       "count": 3
     },
     {
+      "id": "CVE-2026-85102",
+      "count": 2
+    },
+    {
+      "id": "CVE-2026-85103",
+      "count": 2
+    },
+    {
       "id": "CVE-2026-75650",
       "count": 2
     },
     {
       "id": "CVE-2026-85706",
-      "count": 1
-    },
-    {
-      "id": "CVE-2026-85102",
-      "count": 1
-    },
-    {
-      "id": "CVE-2026-85103",
       "count": 1
     },
     {
@@ -1424,7 +1437,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 180,
-      "last_run": "2026-09-12T11:13:37Z",
+      "last_run": "2026-09-12T15:47:53Z",
       "last_status": "ok",
       "newest": "2026-09-12T10:24:44Z",
       "home": "https://thehackernews.com/",
@@ -1437,10 +1450,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 147,
-      "last_run": "2026-09-12T11:13:36Z",
+      "held": 148,
+      "last_run": "2026-09-12T15:47:53Z",
       "last_status": "ok",
-      "newest": "2026-09-11T20:19:09Z",
+      "newest": "2026-09-12T14:14:32Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1452,7 +1465,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 136,
-      "last_run": "2026-09-12T11:13:38Z",
+      "last_run": "2026-09-12T15:47:54Z",
       "last_status": "not_modified",
       "newest": "2026-09-11T10:05:32Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1466,8 +1479,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 127,
-      "last_run": "2026-09-12T11:13:37Z",
-      "last_status": "ok",
+      "last_run": "2026-09-12T15:47:53Z",
+      "last_status": "not_modified",
       "newest": "2026-09-12T11:10:00Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1480,7 +1493,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 101,
-      "last_run": "2026-09-12T11:13:38Z",
+      "last_run": "2026-09-12T15:47:54Z",
       "last_status": "ok",
       "newest": "2026-09-11T19:21:08Z",
       "home": "https://www.darkreading.com/",
@@ -1494,7 +1507,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 60,
-      "last_run": "2026-09-12T11:13:37Z",
+      "last_run": "2026-09-12T15:47:53Z",
       "last_status": "ok",
       "newest": "2026-09-11T20:00:00Z",
       "home": "https://therecord.media/",
@@ -1508,7 +1521,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 43,
-      "last_run": "2026-09-12T11:13:41Z",
+      "last_run": "2026-09-12T15:47:57Z",
       "last_status": "not_modified",
       "newest": "2026-09-11T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1522,7 +1535,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 33,
-      "last_run": "2026-09-12T11:13:41Z",
+      "last_run": "2026-09-12T15:47:57Z",
       "last_status": "ok",
       "newest": "2026-09-11T14:40:32Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1536,7 +1549,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 23,
-      "last_run": "2026-09-12T11:13:38Z",
+      "last_run": "2026-09-12T15:47:54Z",
       "last_status": "not_modified",
       "newest": "2026-09-10T18:00:15Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1550,7 +1563,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 22,
-      "last_run": "2026-09-12T11:13:41Z",
+      "last_run": "2026-09-12T15:47:56Z",
       "last_status": "ok",
       "newest": "2026-09-08T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1564,7 +1577,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 21,
-      "last_run": "2026-09-12T11:13:41Z",
+      "last_run": "2026-09-12T15:47:57Z",
       "last_status": "not_modified",
       "newest": "2026-09-10T17:23:05Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1578,7 +1591,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 21,
-      "last_run": "2026-09-12T11:13:38Z",
+      "last_run": "2026-09-12T15:47:54Z",
       "last_status": "not_modified",
       "newest": "2026-09-10T10:00:43Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1592,7 +1605,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 13,
-      "last_run": "2026-09-12T11:13:38Z",
+      "last_run": "2026-09-12T15:47:54Z",
       "last_status": "ok",
       "newest": "2026-09-08T21:44:22Z",
       "home": "https://krebsonsecurity.com/",
@@ -1606,7 +1619,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 11,
-      "last_run": "2026-09-12T11:13:41Z",
+      "last_run": "2026-09-12T15:47:56Z",
       "last_status": "not_modified",
       "newest": "2026-09-08T07:00:00Z",
       "home": "https://projectzero.google/",
