@@ -1,35 +1,77 @@
 {
-  "builtAt": "2026-09-13T12:15:41Z",
-  "articles": 942,
+  "builtAt": "2026-09-13T16:36:23Z",
+  "articles": 944,
   "sources": 14,
-  "rendered": 942,
+  "rendered": 944,
   "live": {
     "storiesToday": 4,
-    "storiesWeek": 291,
-    "cvesWeek": 10,
+    "storiesWeek": 292,
+    "cvesWeek": 11,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "fa59062d0b2fe8ab1a853f667c534cb0",
-    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-    "domain": "thehackernews.com",
-    "snippet": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using…",
-    "author": "info@thehackernews.com (The Hacker News)",
-    "date": "2026-09-13T10:11:48Z",
-    "slug": "attackers-use-passkey-phishing-to-hijack-microsoft-cloud-accounts-and-fa59062d",
-    "sourceId": "thehackernews",
-    "sourceName": "The Hacker News",
-    "sourceHome": "https://thehackernews.com/",
-    "short": "HN",
-    "hue": 168,
+    "id": "b2a972265875efe106ea2f412ef95fbf",
+    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "domain": "bleepingcomputer.com",
+    "snippet": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit…",
+    "author": "Bill Toulas",
+    "date": "2026-09-13T14:26:32Z",
+    "slug": "hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware-b2a97226",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "sourceHome": "https://www.bleepingcomputer.com/",
+    "short": "BC",
+    "hue": 8,
     "topics": [
-      "phishing"
+      "vuln",
+      "malware"
     ],
-    "cves": []
+    "cves": [
+      "CVE-2026-51990"
+    ]
   },
   "feed": [
+    {
+      "id": "b2a972265875efe106ea2f412ef95fbf",
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit…",
+      "author": "Bill Toulas",
+      "date": "2026-09-13T14:26:32Z",
+      "slug": "hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware-b2a97226",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln",
+        "malware"
+      ],
+      "cves": [
+        "CVE-2026-51990"
+      ]
+    },
+    {
+      "id": "d0aa5308c1822f018d870b246a710553",
+      "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+      "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+      "domain": "securityweek.com",
+      "snippet": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire…",
+      "author": "Associated Press",
+      "date": "2026-09-13T13:27:25Z",
+      "slug": "anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measu-d0aa5308",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "fa59062d0b2fe8ab1a853f667c534cb0",
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
@@ -1097,48 +1139,48 @@
       "hue": 60,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "133227570f5c5c019b0e16cc908d5cdd",
-      "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
-      "url": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
-      "domain": "darkreading.com",
-      "snippet": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-      "author": "Alexander Culafi",
-      "date": "2026-09-11T01:00:00Z",
-      "slug": "indonesia-hit-by-android-banking-app-cloning-campaign-13322757",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [
-        "malware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "b8fb164281cc000e4810214e0ef51439",
-      "title": "New Android malware encrypts files, steals data, and harasses victims",
-      "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+      "id": "b2a972265875efe106ea2f412ef95fbf",
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
       "domain": "bleepingcomputer.com",
-      "snippet": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims.",
+      "snippet": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit…",
       "author": "Bill Toulas",
-      "date": "2026-09-10T21:40:43Z",
-      "slug": "new-android-malware-encrypts-files-steals-data-and-harasses-victims-b8fb1642",
+      "date": "2026-09-13T14:26:32Z",
+      "slug": "hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware-b2a97226",
       "sourceId": "bleepingcomputer",
       "sourceName": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
       "short": "BC",
       "hue": 8,
       "topics": [
-        "ransomware",
+        "vuln",
         "malware"
       ],
+      "cves": [
+        "CVE-2026-51990"
+      ]
+    },
+    {
+      "id": "d0aa5308c1822f018d870b246a710553",
+      "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+      "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+      "domain": "securityweek.com",
+      "snippet": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire…",
+      "author": "Associated Press",
+      "date": "2026-09-13T13:27:25Z",
+      "slug": "anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measu-d0aa5308",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
       "cves": []
-    }
-  ],
-  "rail": [
+    },
     {
       "id": "fa59062d0b2fe8ab1a853f667c534cb0",
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
@@ -1251,42 +1293,6 @@
       "hue": 168,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "f05890c0a6ffeeaa8052a314a8ec36a8",
-      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-      "domain": "thehackernews.com",
-      "snippet": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-12T09:07:56Z",
-      "slug": "openai-agents-linked-to-rubygems-campaign-that-gained-rce-on-rubydoc-s-f05890c0",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "d89ce8dbe6ae6c2a3be730768ac06875",
-      "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
-      "url": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
-      "domain": "securityweek.com",
-      "snippet": "Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket.",
-      "author": "Associated Press",
-      "date": "2026-09-12T01:50:53Z",
-      "slug": "users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-a-d89ce8db",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1346,19 +1352,19 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 66
+      "count": 67
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 28
+      "count": 29
     },
     {
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 20
+      "count": 19
     },
     {
       "id": "ransomware",
@@ -1421,6 +1427,10 @@
       "count": 2
     },
     {
+      "id": "CVE-2026-51990",
+      "count": 1
+    },
+    {
       "id": "CVE-2026-85706",
       "count": 1
     },
@@ -1431,10 +1441,6 @@
     {
       "id": "CVE-2026-20316",
       "count": 1
-    },
-    {
-      "id": "CVE-2025-25249",
-      "count": 1
     }
   ],
   "sources_detail": [
@@ -1442,7 +1448,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 182,
-      "last_run": "2026-09-13T12:15:35Z",
+      "last_run": "2026-09-13T16:36:19Z",
       "last_status": "ok",
       "newest": "2026-09-13T10:11:48Z",
       "home": "https://thehackernews.com/",
@@ -1455,10 +1461,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 148,
-      "last_run": "2026-09-13T12:15:34Z",
+      "held": 149,
+      "last_run": "2026-09-13T16:36:18Z",
       "last_status": "ok",
-      "newest": "2026-09-12T14:14:32Z",
+      "newest": "2026-09-13T14:26:32Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1470,8 +1476,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 137,
-      "last_run": "2026-09-13T12:15:37Z",
-      "last_status": "ok",
+      "last_run": "2026-09-13T16:36:20Z",
+      "last_status": "not_modified",
       "newest": "2026-09-13T08:00:57Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1483,10 +1489,10 @@
     {
       "id": "securityweek",
       "name": "SecurityWeek",
-      "held": 127,
-      "last_run": "2026-09-13T12:15:35Z",
-      "last_status": "not_modified",
-      "newest": "2026-09-12T11:10:00Z",
+      "held": 128,
+      "last_run": "2026-09-13T16:36:19Z",
+      "last_status": "ok",
+      "newest": "2026-09-13T13:27:25Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
       "short": "SW",
@@ -1498,7 +1504,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 101,
-      "last_run": "2026-09-13T12:15:36Z",
+      "last_run": "2026-09-13T16:36:20Z",
       "last_status": "ok",
       "newest": "2026-09-11T19:21:08Z",
       "home": "https://www.darkreading.com/",
@@ -1512,7 +1518,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 60,
-      "last_run": "2026-09-13T12:15:35Z",
+      "last_run": "2026-09-13T16:36:19Z",
       "last_status": "ok",
       "newest": "2026-09-11T20:00:00Z",
       "home": "https://therecord.media/",
@@ -1526,7 +1532,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 43,
-      "last_run": "2026-09-13T12:15:41Z",
+      "last_run": "2026-09-13T16:36:23Z",
       "last_status": "not_modified",
       "newest": "2026-09-11T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1540,7 +1546,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 33,
-      "last_run": "2026-09-13T12:15:41Z",
+      "last_run": "2026-09-13T16:36:22Z",
       "last_status": "ok",
       "newest": "2026-09-11T14:40:32Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1554,7 +1560,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 23,
-      "last_run": "2026-09-13T12:15:37Z",
+      "last_run": "2026-09-13T16:36:20Z",
       "last_status": "not_modified",
       "newest": "2026-09-10T18:00:15Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1568,7 +1574,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 22,
-      "last_run": "2026-09-13T12:15:39Z",
+      "last_run": "2026-09-13T16:36:22Z",
       "last_status": "ok",
       "newest": "2026-09-08T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1582,7 +1588,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 21,
-      "last_run": "2026-09-13T12:15:40Z",
+      "last_run": "2026-09-13T16:36:22Z",
       "last_status": "not_modified",
       "newest": "2026-09-10T17:23:05Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1596,7 +1602,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 21,
-      "last_run": "2026-09-13T12:15:37Z",
+      "last_run": "2026-09-13T16:36:20Z",
       "last_status": "not_modified",
       "newest": "2026-09-10T10:00:43Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1610,8 +1616,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 13,
-      "last_run": "2026-09-13T12:15:37Z",
-      "last_status": "ok",
+      "last_run": "2026-09-13T16:36:20Z",
+      "last_status": "not_modified",
       "newest": "2026-09-08T21:44:22Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1624,7 +1630,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 11,
-      "last_run": "2026-09-13T12:15:40Z",
+      "last_run": "2026-09-13T16:36:22Z",
       "last_status": "not_modified",
       "newest": "2026-09-08T07:00:00Z",
       "home": "https://projectzero.google/",
