@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-09-19T00:36:03Z",
-    "etag": "dd12335565208aa72725bdfbd15d53e2",
-    "last_modified": "Sat, 19 Sep 2026 00:30:52 GMT"
+    "checked": "2026-09-19T05:03:49Z",
+    "etag": "c05eee31f4d31d38d3441e5c34554135",
+    "last_modified": "Sat, 19 Sep 2026 05:01:01 GMT"
   },
   "darkreading": {
-    "checked": "2026-09-19T00:36:05Z",
+    "checked": "2026-09-19T05:03:50Z",
     "etag": "",
-    "last_modified": "Sat, 19 Sep 2026 00:36:05 GMT"
+    "last_modified": "Sat, 19 Sep 2026 05:03:50 GMT"
   },
   "googletil": {
-    "checked": "2026-09-19T00:36:08Z",
+    "checked": "2026-09-19T05:03:52Z",
     "etag": "",
     "last_modified": ""
   },
@@ -20,9 +20,9 @@
     "last_modified": "Fri, 18 Sep 2026 12:20:03 GMT"
   },
   "krebs": {
-    "checked": "2026-09-18T00:45:28Z",
+    "checked": "2026-09-19T05:03:50Z",
     "etag": "",
-    "last_modified": "Fri, 18 Sep 2026 00:39:33 GMT"
+    "last_modified": "Sat, 19 Sep 2026 04:56:41 GMT"
   },
   "msrc": {
     "checked": "2026-09-17T21:43:24Z",
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 15 Sep 2026 21:22:50 GMT"
   },
   "sans_isc": {
-    "checked": "2026-09-19T00:36:09Z",
-    "etag": "W/\"1c60-65bcb2c95a3a1\"",
-    "last_modified": "Sat, 19 Sep 2026 00:34:04 GMT"
+    "checked": "2026-09-19T05:03:53Z",
+    "etag": "W/\"1c60-65bcee01b6385\"",
+    "last_modified": "Sat, 19 Sep 2026 04:59:01 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-09-18T07:36:11Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-09-19T00:36:04Z",
+    "checked": "2026-09-19T05:03:49Z",
     "etag": "",
-    "last_modified": "Sat, 19 Sep 2026 00:29:37 GMT"
+    "last_modified": "Sat, 19 Sep 2026 04:55:30 GMT"
   },
   "therecord": {
-    "checked": "2026-09-19T00:36:04Z",
+    "checked": "2026-09-19T05:03:49Z",
     "etag": "",
     "last_modified": ""
   },
