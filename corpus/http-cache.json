@@ -1,23 +1,23 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-09-20T22:40:42Z",
-    "etag": "c42d1b24cc355471a5a29f1988943c0b",
-    "last_modified": "Sun, 20 Sep 2026 22:32:22 GMT"
+    "checked": "2026-09-21T05:24:55Z",
+    "etag": "e71023d64a13fc464e5f806053015ab5",
+    "last_modified": "Mon, 21 Sep 2026 05:22:36 GMT"
   },
   "darkreading": {
-    "checked": "2026-09-20T22:40:43Z",
+    "checked": "2026-09-21T05:24:56Z",
     "etag": "",
-    "last_modified": "Sun, 20 Sep 2026 22:40:43 GMT"
+    "last_modified": "Mon, 21 Sep 2026 05:24:56 GMT"
   },
   "googletil": {
-    "checked": "2026-09-20T22:40:45Z",
+    "checked": "2026-09-21T05:25:05Z",
     "etag": "",
     "last_modified": ""
   },
   "helpnetsecurity": {
-    "checked": "2026-09-20T11:47:02Z",
+    "checked": "2026-09-21T05:24:57Z",
     "etag": "",
-    "last_modified": "Sun, 20 Sep 2026 08:00:21 GMT"
+    "last_modified": "Mon, 21 Sep 2026 05:00:32 GMT"
   },
   "krebs": {
     "checked": "2026-09-20T19:02:34Z",
@@ -35,14 +35,14 @@
     "last_modified": "Tue, 15 Sep 2026 21:22:50 GMT"
   },
   "sans_isc": {
-    "checked": "2026-09-20T22:40:46Z",
-    "etag": "W/\"1c60-65bf1ccb4b7cc\"",
-    "last_modified": "Sun, 20 Sep 2026 22:38:59 GMT"
+    "checked": "2026-09-21T05:25:06Z",
+    "etag": "W/\"1c60-65bf763b0dc91\"",
+    "last_modified": "Mon, 21 Sep 2026 05:19:07 GMT"
   },
   "sans_stormcast": {
-    "checked": "2026-09-18T07:36:11Z",
-    "etag": "W/\"2cd1b-65bb83e6a7264\"",
-    "last_modified": "Fri, 18 Sep 2026 01:58:59 GMT"
+    "checked": "2026-09-21T05:25:06Z",
+    "etag": "W/\"2cd2a-65bf751e6f3b1\"",
+    "last_modified": "Mon, 21 Sep 2026 05:14:09 GMT"
   },
   "securityweek": {
     "checked": "2026-09-20T19:02:33Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-09-20T22:40:43Z",
+    "checked": "2026-09-21T05:24:55Z",
     "etag": "",
-    "last_modified": "Sun, 20 Sep 2026 21:59:11 GMT"
+    "last_modified": "Mon, 21 Sep 2026 05:02:20 GMT"
   },
   "therecord": {
-    "checked": "2026-09-20T22:40:43Z",
+    "checked": "2026-09-21T05:24:55Z",
     "etag": "",
     "last_modified": ""
   },
