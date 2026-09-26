@@ -1,33 +1,94 @@
 {
-  "builtAt": "2026-09-26T18:00:22Z",
-  "articles": 1572,
+  "builtAt": "2026-09-26T21:31:16Z",
+  "articles": 1575,
   "sources": 14,
-  "rendered": 1572,
+  "rendered": 1575,
   "live": {
-    "storiesToday": 19,
-    "storiesWeek": 320,
-    "cvesWeek": 10,
+    "storiesToday": 17,
+    "storiesWeek": 323,
+    "cvesWeek": 11,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "1d5487d8b2c1f7862ef1711eb4e7389c",
-    "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+    "id": "77ddfbcd4e34cd1f512579673599510b",
+    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
     "domain": "bleepingcomputer.com",
-    "snippet": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording…",
-    "author": "Mayank Parmar",
-    "date": "2026-09-26T16:26:58Z",
-    "slug": "claude-opus-5-5-uses-95-fewer-em-dashes-but-its-answers-are-getting-lo-1d5487d8",
+    "snippet": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat…",
+    "author": "Lawrence Abrams",
+    "date": "2026-09-26T19:03:34Z",
+    "slug": "shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks-77ddfbcd",
     "sourceId": "bleepingcomputer",
     "sourceName": "BleepingComputer",
     "sourceHome": "https://www.bleepingcomputer.com/",
     "short": "BC",
     "hue": 8,
-    "topics": [],
-    "cves": []
+    "topics": [
+      "vuln"
+    ],
+    "cves": [
+      "CVE-2026-35273"
+    ]
   },
   "feed": [
+    {
+      "id": "77ddfbcd4e34cd1f512579673599510b",
+      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat…",
+      "author": "Lawrence Abrams",
+      "date": "2026-09-26T19:03:34Z",
+      "slug": "shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks-77ddfbcd",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-35273"
+      ]
+    },
+    {
+      "id": "9f09894f2cc84b8d206e83ce38e0c09c",
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "domain": "thehackernews.com",
+      "snippet": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-26T18:22:52Z",
+      "slug": "lunex-stealer-abuses-amd-driver-to-disable-security-monitoring-and-ste-9f09894f",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "malware"
+      ],
+      "cves": []
+    },
+    {
+      "id": "94248264e272226658ce0cf67887d463",
+      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+      "domain": "securityweek.com",
+      "snippet": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.",
+      "author": "Associated Press",
+      "date": "2026-09-26T18:09:28Z",
+      "slug": "china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-a-94248264",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "1d5487d8b2c1f7862ef1711eb4e7389c",
       "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
@@ -1042,60 +1103,66 @@
       "hue": 150,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "b6378b315cd4f7dbd6c94541e56b9b7f",
-      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-      "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-      "domain": "thehackernews.com",
-      "snippet": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-25T04:49:22Z",
-      "slug": "cloudflare-fixes-flaw-that-let-one-container-read-another-customer-s-l-b6378b31",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "9b34a9a8785cc70c6f43f79337607d44",
-      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-      "domain": "thehackernews.com",
-      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-25T04:46:34Z",
-      "slug": "wso2-and-adobe-commerce-flaws-exploited-in-attacks-added-to-cisa-kev-9b34a9a8",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "75a7853487311ca326a516c765e13273",
-      "title": "Your incident count is missing a few incidents",
-      "url": "https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "If you run security for a brand with hundreds or thousands of locations, the tools you’ve bought may have little to do with whether an…",
-      "author": "Anamarija Pogorelec",
-      "date": "2026-09-25T04:30:26Z",
-      "slug": "your-incident-count-is-missing-a-few-incidents-75a78534",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [],
-      "cves": []
     }
   ],
   "rail": [
+    {
+      "id": "77ddfbcd4e34cd1f512579673599510b",
+      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat…",
+      "author": "Lawrence Abrams",
+      "date": "2026-09-26T19:03:34Z",
+      "slug": "shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks-77ddfbcd",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-35273"
+      ]
+    },
+    {
+      "id": "9f09894f2cc84b8d206e83ce38e0c09c",
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "domain": "thehackernews.com",
+      "snippet": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-09-26T18:22:52Z",
+      "slug": "lunex-stealer-abuses-amd-driver-to-disable-security-monitoring-and-ste-9f09894f",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "malware"
+      ],
+      "cves": []
+    },
+    {
+      "id": "94248264e272226658ce0cf67887d463",
+      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+      "domain": "securityweek.com",
+      "snippet": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.",
+      "author": "Associated Press",
+      "date": "2026-09-26T18:09:28Z",
+      "slug": "china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-a-94248264",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "1d5487d8b2c1f7862ef1711eb4e7389c",
       "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
@@ -1182,59 +1249,6 @@
         "malware"
       ],
       "cves": []
-    },
-    {
-      "id": "124ca5b2bbe434fe47a02f4a37c34f07",
-      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "domain": "thehackernews.com",
-      "snippet": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-26T11:46:40Z",
-      "slug": "attackers-bypass-wafs-to-exploit-oracle-peoplesoft-flaw-and-deploy-web-124ca5b2",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "3c874b7b99d0057a93894065fb515265",
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "domain": "thehackernews.com",
-      "snippet": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-26T10:30:00Z",
-      "slug": "zero-trust-for-ai-agents-starts-with-fixing-zero-visibility-3c874b7b",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "124597f2c40ed8b9c93ed6af05109676",
-      "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
-      "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-      "domain": "securityweek.com",
-      "snippet": "OpenAI’s CEO said there is an “extensive and ongoing review related to our agents’ use of internet access during training and evaluation.”",
-      "author": "Associated Press",
-      "date": "2026-09-26T10:15:41Z",
-      "slug": "openai-says-its-models-engaged-with-us-government-websites-in-new-mode-124597f2",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1294,13 +1308,13 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 52
+      "count": 53
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 36
+      "count": 37
     },
     {
       "id": "phishing",
@@ -1357,6 +1371,10 @@
       "count": 4
     },
     {
+      "id": "CVE-2026-35273",
+      "count": 1
+    },
+    {
       "id": "CVE-2026-5430",
       "count": 1
     },
@@ -1379,20 +1397,16 @@
     {
       "id": "CVE-2026-93616",
       "count": 1
-    },
-    {
-      "id": "CVE-2026-86296",
-      "count": 1
     }
   ],
   "sources_detail": [
     {
       "id": "thehackernews",
       "name": "The Hacker News",
-      "held": 297,
-      "last_run": "2026-09-26T18:00:13Z",
+      "held": 298,
+      "last_run": "2026-09-26T21:31:12Z",
       "last_status": "ok",
-      "newest": "2026-09-26T11:46:40Z",
+      "newest": "2026-09-26T18:22:52Z",
       "home": "https://thehackernews.com/",
       "kind": "news",
       "short": "HN",
@@ -1404,7 +1418,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 277,
-      "last_run": "2026-09-26T18:00:13Z",
+      "last_run": "2026-09-26T21:31:13Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T12:04:03Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1417,10 +1431,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 262,
-      "last_run": "2026-09-26T18:00:12Z",
+      "held": 263,
+      "last_run": "2026-09-26T21:31:11Z",
       "last_status": "ok",
-      "newest": "2026-09-26T16:26:58Z",
+      "newest": "2026-09-26T19:03:34Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1431,10 +1445,10 @@
     {
       "id": "securityweek",
       "name": "SecurityWeek",
-      "held": 234,
-      "last_run": "2026-09-26T18:00:13Z",
+      "held": 235,
+      "last_run": "2026-09-26T21:31:12Z",
       "last_status": "ok",
-      "newest": "2026-09-26T12:00:00Z",
+      "newest": "2026-09-26T18:09:28Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
       "short": "SW",
@@ -1446,7 +1460,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 146,
-      "last_run": "2026-09-26T18:00:13Z",
+      "last_run": "2026-09-26T21:31:13Z",
       "last_status": "ok",
       "newest": "2026-09-25T18:39:32Z",
       "home": "https://www.darkreading.com/",
@@ -1460,7 +1474,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 115,
-      "last_run": "2026-09-26T18:00:13Z",
+      "last_run": "2026-09-26T21:31:12Z",
       "last_status": "ok",
       "newest": "2026-09-25T20:19:00Z",
       "home": "https://therecord.media/",
@@ -1474,7 +1488,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 53,
-      "last_run": "2026-09-26T18:00:22Z",
+      "last_run": "2026-09-26T21:31:15Z",
       "last_status": "ok",
       "newest": "2026-09-25T06:45:47Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1488,7 +1502,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 53,
-      "last_run": "2026-09-26T18:00:22Z",
+      "last_run": "2026-09-26T21:31:16Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T03:45:12Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1502,7 +1516,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 29,
-      "last_run": "2026-09-26T18:00:14Z",
+      "last_run": "2026-09-26T21:31:13Z",
       "last_status": "not_modified",
       "newest": "2026-09-24T18:00:37Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1516,7 +1530,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 28,
-      "last_run": "2026-09-26T18:00:22Z",
+      "last_run": "2026-09-26T21:31:15Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T15:35:08Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1530,7 +1544,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 27,
-      "last_run": "2026-09-26T18:00:14Z",
+      "last_run": "2026-09-26T21:31:13Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T23:00:28Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1544,7 +1558,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 24,
-      "last_run": "2026-09-26T18:00:21Z",
+      "last_run": "2026-09-26T21:31:15Z",
       "last_status": "ok",
       "newest": "2026-09-25T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1558,8 +1572,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 15,
-      "last_run": "2026-09-26T18:00:14Z",
-      "last_status": "ok",
+      "last_run": "2026-09-26T21:31:13Z",
+      "last_status": "not_modified",
       "newest": "2026-09-25T21:44:40Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1572,7 +1586,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 12,
-      "last_run": "2026-09-26T18:00:22Z",
+      "last_run": "2026-09-26T21:31:15Z",
       "last_status": "not_modified",
       "newest": "2026-09-21T07:00:00Z",
       "home": "https://projectzero.google/",
