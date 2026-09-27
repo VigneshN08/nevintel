@@ -1,33 +1,96 @@
 {
-  "builtAt": "2026-09-27T14:16:13Z",
-  "articles": 1579,
+  "builtAt": "2026-09-27T18:38:33Z",
+  "articles": 1582,
   "sources": 14,
-  "rendered": 1579,
+  "rendered": 1582,
   "live": {
-    "storiesToday": 10,
-    "storiesWeek": 324,
-    "cvesWeek": 12,
+    "storiesToday": 8,
+    "storiesWeek": 327,
+    "cvesWeek": 14,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "b3dddf9b03fd17ca3873bcf2bc838570",
-    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+    "id": "0954e8dba9d8d6736374c0af35bd892c",
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
     "domain": "bleepingcomputer.com",
-    "snippet": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more.",
-    "author": "Mayank Parmar",
-    "date": "2026-09-27T13:38:40Z",
-    "slug": "anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plugins-and-c-b3dddf9b",
+    "snippet": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has…",
+    "author": "Lawrence Abrams",
+    "date": "2026-09-27T16:02:37Z",
+    "slug": "citrix-confirms-two-netscaler-rce-zero-days-exploited-in-attacks-0954e8db",
     "sourceId": "bleepingcomputer",
     "sourceName": "BleepingComputer",
     "sourceHome": "https://www.bleepingcomputer.com/",
     "short": "BC",
     "hue": 8,
-    "topics": [],
-    "cves": []
+    "topics": [
+      "vuln"
+    ],
+    "cves": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+    ]
   },
   "feed": [
+    {
+      "id": "0954e8dba9d8d6736374c0af35bd892c",
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has…",
+      "author": "Lawrence Abrams",
+      "date": "2026-09-27T16:02:37Z",
+      "slug": "citrix-confirms-two-netscaler-rce-zero-days-exploited-in-attacks-0954e8db",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772"
+      ]
+    },
+    {
+      "id": "52a8258cf974a555b6dfed1c32be429e",
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33372",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-27T15:04:49Z",
+      "slug": "wireshark-4-6-9-released-sun-sep-27th-52a8258c",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "cf659e9658b9aff55be0ba8d9df78fd8",
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers…",
+      "author": "Bill Toulas",
+      "date": "2026-09-27T14:13:31Z",
+      "slug": "cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data-cf659e96",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
     {
       "id": "b3dddf9b03fd17ca3873bcf2bc838570",
       "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
@@ -1046,62 +1109,67 @@
       "hue": 150,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "c50617df14c9c3302d7c51f9aac2c2a8",
-      "title": "SentinelOne extends Wayfinder coverage across endpoints, identities, and cloud workloads",
-      "url": "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "SentinelOne has announced the expansion of Wayfinder Threat Hunting to the major public cloud services: AWS, Azure, and Google Cloud. It’s the latest offering from…",
-      "author": "Industry News",
-      "date": "2026-09-25T07:36:24Z",
-      "slug": "sentinelone-extends-wayfinder-coverage-across-endpoints-identities-and-c50617df",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [
-        "cloud"
-      ],
-      "cves": []
-    },
-    {
-      "id": "a4d8d59d54edfc5396159ad8e5190da3",
-      "title": "Dataiku Agent Management reveals unmonitored AI agents",
-      "url": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Dataiku has announced the launch of Agent Management, a standalone product that finds every AI agent an enterprise is running, regardless of which platform built…",
-      "author": "Industry News",
-      "date": "2026-09-25T07:30:11Z",
-      "slug": "dataiku-agent-management-reveals-unmonitored-ai-agents-a4d8d59d",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "e56c0a307f67aa376c3640b54bc3a636",
-      "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
-      "url": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
-      "domain": "darkreading.com",
-      "snippet": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
-      "author": "Alexander Culafi",
-      "date": "2026-09-25T07:00:00Z",
-      "slug": "russia-s-hybrid-cyber-physical-war-in-europe-heats-up-e56c0a30",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
     }
   ],
   "rail": [
+    {
+      "id": "0954e8dba9d8d6736374c0af35bd892c",
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has…",
+      "author": "Lawrence Abrams",
+      "date": "2026-09-27T16:02:37Z",
+      "slug": "citrix-confirms-two-netscaler-rce-zero-days-exploited-in-attacks-0954e8db",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772"
+      ]
+    },
+    {
+      "id": "52a8258cf974a555b6dfed1c32be429e",
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33372",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-27T15:04:49Z",
+      "slug": "wireshark-4-6-9-released-sun-sep-27th-52a8258c",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "cf659e9658b9aff55be0ba8d9df78fd8",
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers…",
+      "author": "Bill Toulas",
+      "date": "2026-09-27T14:13:31Z",
+      "slug": "cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data-cf659e96",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
     {
       "id": "b3dddf9b03fd17ca3873bcf2bc838570",
       "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
@@ -1196,59 +1264,6 @@
       "cves": [
         "CVE-2026-35273"
       ]
-    },
-    {
-      "id": "9f09894f2cc84b8d206e83ce38e0c09c",
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "domain": "thehackernews.com",
-      "snippet": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-26T18:22:52Z",
-      "slug": "lunex-stealer-abuses-amd-driver-to-disable-security-monitoring-and-ste-9f09894f",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "malware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "94248264e272226658ce0cf67887d463",
-      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
-      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
-      "domain": "securityweek.com",
-      "snippet": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.",
-      "author": "Associated Press",
-      "date": "2026-09-26T18:09:28Z",
-      "slug": "china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-a-94248264",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "1d5487d8b2c1f7862ef1711eb4e7389c",
-      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording…",
-      "author": "Mayank Parmar",
-      "date": "2026-09-26T16:26:58Z",
-      "slug": "claude-opus-5-5-uses-95-fewer-em-dashes-but-its-answers-are-getting-lo-1d5487d8",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1308,7 +1323,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 54
+      "count": 56
     },
     {
       "id": "malware",
@@ -1371,6 +1386,14 @@
       "count": 4
     },
     {
+      "id": "CVE-2026-88771",
+      "count": 1
+    },
+    {
+      "id": "CVE-2026-88772",
+      "count": 1
+    },
+    {
       "id": "CVE-2026-65660",
       "count": 1
     },
@@ -1389,14 +1412,6 @@
     {
       "id": "CVE-2026-28324",
       "count": 1
-    },
-    {
-      "id": "CVE-2026-28325",
-      "count": 1
-    },
-    {
-      "id": "CVE-2026-85102",
-      "count": 1
     }
   ],
   "sources_detail": [
@@ -1404,7 +1419,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 299,
-      "last_run": "2026-09-27T14:16:09Z",
+      "last_run": "2026-09-27T18:38:28Z",
       "last_status": "ok",
       "newest": "2026-09-27T07:47:57Z",
       "home": "https://thehackernews.com/",
@@ -1418,8 +1433,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 278,
-      "last_run": "2026-09-27T14:16:10Z",
-      "last_status": "ok",
+      "last_run": "2026-09-27T18:38:29Z",
+      "last_status": "not_modified",
       "newest": "2026-09-27T08:00:49Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1431,10 +1446,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 264,
-      "last_run": "2026-09-27T14:16:09Z",
+      "held": 266,
+      "last_run": "2026-09-27T18:38:28Z",
       "last_status": "ok",
-      "newest": "2026-09-27T13:38:40Z",
+      "newest": "2026-09-27T16:02:37Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1446,8 +1461,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 236,
-      "last_run": "2026-09-27T14:16:09Z",
-      "last_status": "ok",
+      "last_run": "2026-09-27T18:38:28Z",
+      "last_status": "not_modified",
       "newest": "2026-09-27T09:23:09Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1460,7 +1475,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 146,
-      "last_run": "2026-09-27T14:16:10Z",
+      "last_run": "2026-09-27T18:38:29Z",
       "last_status": "ok",
       "newest": "2026-09-25T18:39:32Z",
       "home": "https://www.darkreading.com/",
@@ -1474,7 +1489,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 115,
-      "last_run": "2026-09-27T14:16:09Z",
+      "last_run": "2026-09-27T18:38:28Z",
       "last_status": "ok",
       "newest": "2026-09-25T20:19:00Z",
       "home": "https://therecord.media/",
@@ -1487,10 +1502,10 @@
     {
       "id": "sans_isc",
       "name": "SANS ISC",
-      "held": 53,
-      "last_run": "2026-09-27T14:16:13Z",
+      "held": 54,
+      "last_run": "2026-09-27T18:38:33Z",
       "last_status": "ok",
-      "newest": "2026-09-25T06:45:47Z",
+      "newest": "2026-09-27T15:04:49Z",
       "home": "https://isc.sans.edu/diary.html",
       "kind": "research",
       "short": "ISC",
@@ -1502,7 +1517,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 53,
-      "last_run": "2026-09-27T14:16:13Z",
+      "last_run": "2026-09-27T18:38:33Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T03:45:12Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1516,7 +1531,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 29,
-      "last_run": "2026-09-27T14:16:10Z",
+      "last_run": "2026-09-27T18:38:29Z",
       "last_status": "not_modified",
       "newest": "2026-09-24T18:00:37Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1530,7 +1545,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 28,
-      "last_run": "2026-09-27T14:16:12Z",
+      "last_run": "2026-09-27T18:38:33Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T15:35:08Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1544,7 +1559,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 27,
-      "last_run": "2026-09-27T14:16:11Z",
+      "last_run": "2026-09-27T18:38:30Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T23:00:28Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1558,7 +1573,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 24,
-      "last_run": "2026-09-27T14:16:12Z",
+      "last_run": "2026-09-27T18:38:32Z",
       "last_status": "ok",
       "newest": "2026-09-25T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1572,7 +1587,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 15,
-      "last_run": "2026-09-27T14:16:10Z",
+      "last_run": "2026-09-27T18:38:29Z",
       "last_status": "not_modified",
       "newest": "2026-09-25T21:44:40Z",
       "home": "https://krebsonsecurity.com/",
@@ -1586,7 +1601,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 12,
-      "last_run": "2026-09-27T14:16:12Z",
+      "last_run": "2026-09-27T18:38:33Z",
       "last_status": "not_modified",
       "newest": "2026-09-21T07:00:00Z",
       "home": "https://projectzero.google/",
