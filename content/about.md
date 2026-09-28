@@ -30,6 +30,28 @@ text before it can reach a template.
 The whole thing is open — the [repository](https://github.com/VigneshN08/nevisec)
 contains the fetcher, the templates, and the corpus.
 
+## Push notifications
+
+The "Push Alerts" panel on the home page can send a notification straight to
+one device the moment the pipeline finds new stories -- no app, no account,
+built on the open Web Push standard (RFC 8291) rather than a third-party
+notification vendor.
+
+It is single-recipient by design: there is no server here beyond GitHub
+Actions, so there is nowhere for a subscription to be stored except a GitHub
+Actions secret on this repository. Clicking "Enable notifications" asks your
+browser to create a subscription and displays it on screen for you to copy;
+whoever administers the repository pastes it into the `PUSH_SUBSCRIPTION`
+secret (alongside a `VAPID_PRIVATE_KEY` secret generated once, up front) and
+the next scheduled build will use it. If that is not you, the button still
+works, it just will not reach anything without that step.
+
+The pipeline (`pipeline/notify.py`) never sends anything if those secrets
+are not set, and a delivery failure -- an expired subscription, a push
+service outage -- never fails the site build. Message bodies are encrypted
+end to end (aes128gcm) before they leave GitHub's servers; the push service
+in between only ever sees ciphertext.
+
 ## No tracking
 
 No analytics, no cookies, no third-party scripts, no fonts or assets loaded
