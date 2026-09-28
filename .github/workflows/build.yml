@@ -62,6 +62,16 @@ jobs:
       - name: Fetch feeds
         run: python pipeline/fetch.py
 
+      # Fail-open by construction (see pipeline/notify.py): no secrets yet,
+      # nothing new this run, or the push service rejecting an expired
+      # subscription all just print a line and exit 0. This step is never
+      # the reason a build goes red.
+      - name: Send push notification
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+        run: python pipeline/notify.py
+
       - name: Render content
         run: python pipeline/render.py
 
