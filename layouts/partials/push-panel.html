@@ -1,0 +1,20 @@
+{{- /*
+  Push notifications, opt-in per device. There is no server here beyond
+  GitHub Actions, so there is nowhere for a subscribe click to silently post
+  itself to -- the browser's subscription JSON is shown on screen and the
+  person copies it into the PUSH_SUBSCRIPTION repo secret themselves. The
+  pipeline (pipeline/notify.py) reads that secret and sends a push the next
+  time it finds new stories. See the About page for the full setup.
+*/ -}}
+<section class="panel sub-side" id="push-panel">
+  <div class="panel-h">{{ partial "icon.html" "bell" }}<h2>Push Alerts</h2></div>
+  <div class="panel-b">
+    <p id="push-note">Get a notification on this device the moment new
+      stories land &mdash; no app store, no account.</p>
+    <button class="sub-go" type="button" id="push-btn">Enable notifications</button>
+    <p class="sub-alt" id="push-status" hidden></p>
+    <textarea id="push-sub-json" class="push-sub-out" readonly hidden
+      aria-label="Subscription data -- paste this into the PUSH_SUBSCRIPTION secret"></textarea>
+    <button class="btn-why" type="button" id="push-copy" hidden>Copy</button>
+  </div>
+</section>
