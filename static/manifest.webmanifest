@@ -1,0 +1,14 @@
+{
+  "name": "NEVINTEL — Cybersecurity News Platform",
+  "short_name": "NEVINTEL",
+  "start_url": "/nevintel/",
+  "scope": "/nevintel/",
+  "display": "standalone",
+  "background_color": "#04090D",
+  "theme_color": "#04090D",
+  "icons": [
+    { "src": "/nevintel/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/nevintel/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/nevintel/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
