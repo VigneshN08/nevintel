@@ -24,6 +24,14 @@ if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | relURL }}" title="{{ .Site.Title }}">
+
+{{/* PWA / iOS "Add to Home Screen" support. */}}
+<link rel="manifest" href="{{ "manifest.webmanifest" | relURL }}">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NEVINTEL">
+<meta name="theme-color" content="#04090D">
 </head>
 <body>
 
