@@ -33,6 +33,11 @@ ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "corpus" / "corpus.db"
 SOURCES = Path(__file__).parent / "sources.toml"
 CACHE = ROOT / "corpus" / "http-cache.json"
+# Transient (not committed -- corpus/ is gitignored apart from the two files
+# the "Commit refreshed corpus" workflow step force-adds). Read once, by the
+# "notify" step that runs immediately after this one in the same job, so it
+# knows what is actually new without re-deriving it from the corpus.
+LAST_RUN_NEW = ROOT / "corpus" / "last-run-new.json"
 
 # Some publishers block obvious bots. A plain browser UA is the documented
 # fallback; we still identify ourselves in the primary UA and honour any
@@ -65,6 +70,34 @@ def load_cache() -> dict:
 def save_cache(cache: dict) -> None:
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, indent=2, sort_keys=True) + "\n")
+
+
+def save_last_run_new(articles: list[dict], first_run: bool) -> None:
+    """Write a small summary of what was newly upserted this run.
+
+    `first_run` is recorded so a consumer (pipeline/notify.py) can refuse to
+    treat "the corpus was empty and we just imported everything" as news
+    worth pushing to someone's lock screen.
+    """
+    LAST_RUN_NEW.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "generated_at": store.now_iso(),
+        "first_run": first_run,
+        "count": len(articles),
+        "articles": [
+            {
+                "title": a["title"],
+                "url": a["url"],
+                "source_name": a["source_name"],
+                "domain": a["domain"],
+                "published_at": a["published_at"],
+                "topics": a["topics"],
+                "cves": a["cves"],
+            }
+            for a in articles
+        ],
+    }
+    LAST_RUN_NEW.write_text(json.dumps(payload, indent=2) + "\n")
 
 
 def parse_date(entry) -> str | None:
@@ -139,6 +172,7 @@ def run() -> int:
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     total_new = 0
     failures: list[str] = []
+    new_articles: list[dict] = []
 
     timeout = httpx.Timeout(defaults.get("timeout", 20))
     with httpx.Client(timeout=timeout) as client, store.connect(DB) as conn:
@@ -198,6 +232,7 @@ def run() -> int:
                 }
                 if store.upsert_article(conn, rec):
                     new += 1
+                    new_articles.append(rec)
 
             total_new += new
             store.log_fetch(conn, src["id"], "ok" if seen else "empty",
@@ -208,6 +243,7 @@ def run() -> int:
         final = store.stats(conn)
 
     save_cache(cache)
+    save_last_run_new(new_articles, first_run)
 
     print(f"\n  {total_new} new article(s); corpus now holds "
           f"{final['articles']} across {final['sources']} source(s).")
