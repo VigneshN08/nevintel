@@ -391,6 +391,130 @@
     });
   })();
 
+
+  /* ------------------------------------------------------ push notifications */
+  (function push() {
+    var btn = $("#push-btn");
+    if (!btn) return;
+
+    var noteEl = $("#push-note");
+    var statusEl = $("#push-status");
+    var outEl = $("#push-sub-json");
+    var copyBtn = $("#push-copy");
+
+    // Public by design -- this is the counterpart to VAPID_PRIVATE_KEY, which
+    // never appears in client code or this repo's history. Only the private
+    // key can sign a message the browser will accept.
+    var VAPID_PUBLIC_KEY =
+      "BL8A7faIVJXcv3l4i4AOQNRGWRk1q-_EddRr7VU6GyiguBN2XkcUreCbOBYcjdfjZhaS3iahG3JsmUfCiyM4d00";
+
+    function urlBase64ToUint8Array(base64String) {
+      var padding = "=".repeat((4 - (base64String.length % 4)) % 4);
+      var base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+      var raw = window.atob(base64);
+      var out = new Uint8Array(raw.length);
+      for (var i = 0; i < raw.length; i++) out[i] = raw.charCodeAt(i);
+      return out;
+    }
+
+    function setStatus(msg) {
+      if (!statusEl) return;
+      statusEl.textContent = msg;
+      statusEl.hidden = !msg;
+    }
+
+    function showSubscription(sub) {
+      if (!outEl) return;
+      outEl.value = JSON.stringify(sub.toJSON ? sub.toJSON() : sub, null, 2);
+      outEl.hidden = false;
+      if (copyBtn) copyBtn.hidden = false;
+    }
+
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) &&
+      !(window.MSStream);
+    var isStandalone = window.navigator.standalone === true ||
+      (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches);
+
+    if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+      if (noteEl) noteEl.textContent =
+        "This browser does not support push notifications.";
+      btn.disabled = true;
+      return;
+    }
+
+    if (isIOS && !isStandalone) {
+      if (noteEl) noteEl.textContent =
+        "On iPhone: add NEVINTEL to your Home Screen first (Share " +
+        "→ Add to Home Screen), then open it from there and come back " +
+        "to this button. iOS only allows notifications for installed apps.";
+      btn.disabled = true;
+      return;
+    }
+
+    btn.addEventListener("click", function () {
+      btn.disabled = true;
+      setStatus("Requesting permission…");
+
+      Notification.requestPermission().then(function (perm) {
+        if (perm !== "granted") {
+          setStatus("Permission denied. Allow notifications for this site " +
+            "in your browser/device settings, then try again.");
+          btn.disabled = false;
+          return null;
+        }
+        return navigator.serviceWorker.register("sw.js").then(function () {
+          return navigator.serviceWorker.ready;
+        });
+      }).then(function (registration) {
+        if (!registration) return null;
+        return registration.pushManager.getSubscription().then(function (existing) {
+          return existing || registration.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+          });
+        });
+      }).then(function (sub) {
+        if (!sub) return;
+        showSubscription(sub);
+        setStatus("Notifications enabled on this device. Copy the box below " +
+          "into the PUSH_SUBSCRIPTION secret (see the About page) so the " +
+          "pipeline can reach it.");
+        btn.disabled = false;
+        btn.textContent = "Re-subscribe / show subscription again";
+      }).catch(function (err) {
+        setStatus("Couldn't enable notifications: " + err.message);
+        btn.disabled = false;
+      });
+    });
+
+    if (copyBtn) {
+      copyBtn.addEventListener("click", function () {
+        if (!outEl || !outEl.value) return;
+        // Clipboard access throws in some contexts; fall back to select().
+        var done = false;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(outEl.value).then(function () {
+            setStatus("Copied. Paste it into the PUSH_SUBSCRIPTION secret.");
+          }).catch(function () { fallbackCopy(); });
+          done = true;
+        }
+        function fallbackCopy() {
+          try {
+            outEl.removeAttribute("readonly");
+            outEl.focus();
+            outEl.select();
+            document.execCommand("copy");
+            outEl.setAttribute("readonly", "readonly");
+            setStatus("Copied. Paste it into the PUSH_SUBSCRIPTION secret.");
+          } catch (e) {
+            setStatus("Couldn't copy automatically -- select the text above and copy it by hand.");
+          }
+        }
+        if (!done) fallbackCopy();
+      });
+    }
+  })();
+
   /* --------------------------------------------------------------- search */
   window.addEventListener("load", function () {
     if (typeof PagefindUI === "undefined") return;
