@@ -461,6 +461,16 @@ code,.mono{font-family:var(--f-mono)}
 .sub-side input:focus{outline:none;border-color:var(--green)}
 .sub-side .sub-go{width:100%;text-align:center}
 
+.sub-go:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+
+/* ============================ push alerts =============================== */
+.push-sub-out{
+  background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);
+  color:var(--ink);font-family:var(--f-mono);font-size:11px;line-height:1.5;
+  padding:10px 12px;width:100%;min-height:120px;resize:vertical;
+}
+.push-sub-out:focus{outline:none;border-color:var(--green)}
+
 /* ============================== explainer ============================== */
 .explain{scroll-margin-top:86px}
 .explain-empty{color:var(--ink-3);font-size:13.5px;margin:0;line-height:1.55}
