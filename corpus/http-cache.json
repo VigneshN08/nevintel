@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-09-28T16:48:27Z",
-    "etag": "7af7017890f9c4319fa76a890cdddb21",
-    "last_modified": "Mon, 28 Sep 2026 16:39:30 GMT"
+    "checked": "2026-09-28T17:38:34Z",
+    "etag": "e21e56e78956f01546466ebf2da4d372",
+    "last_modified": "Mon, 28 Sep 2026 17:29:32 GMT"
   },
   "darkreading": {
-    "checked": "2026-09-28T16:48:30Z",
+    "checked": "2026-09-28T17:38:37Z",
     "etag": "",
     "last_modified": ""
   },
   "googletil": {
-    "checked": "2026-09-28T16:48:31Z",
+    "checked": "2026-09-28T17:38:39Z",
     "etag": "",
     "last_modified": ""
   },
@@ -25,9 +25,9 @@
     "last_modified": "Mon, 28 Sep 2026 15:42:06 GMT"
   },
   "msrc": {
-    "checked": "2026-09-28T16:48:33Z",
-    "etag": "\"e5ce49115a18e18a5e67b03937bc1b20-gzip\"",
-    "last_modified": "Mon, 28 Sep 2026 15:00:00 GMT"
+    "checked": "2026-09-28T17:38:40Z",
+    "etag": "\"31e2407b78dcb54e7c65b7343f9266f8-gzip\"",
+    "last_modified": "Mon, 28 Sep 2026 16:18:13 GMT"
   },
   "projectzero": {
     "checked": "2026-09-23T00:54:17Z",
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 22 Sep 2026 23:14:28 GMT"
   },
   "sans_isc": {
-    "checked": "2026-09-28T16:48:33Z",
-    "etag": "W/\"19e1-65c8dc5d42386\"",
-    "last_modified": "Mon, 28 Sep 2026 16:43:59 GMT"
+    "checked": "2026-09-28T17:38:41Z",
+    "etag": "W/\"19e1-65c8e789e5a76\"",
+    "last_modified": "Mon, 28 Sep 2026 17:33:59 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-09-28T05:48:38Z",
@@ -45,9 +45,9 @@
     "last_modified": "Mon, 28 Sep 2026 01:58:59 GMT"
   },
   "securityweek": {
-    "checked": "2026-09-28T16:48:29Z",
-    "etag": "W/\"b010bd8ad8575c95c201cb9dfc46eac2\"",
-    "last_modified": "Mon, 28 Sep 2026 16:10:10 GMT"
+    "checked": "2026-09-28T17:38:35Z",
+    "etag": "W/\"984d39b28ba4fef6a465a741a3133475\"",
+    "last_modified": "Mon, 28 Sep 2026 17:36:45 GMT"
   },
   "talos": {
     "checked": "2026-09-28T14:25:30Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-09-28T16:48:28Z",
+    "checked": "2026-09-28T17:38:34Z",
     "etag": "",
-    "last_modified": "Mon, 28 Sep 2026 15:35:04 GMT"
+    "last_modified": "Mon, 28 Sep 2026 17:09:51 GMT"
   },
   "therecord": {
-    "checked": "2026-09-28T16:48:28Z",
+    "checked": "2026-09-28T17:38:35Z",
     "etag": "",
     "last_modified": ""
   },
