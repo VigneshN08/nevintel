@@ -1,35 +1,126 @@
 {
-  "builtAt": "2026-09-28T20:45:53Z",
-  "articles": 1638,
+  "builtAt": "2026-09-29T02:16:43Z",
+  "articles": 1643,
   "sources": 14,
-  "rendered": 1638,
+  "rendered": 1643,
   "live": {
-    "storiesToday": 55,
-    "storiesWeek": 331,
-    "cvesWeek": 13,
+    "storiesToday": 57,
+    "storiesWeek": 332,
+    "cvesWeek": 14,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "12100c22384661b5f889d99beaae6601",
-    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
-    "domain": "bleepingcomputer.com",
-    "snippet": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week.",
-    "author": "Bill Toulas",
-    "date": "2026-09-28T20:31:16Z",
-    "slug": "times-car-confirms-data-breach-affecting-6-6-million-user-accounts-12100c22",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "sourceHome": "https://www.bleepingcomputer.com/",
-    "short": "BC",
-    "hue": 8,
-    "topics": [
-      "breach"
-    ],
+    "id": "3a59ef01a41aba0f555202f1c9bc2e55",
+    "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
+    "url": "https://isc.sans.edu/diary/rss/33378",
+    "domain": "isc.sans.edu",
+    "snippet": "",
+    "author": "",
+    "date": "2026-09-29T02:00:02Z",
+    "slug": "isc-stormcast-for-tuesday-september-29th-2026-https-isc-sans-edu-podca-3a59ef01",
+    "sourceId": "sans_isc",
+    "sourceName": "SANS ISC",
+    "sourceHome": "https://isc.sans.edu/diary.html",
+    "short": "ISC",
+    "hue": 350,
+    "topics": [],
     "cves": []
   },
   "feed": [
+    {
+      "id": "3a59ef01a41aba0f555202f1c9bc2e55",
+      "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33378",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-29T02:00:02Z",
+      "slug": "isc-stormcast-for-tuesday-september-29th-2026-https-isc-sans-edu-podca-3a59ef01",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "be040f5626a61c4c29d74a215523de4a",
+      "title": "SANS Stormcast Tuesday, September 29th, 2026: MacOS/iOS 0-Day Patch; macOS priv. escalation 0-day; File Notification Attacks #podcast #security",
+      "url": "https://traffic.libsyn.com/securitypodcast/10114.mp3",
+      "domain": "traffic.libsyn.com",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-29T02:00:02Z",
+      "slug": "sans-stormcast-tuesday-september-29th-2026-macos-ios-0-day-patch-macos-be040f56",
+      "sourceId": "sans_stormcast",
+      "sourceName": "SANS Stormcast",
+      "sourceHome": "https://isc.sans.edu/podcastdetail.html",
+      "short": "SC",
+      "hue": 60,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "47eb4c83c66d49707a15bdfd1c2b7841",
+      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33376",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-28T22:35:35Z",
+      "slug": "apple-emergency-patch-for-ios-26-macos26-macos15-cve-2026-86950-mon-se-47eb4c83",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-86950"
+      ]
+    },
+    {
+      "id": "ae5b26793ac123d0c131cc5ea9363529",
+      "title": "One Packet Can Crash OT Servers in Industrial Sectors",
+      "url": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+      "domain": "darkreading.com",
+      "snippet": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+      "author": "Jai Vijayan",
+      "date": "2026-09-28T21:13:04Z",
+      "slug": "one-packet-can-crash-ot-servers-in-industrial-sectors-ae5b2679",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "ccc11f98d4a8d3b30fe01b87eeed3b3d",
+      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of…",
+      "author": "Bill Toulas",
+      "date": "2026-09-28T20:56:47Z",
+      "slug": "japan-s-keio-confirms-ransomware-attack-disrupted-business-systems-ccc11f98",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "ransomware"
+      ],
+      "cves": []
+    },
     {
       "id": "12100c22384661b5f889d99beaae6601",
       "title": "Times Car confirms data breach affecting 6.6 million user accounts",
@@ -1018,38 +1109,18 @@
       "hue": 8,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "0954e8dba9d8d6736374c0af35bd892c",
-      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has…",
-      "author": "Lawrence Abrams",
-      "date": "2026-09-27T16:02:37Z",
-      "slug": "citrix-confirms-two-netscaler-rce-zero-days-exploited-in-attacks-0954e8db",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-88771",
-        "CVE-2026-88772"
-      ]
-    },
-    {
-      "id": "52a8258cf974a555b6dfed1c32be429e",
-      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33372",
+      "id": "3a59ef01a41aba0f555202f1c9bc2e55",
+      "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33378",
       "domain": "isc.sans.edu",
       "snippet": "",
       "author": "",
-      "date": "2026-09-27T15:04:49Z",
-      "slug": "wireshark-4-6-9-released-sun-sep-27th-52a8258c",
+      "date": "2026-09-29T02:00:02Z",
+      "slug": "isc-stormcast-for-tuesday-september-29th-2026-https-isc-sans-edu-podca-3a59ef01",
       "sourceId": "sans_isc",
       "sourceName": "SANS ISC",
       "sourceHome": "https://isc.sans.edu/diary.html",
@@ -1059,64 +1130,81 @@
       "cves": []
     },
     {
-      "id": "cf659e9658b9aff55be0ba8d9df78fd8",
-      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers…",
-      "author": "Bill Toulas",
-      "date": "2026-09-27T14:13:31Z",
-      "slug": "cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data-cf659e96",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "b3dddf9b03fd17ca3873bcf2bc838570",
-      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more.",
-      "author": "Mayank Parmar",
-      "date": "2026-09-27T13:38:40Z",
-      "slug": "anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plugins-and-c-b3dddf9b",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
+      "id": "be040f5626a61c4c29d74a215523de4a",
+      "title": "SANS Stormcast Tuesday, September 29th, 2026: MacOS/iOS 0-Day Patch; macOS priv. escalation 0-day; File Notification Attacks #podcast #security",
+      "url": "https://traffic.libsyn.com/securitypodcast/10114.mp3",
+      "domain": "traffic.libsyn.com",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-29T02:00:02Z",
+      "slug": "sans-stormcast-tuesday-september-29th-2026-macos-ios-0-day-patch-macos-be040f56",
+      "sourceId": "sans_stormcast",
+      "sourceName": "SANS Stormcast",
+      "sourceHome": "https://isc.sans.edu/podcastdetail.html",
+      "short": "SC",
+      "hue": 60,
       "topics": [],
       "cves": []
     },
     {
-      "id": "d4088d0eb40ed7d0d4d2e3fb69481da2",
-      "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
-      "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
-      "domain": "securityweek.com",
-      "snippet": "CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28.",
-      "author": "Eduard Kovacs",
-      "date": "2026-09-27T09:23:09Z",
-      "slug": "microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks-d4088d0e",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
+      "id": "47eb4c83c66d49707a15bdfd1c2b7841",
+      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33376",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-09-28T22:35:35Z",
+      "slug": "apple-emergency-patch-for-ios-26-macos26-macos15-cve-2026-86950-mon-se-47eb4c83",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
       "topics": [
         "vuln"
       ],
       "cves": [
-        "CVE-2026-65660"
+        "CVE-2026-86950"
       ]
-    }
-  ],
-  "rail": [
+    },
+    {
+      "id": "ae5b26793ac123d0c131cc5ea9363529",
+      "title": "One Packet Can Crash OT Servers in Industrial Sectors",
+      "url": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+      "domain": "darkreading.com",
+      "snippet": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+      "author": "Jai Vijayan",
+      "date": "2026-09-28T21:13:04Z",
+      "slug": "one-packet-can-crash-ot-servers-in-industrial-sectors-ae5b2679",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "ccc11f98d4a8d3b30fe01b87eeed3b3d",
+      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of…",
+      "author": "Bill Toulas",
+      "date": "2026-09-28T20:56:47Z",
+      "slug": "japan-s-keio-confirms-ransomware-attack-disrupted-business-systems-ccc11f98",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "ransomware"
+      ],
+      "cves": []
+    },
     {
       "id": "12100c22384661b5f889d99beaae6601",
       "title": "Times Car confirms data breach affecting 6.6 million user accounts",
@@ -1170,97 +1258,6 @@
       "short": "BC",
       "hue": 8,
       "topics": [],
-      "cves": []
-    },
-    {
-      "id": "ebc12d55e12ae3e2f7c8dd7ac744d249",
-      "title": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
-      "url": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
-      "domain": "therecord.media",
-      "snippet": "A vulnerability in a popular line of products from Oracle is being used in a new campaign by the prolific ShinyHunters hacking group, which recently…",
-      "author": "",
-      "date": "2026-09-28T19:30:00Z",
-      "slug": "shinyhunters-exploiting-workarounds-for-oracle-peoplesoft-bug-mandiant-ebc12d55",
-      "sourceId": "therecord",
-      "sourceName": "The Record",
-      "sourceHome": "https://therecord.media/",
-      "short": "TR",
-      "hue": 190,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "3e5bc5aeb6b9864eff47897cd1a65f90",
-      "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-      "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-      "domain": "thehackernews.com",
-      "snippet": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-28T19:18:01Z",
-      "slug": "apple-patches-coregraphics-flaw-possibly-exploited-in-targeted-attacks-3e5bc5ae",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "6606207dd9b5b62d29ae6f988cb95e8c",
-      "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens.",
-      "author": "Bill Toulas",
-      "date": "2026-09-28T18:50:59Z",
-      "slug": "over-16-000-supabase-databases-expose-pii-passwords-auth-tokens-6606207d",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "cloud"
-      ],
-      "cves": []
-    },
-    {
-      "id": "da1a40662d31a8cd78d9e700012d1b3a",
-      "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
-      "domain": "darkreading.com",
-      "snippet": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider…",
-      "author": "Ravi Sharma",
-      "date": "2026-09-28T18:44:22Z",
-      "slug": "ai-agents-are-privileged-users-who-is-auditing-their-access-da1a4066",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "bef7f6a21fd6f32c4da3d0b40a128825",
-      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-      "domain": "thehackernews.com",
-      "snippet": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-09-28T18:35:42Z",
-      "slug": "hackers-use-needymantis-to-maintain-long-term-access-in-breached-netwo-bef7f6a2",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "malware"
-      ],
       "cves": []
     }
   ],
@@ -1321,7 +1318,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 59
+      "count": 61
     },
     {
       "id": "malware",
@@ -1339,19 +1336,13 @@
       "id": "ransomware",
       "label": "Ransomware",
       "blurb": "Extortion operations: encryption, data-leak sites, and the crews and affiliates running them.",
-      "count": 9
+      "count": 10
     },
     {
       "id": "supplychain",
       "label": "Supply Chain",
       "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
       "count": 7
-    },
-    {
-      "id": "breach",
-      "label": "Data Breach",
-      "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
-      "count": 6
     },
     {
       "id": "cloud",
@@ -1366,10 +1357,16 @@
       "count": 6
     },
     {
+      "id": "breach",
+      "label": "Data Breach",
+      "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
+      "count": 5
+    },
+    {
       "id": "ai",
       "label": "AI Security",
       "blurb": "Attacks on and with machine-learning systems: prompt injection, model abuse, and AI-assisted operations.",
-      "count": 5
+      "count": 4
     },
     {
       "id": "policy",
@@ -1396,6 +1393,10 @@
       "count": 2
     },
     {
+      "id": "CVE-2026-86950",
+      "count": 1
+    },
+    {
       "id": "CVE-2026-65660",
       "count": 1
     },
@@ -1406,10 +1407,6 @@
     {
       "id": "CVE-2026-48842",
       "count": 1
-    },
-    {
-      "id": "CVE-2026-28324",
-      "count": 1
     }
   ],
   "sources_detail": [
@@ -1417,7 +1414,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 309,
-      "last_run": "2026-09-28T20:45:48Z",
+      "last_run": "2026-09-29T02:16:38Z",
       "last_status": "ok",
       "newest": "2026-09-28T19:18:01Z",
       "home": "https://thehackernews.com/",
@@ -1431,7 +1428,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 291,
-      "last_run": "2026-09-28T20:45:49Z",
+      "last_run": "2026-09-29T02:16:39Z",
       "last_status": "not_modified",
       "newest": "2026-09-28T13:56:45Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1444,10 +1441,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 275,
-      "last_run": "2026-09-28T20:45:48Z",
+      "held": 276,
+      "last_run": "2026-09-29T02:16:37Z",
       "last_status": "ok",
-      "newest": "2026-09-28T20:31:16Z",
+      "newest": "2026-09-28T20:56:47Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1459,7 +1456,7 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 245,
-      "last_run": "2026-09-28T20:45:49Z",
+      "last_run": "2026-09-29T02:16:38Z",
       "last_status": "not_modified",
       "newest": "2026-09-28T17:30:00Z",
       "home": "https://www.securityweek.com/",
@@ -1472,10 +1469,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 151,
-      "last_run": "2026-09-28T20:45:49Z",
+      "held": 152,
+      "last_run": "2026-09-29T02:16:39Z",
       "last_status": "ok",
-      "newest": "2026-09-28T20:23:58Z",
+      "newest": "2026-09-28T21:13:04Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1487,7 +1484,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 120,
-      "last_run": "2026-09-28T20:45:49Z",
+      "last_run": "2026-09-29T02:16:38Z",
       "last_status": "ok",
       "newest": "2026-09-28T19:30:00Z",
       "home": "https://therecord.media/",
@@ -1500,10 +1497,10 @@
     {
       "id": "sans_isc",
       "name": "SANS ISC",
-      "held": 55,
-      "last_run": "2026-09-28T20:45:53Z",
+      "held": 57,
+      "last_run": "2026-09-29T02:16:42Z",
       "last_status": "ok",
-      "newest": "2026-09-28T02:00:02Z",
+      "newest": "2026-09-29T02:00:02Z",
       "home": "https://isc.sans.edu/diary.html",
       "kind": "research",
       "short": "ISC",
@@ -1514,10 +1511,10 @@
     {
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
-      "held": 54,
-      "last_run": "2026-09-28T20:45:53Z",
-      "last_status": "not_modified",
-      "newest": "2026-09-28T02:00:02Z",
+      "held": 55,
+      "last_run": "2026-09-29T02:16:42Z",
+      "last_status": "ok",
+      "newest": "2026-09-29T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
       "kind": "research",
       "short": "SC",
@@ -1529,8 +1526,8 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 29,
-      "last_run": "2026-09-28T20:45:50Z",
-      "last_status": "ok",
+      "last_run": "2026-09-29T02:16:39Z",
+      "last_status": "not_modified",
       "newest": "2026-09-24T18:00:37Z",
       "home": "https://blog.talosintelligence.com/",
       "kind": "research",
@@ -1543,8 +1540,8 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 29,
-      "last_run": "2026-09-28T20:45:53Z",
-      "last_status": "ok",
+      "last_run": "2026-09-29T02:16:42Z",
+      "last_status": "not_modified",
       "newest": "2026-09-28T15:00:00Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
       "kind": "research",
@@ -1557,8 +1554,8 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 28,
-      "last_run": "2026-09-28T20:45:50Z",
-      "last_status": "not_modified",
+      "last_run": "2026-09-29T02:16:39Z",
+      "last_status": "ok",
       "newest": "2026-09-28T15:02:04Z",
       "home": "https://unit42.paloaltonetworks.com/",
       "kind": "research",
@@ -1571,7 +1568,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 24,
-      "last_run": "2026-09-28T20:45:52Z",
+      "last_run": "2026-09-29T02:16:41Z",
       "last_status": "ok",
       "newest": "2026-09-25T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1585,7 +1582,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 16,
-      "last_run": "2026-09-28T20:45:50Z",
+      "last_run": "2026-09-29T02:16:39Z",
       "last_status": "ok",
       "newest": "2026-09-28T15:08:57Z",
       "home": "https://krebsonsecurity.com/",
@@ -1599,7 +1596,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 12,
-      "last_run": "2026-09-28T20:45:52Z",
+      "last_run": "2026-09-29T02:16:42Z",
       "last_status": "not_modified",
       "newest": "2026-09-21T07:00:00Z",
       "home": "https://projectzero.google/",

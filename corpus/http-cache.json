@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-09-28T20:45:48Z",
-    "etag": "655a3da5e0c8aa58b9830b53c4fa4865",
-    "last_modified": "Mon, 28 Sep 2026 20:41:16 GMT"
+    "checked": "2026-09-29T02:16:37Z",
+    "etag": "6d7167a3c211c4e4c68d037b5797f83c",
+    "last_modified": "Tue, 29 Sep 2026 02:06:57 GMT"
   },
   "darkreading": {
-    "checked": "2026-09-28T20:45:49Z",
+    "checked": "2026-09-29T02:16:39Z",
     "etag": "",
     "last_modified": ""
   },
   "googletil": {
-    "checked": "2026-09-28T20:45:52Z",
+    "checked": "2026-09-29T02:16:41Z",
     "etag": "",
     "last_modified": ""
   },
@@ -20,9 +20,9 @@
     "last_modified": "Mon, 28 Sep 2026 13:57:51 GMT"
   },
   "krebs": {
-    "checked": "2026-09-28T20:45:50Z",
+    "checked": "2026-09-29T02:16:39Z",
     "etag": "",
-    "last_modified": "Mon, 28 Sep 2026 19:45:57 GMT"
+    "last_modified": "Tue, 29 Sep 2026 02:14:08 GMT"
   },
   "msrc": {
     "checked": "2026-09-28T20:45:53Z",
@@ -35,14 +35,14 @@
     "last_modified": "Tue, 22 Sep 2026 23:14:28 GMT"
   },
   "sans_isc": {
-    "checked": "2026-09-28T20:45:53Z",
-    "etag": "W/\"19e1-65c912018b0e8\"",
-    "last_modified": "Mon, 28 Sep 2026 20:43:58 GMT"
+    "checked": "2026-09-29T02:16:42Z",
+    "etag": "W/\"199e-65c95bc447ede\"",
+    "last_modified": "Tue, 29 Sep 2026 02:13:58 GMT"
   },
   "sans_stormcast": {
-    "checked": "2026-09-28T05:48:38Z",
-    "etag": "W/\"2cd57-65c8168d034c6\"",
-    "last_modified": "Mon, 28 Sep 2026 01:58:59 GMT"
+    "checked": "2026-09-29T02:16:42Z",
+    "etag": "W/\"2cd70-65c9586a6643b\"",
+    "last_modified": "Tue, 29 Sep 2026 01:58:59 GMT"
   },
   "securityweek": {
     "checked": "2026-09-28T17:38:35Z",
@@ -55,18 +55,18 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-09-28T20:45:48Z",
+    "checked": "2026-09-29T02:16:38Z",
     "etag": "",
-    "last_modified": "Mon, 28 Sep 2026 20:07:25 GMT"
+    "last_modified": "Tue, 29 Sep 2026 01:36:31 GMT"
   },
   "therecord": {
-    "checked": "2026-09-28T20:45:49Z",
+    "checked": "2026-09-29T02:16:38Z",
     "etag": "",
     "last_modified": ""
   },
   "unit42": {
-    "checked": "2026-09-28T16:48:30Z",
-    "etag": "\"c0ad36936e22367eb40da157896f48e2-gzip\"",
-    "last_modified": "Mon, 28 Sep 2026 15:07:39 GMT"
+    "checked": "2026-09-29T02:16:39Z",
+    "etag": "\"196f7c875f04111ad8e280bbb6f66b58-gzip\"",
+    "last_modified": "Mon, 28 Sep 2026 23:18:44 GMT"
   }
 }
