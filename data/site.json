@@ -1,33 +1,58 @@
 {
-  "builtAt": "2026-10-04T19:47:28Z",
-  "articles": 1893,
+  "builtAt": "2026-10-04T23:34:34Z",
+  "articles": 1894,
   "sources": 14,
-  "rendered": 1893,
+  "rendered": 1894,
   "live": {
     "storiesToday": 7,
-    "storiesWeek": 310,
-    "cvesWeek": 7,
+    "storiesWeek": 311,
+    "cvesWeek": 8,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "e21f9da74af7e57e3b2a80f4f22c48cc",
-    "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-    "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
-    "domain": "securityweek.com",
-    "snippet": "The announcement comes after Trump hosted top executives of AI companies at the White House last week.",
-    "author": "Associated Press",
-    "date": "2026-10-04T14:57:25Z",
-    "slug": "trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-f-e21f9da7",
-    "sourceId": "securityweek",
-    "sourceName": "SecurityWeek",
-    "sourceHome": "https://www.securityweek.com/",
-    "short": "SW",
-    "hue": 210,
-    "topics": [],
-    "cves": []
+    "id": "8873deea669b4d54ac7b0e5c840fcd47",
+    "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+    "domain": "bleepingcomputer.com",
+    "snippet": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether…",
+    "author": "Lawrence Abrams",
+    "date": "2026-10-04T21:58:01Z",
+    "slug": "citrix-patches-netscaler-saml-zero-day-exploited-in-attacks-8873deea",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "sourceHome": "https://www.bleepingcomputer.com/",
+    "short": "BC",
+    "hue": 8,
+    "topics": [
+      "vuln"
+    ],
+    "cves": [
+      "CVE-2026-88779"
+    ]
   },
   "feed": [
+    {
+      "id": "8873deea669b4d54ac7b0e5c840fcd47",
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether…",
+      "author": "Lawrence Abrams",
+      "date": "2026-10-04T21:58:01Z",
+      "slug": "citrix-patches-netscaler-saml-zero-day-exploited-in-attacks-8873deea",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-88779"
+      ]
+    },
     {
       "id": "e21f9da74af7e57e3b2a80f4f22c48cc",
       "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
@@ -1098,26 +1123,30 @@
         "ransomware"
       ],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "b2099d009ed00ab32c3b0dbc95e46bc2",
-      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-      "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+      "id": "8873deea669b4d54ac7b0e5c840fcd47",
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
       "domain": "bleepingcomputer.com",
-      "snippet": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics.",
-      "author": "Ionut Ilascu",
-      "date": "2026-10-01T20:52:50Z",
-      "slug": "autonomous-ai-agents-tried-to-hack-us-canadian-government-websites-b2099d00",
+      "snippet": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether…",
+      "author": "Lawrence Abrams",
+      "date": "2026-10-04T21:58:01Z",
+      "slug": "citrix-patches-netscaler-saml-zero-day-exploited-in-attacks-8873deea",
       "sourceId": "bleepingcomputer",
       "sourceName": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
       "short": "BC",
       "hue": 8,
-      "topics": [],
-      "cves": []
-    }
-  ],
-  "rail": [
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-88779"
+      ]
+    },
     {
       "id": "e21f9da74af7e57e3b2a80f4f22c48cc",
       "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
@@ -1241,23 +1270,6 @@
       "hue": 8,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "a48481198b82981bf8590058d3612bf9",
-      "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate…",
-      "author": "Lawrence Abrams",
-      "date": "2026-10-03T19:09:38Z",
-      "slug": "shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi-a4848119",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1317,7 +1329,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 63
+      "count": 64
     },
     {
       "id": "malware",
@@ -1400,6 +1412,10 @@
       "count": 2
     },
     {
+      "id": "CVE-2026-88779",
+      "count": 1
+    },
+    {
       "id": "CVE-2026-35273",
       "count": 1
     }
@@ -1409,7 +1425,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 351,
-      "last_run": "2026-10-04T19:47:23Z",
+      "last_run": "2026-10-04T23:34:30Z",
       "last_status": "ok",
       "newest": "2026-10-04T07:22:05Z",
       "home": "https://thehackernews.com/",
@@ -1423,7 +1439,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 347,
-      "last_run": "2026-10-04T19:47:24Z",
+      "last_run": "2026-10-04T23:34:31Z",
       "last_status": "not_modified",
       "newest": "2026-10-04T08:00:19Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1436,10 +1452,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 318,
-      "last_run": "2026-10-04T19:47:23Z",
+      "held": 319,
+      "last_run": "2026-10-04T23:34:30Z",
       "last_status": "ok",
-      "newest": "2026-10-04T10:53:21Z",
+      "newest": "2026-10-04T21:58:01Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1451,7 +1467,7 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 291,
-      "last_run": "2026-10-04T19:47:24Z",
+      "last_run": "2026-10-04T23:34:30Z",
       "last_status": "not_modified",
       "newest": "2026-10-04T14:57:25Z",
       "home": "https://www.securityweek.com/",
@@ -1465,7 +1481,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 172,
-      "last_run": "2026-10-04T19:47:24Z",
+      "last_run": "2026-10-04T23:34:31Z",
       "last_status": "ok",
       "newest": "2026-10-02T20:18:37Z",
       "home": "https://www.darkreading.com/",
@@ -1479,7 +1495,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 140,
-      "last_run": "2026-10-04T19:47:23Z",
+      "last_run": "2026-10-04T23:34:30Z",
       "last_status": "ok",
       "newest": "2026-10-02T20:30:00Z",
       "home": "https://therecord.media/",
@@ -1493,7 +1509,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 64,
-      "last_run": "2026-10-04T19:47:27Z",
+      "last_run": "2026-10-04T23:34:34Z",
       "last_status": "ok",
       "newest": "2026-10-04T07:58:51Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1507,7 +1523,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 58,
-      "last_run": "2026-10-04T19:47:27Z",
+      "last_run": "2026-10-04T23:34:34Z",
       "last_status": "not_modified",
       "newest": "2026-10-02T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1521,7 +1537,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 36,
-      "last_run": "2026-10-04T19:47:27Z",
+      "last_run": "2026-10-04T23:34:34Z",
       "last_status": "not_modified",
       "newest": "2026-10-01T14:00:00Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1535,7 +1551,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 33,
-      "last_run": "2026-10-04T19:47:25Z",
+      "last_run": "2026-10-04T23:34:31Z",
       "last_status": "not_modified",
       "newest": "2026-10-01T18:00:52Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1549,7 +1565,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 29,
-      "last_run": "2026-10-04T19:47:25Z",
+      "last_run": "2026-10-04T23:34:32Z",
       "last_status": "not_modified",
       "newest": "2026-09-29T10:00:48Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1563,7 +1579,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 26,
-      "last_run": "2026-10-04T19:47:27Z",
+      "last_run": "2026-10-04T23:34:34Z",
       "last_status": "ok",
       "newest": "2026-09-30T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1577,8 +1593,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 16,
-      "last_run": "2026-10-04T19:47:25Z",
-      "last_status": "not_modified",
+      "last_run": "2026-10-04T23:34:31Z",
+      "last_status": "ok",
       "newest": "2026-09-28T15:08:57Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1591,7 +1607,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 12,
-      "last_run": "2026-10-04T19:47:27Z",
+      "last_run": "2026-10-04T23:34:34Z",
       "last_status": "not_modified",
       "newest": "2026-09-21T07:00:00Z",
       "home": "https://projectzero.google/",
