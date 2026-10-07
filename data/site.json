@@ -1,36 +1,50 @@
 {
-  "builtAt": "2026-10-06T21:12:35Z",
-  "articles": 2002,
+  "builtAt": "2026-10-07T01:47:21Z",
+  "articles": 2004,
   "sources": 14,
-  "rendered": 2002,
+  "rendered": 2004,
   "live": {
-    "storiesToday": 59,
-    "storiesWeek": 295,
+    "storiesToday": 58,
+    "storiesWeek": 293,
     "cvesWeek": 11,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "e4f90620265751191abe096c93f2353f",
-    "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-    "domain": "bleepingcomputer.com",
-    "snippet": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and…",
-    "author": "Bill Toulas",
-    "date": "2026-10-06T21:00:27Z",
-    "slug": "ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites-e4f90620",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "sourceHome": "https://www.bleepingcomputer.com/",
-    "short": "BC",
-    "hue": 8,
-    "topics": [
-      "vuln",
-      "malware"
-    ],
+    "id": "992893622399c3b8f65cfde9873fe417",
+    "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
+    "url": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+    "domain": "securityweek.com",
+    "snippet": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.",
+    "author": "Associated Press",
+    "date": "2026-10-07T01:32:58Z",
+    "slug": "personal-information-for-over-1-million-people-stolen-in-a-cyberattack-99289362",
+    "sourceId": "securityweek",
+    "sourceName": "SecurityWeek",
+    "sourceHome": "https://www.securityweek.com/",
+    "short": "SW",
+    "hue": 210,
+    "topics": [],
     "cves": []
   },
   "feed": [
+    {
+      "id": "992893622399c3b8f65cfde9873fe417",
+      "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
+      "url": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+      "domain": "securityweek.com",
+      "snippet": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.",
+      "author": "Associated Press",
+      "date": "2026-10-07T01:32:58Z",
+      "slug": "personal-information-for-over-1-million-people-stolen-in-a-cyberattack-99289362",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "e4f90620265751191abe096c93f2353f",
       "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
@@ -60,6 +74,23 @@
       "author": "Alexander Culafi",
       "date": "2026-10-06T20:32:58Z",
       "slug": "clickfix-attacks-evolve-to-better-hide-malicious-payloads-d47c844a",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "ab8e5d0e49162c6d986ca9239d80a3f6",
+      "title": "Critical Healthcare Systems Aren't Quantum-Ready",
+      "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
+      "domain": "darkreading.com",
+      "snippet": "A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum…",
+      "author": "Jai Vijayan",
+      "date": "2026-10-06T20:30:27Z",
+      "slug": "critical-healthcare-systems-aren-t-quantum-ready-ab8e5d0e",
       "sourceId": "darkreading",
       "sourceName": "Dark Reading",
       "sourceHome": "https://www.darkreading.com/",
@@ -1064,49 +1095,26 @@
       "hue": 190,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "21b3021a2bfd60f308a13f293c33e7c4",
-      "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-      "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-      "domain": "darkreading.com",
-      "snippet": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
-      "author": "Jai Vijayan",
-      "date": "2026-10-05T21:25:08Z",
-      "slug": "clingstun-turns-vulnerable-iot-devices-into-proxy-nodes-21b3021a",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [
-        "malware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "243a0ed18472aa6d5924d8d79f6d99a6",
-      "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution…",
-      "author": "Bill Toulas",
-      "date": "2026-10-05T20:20:05Z",
-      "slug": "rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw-243a0ed1",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-61500"
-      ]
     }
   ],
   "rail": [
+    {
+      "id": "992893622399c3b8f65cfde9873fe417",
+      "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
+      "url": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+      "domain": "securityweek.com",
+      "snippet": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.",
+      "author": "Associated Press",
+      "date": "2026-10-07T01:32:58Z",
+      "slug": "personal-information-for-over-1-million-people-stolen-in-a-cyberattack-99289362",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "e4f90620265751191abe096c93f2353f",
       "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
@@ -1136,6 +1144,23 @@
       "author": "Alexander Culafi",
       "date": "2026-10-06T20:32:58Z",
       "slug": "clickfix-attacks-evolve-to-better-hide-malicious-payloads-d47c844a",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "ab8e5d0e49162c6d986ca9239d80a3f6",
+      "title": "Critical Healthcare Systems Aren't Quantum-Ready",
+      "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
+      "domain": "darkreading.com",
+      "snippet": "A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum…",
+      "author": "Jai Vijayan",
+      "date": "2026-10-06T20:30:27Z",
+      "slug": "critical-healthcare-systems-aren-t-quantum-ready-ab8e5d0e",
       "sourceId": "darkreading",
       "sourceName": "Dark Reading",
       "sourceHome": "https://www.darkreading.com/",
@@ -1215,44 +1240,6 @@
       "hue": 275,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "17c788dbd3c4e68e5a2fe9b624eaaeff",
-      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-      "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including…",
-      "author": "Bill Toulas",
-      "date": "2026-10-06T17:34:59Z",
-      "slug": "atlassian-warns-of-critical-file-access-flaw-in-jira-confluence-17c788db",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-21589"
-      ]
-    },
-    {
-      "id": "ff85571d787cc4ad6eeb476632c461b3",
-      "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
-      "url": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
-      "domain": "darkreading.com",
-      "snippet": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
-      "author": "Kristina Beek",
-      "date": "2026-10-06T17:15:24Z",
-      "slug": "ians-kakolowski-how-ai-is-reshaping-ciso-budgets-security-teams-ff85571d",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1312,7 +1299,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 59
+      "count": 58
     },
     {
       "id": "malware",
@@ -1321,16 +1308,16 @@
       "count": 25
     },
     {
-      "id": "phishing",
-      "label": "Phishing & Fraud",
-      "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 15
-    },
-    {
       "id": "ransomware",
       "label": "Ransomware",
       "blurb": "Extortion operations: encryption, data-leak sites, and the crews and affiliates running them.",
       "count": 15
+    },
+    {
+      "id": "phishing",
+      "label": "Phishing & Fraud",
+      "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
+      "count": 14
     },
     {
       "id": "breach",
@@ -1399,8 +1386,8 @@
       "count": 2
     },
     {
-      "id": "CVE-2026-86950",
-      "count": 2
+      "id": "CVE-2026-86360",
+      "count": 1
     }
   ],
   "sources_detail": [
@@ -1408,7 +1395,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 375,
-      "last_run": "2026-10-06T21:12:29Z",
+      "last_run": "2026-10-07T01:47:16Z",
       "last_status": "not_modified",
       "newest": "2026-10-06T13:49:37Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1422,7 +1409,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 368,
-      "last_run": "2026-10-06T21:12:29Z",
+      "last_run": "2026-10-07T01:47:15Z",
       "last_status": "ok",
       "newest": "2026-10-06T18:38:55Z",
       "home": "https://thehackernews.com/",
@@ -1436,7 +1423,7 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 339,
-      "last_run": "2026-10-06T21:12:28Z",
+      "last_run": "2026-10-07T01:47:15Z",
       "last_status": "ok",
       "newest": "2026-10-06T21:00:27Z",
       "home": "https://www.bleepingcomputer.com/",
@@ -1449,10 +1436,10 @@
     {
       "id": "securityweek",
       "name": "SecurityWeek",
-      "held": 305,
-      "last_run": "2026-10-06T21:12:29Z",
-      "last_status": "not_modified",
-      "newest": "2026-10-06T14:15:00Z",
+      "held": 306,
+      "last_run": "2026-10-07T01:47:16Z",
+      "last_status": "ok",
+      "newest": "2026-10-07T01:32:58Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
       "short": "SW",
@@ -1463,8 +1450,8 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 179,
-      "last_run": "2026-10-06T21:12:29Z",
+      "held": 180,
+      "last_run": "2026-10-07T01:47:16Z",
       "last_status": "ok",
       "newest": "2026-10-06T20:32:58Z",
       "home": "https://www.darkreading.com/",
@@ -1478,7 +1465,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 153,
-      "last_run": "2026-10-06T21:12:29Z",
+      "last_run": "2026-10-07T01:47:16Z",
       "last_status": "ok",
       "newest": "2026-10-06T15:53:00Z",
       "home": "https://therecord.media/",
@@ -1492,7 +1479,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 68,
-      "last_run": "2026-10-06T21:12:34Z",
+      "last_run": "2026-10-07T01:47:21Z",
       "last_status": "ok",
       "newest": "2026-10-06T13:16:02Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1506,7 +1493,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 60,
-      "last_run": "2026-10-06T21:12:34Z",
+      "last_run": "2026-10-07T01:47:21Z",
       "last_status": "not_modified",
       "newest": "2026-10-06T11:45:11Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1520,8 +1507,8 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 37,
-      "last_run": "2026-10-06T21:12:34Z",
-      "last_status": "ok",
+      "last_run": "2026-10-07T01:47:21Z",
+      "last_status": "not_modified",
       "newest": "2026-10-06T16:00:00Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
       "kind": "research",
@@ -1534,8 +1521,8 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 33,
-      "last_run": "2026-10-06T21:12:30Z",
-      "last_status": "ok",
+      "last_run": "2026-10-07T01:47:17Z",
+      "last_status": "not_modified",
       "newest": "2026-10-01T18:00:52Z",
       "home": "https://blog.talosintelligence.com/",
       "kind": "research",
@@ -1548,7 +1535,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 30,
-      "last_run": "2026-10-06T21:12:30Z",
+      "last_run": "2026-10-07T01:47:17Z",
       "last_status": "not_modified",
       "newest": "2026-10-06T10:00:33Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1562,7 +1549,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 26,
-      "last_run": "2026-10-06T21:12:32Z",
+      "last_run": "2026-10-07T01:47:19Z",
       "last_status": "ok",
       "newest": "2026-09-30T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1576,8 +1563,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 16,
-      "last_run": "2026-10-06T21:12:30Z",
-      "last_status": "not_modified",
+      "last_run": "2026-10-07T01:47:17Z",
+      "last_status": "ok",
       "newest": "2026-09-28T15:08:57Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1590,7 +1577,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 13,
-      "last_run": "2026-10-06T21:12:34Z",
+      "last_run": "2026-10-07T01:47:20Z",
       "last_status": "ok",
       "newest": "2026-10-06T07:00:00Z",
       "home": "https://projectzero.google/",
