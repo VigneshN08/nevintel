@@ -1,35 +1,211 @@
 {
-  "builtAt": "2026-10-14T18:51:33Z",
-  "articles": 2369,
+  "builtAt": "2026-10-14T23:25:08Z",
+  "articles": 2380,
   "sources": 14,
-  "rendered": 2369,
+  "rendered": 2380,
   "live": {
-    "storiesToday": 74,
+    "storiesToday": 68,
     "storiesWeek": 307,
-    "cvesWeek": 14,
+    "cvesWeek": 16,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "0077d1f981ae153d0f8e049bd5b67d7e",
-    "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
-    "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+    "id": "10dada637c3ef8019c7e50ea7c2227ec",
+    "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
     "domain": "bleepingcomputer.com",
-    "snippet": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and…",
-    "author": "Bill Toulas",
-    "date": "2026-10-14T17:46:50Z",
-    "slug": "ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attac-0077d1f9",
+    "snippet": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.",
+    "author": "Lawrence Abrams",
+    "date": "2026-10-14T22:56:47Z",
+    "slug": "palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks-10dada63",
     "sourceId": "bleepingcomputer",
     "sourceName": "BleepingComputer",
     "sourceHome": "https://www.bleepingcomputer.com/",
     "short": "BC",
     "hue": 8,
     "topics": [
-      "supplychain"
+      "vuln"
     ],
-    "cves": []
+    "cves": [
+      "CVE-2026-0322"
+    ]
   },
   "feed": [
+    {
+      "id": "10dada637c3ef8019c7e50ea7c2227ec",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.",
+      "author": "Lawrence Abrams",
+      "date": "2026-10-14T22:56:47Z",
+      "slug": "palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks-10dada63",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-0322"
+      ]
+    },
+    {
+      "id": "d73bcf51f60eea7482c2eee995bc57f9",
+      "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+      "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+      "domain": "unit42.paloaltonetworks.com",
+      "snippet": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware.",
+      "author": "Daniel Gott and Shawn Westfall",
+      "date": "2026-10-14T22:00:44Z",
+      "slug": "unit-42-uncovers-peerstitch-a-stealthy-fortigate-implant-d73bcf51",
+      "sourceId": "unit42",
+      "sourceName": "Unit 42",
+      "sourceHome": "https://unit42.paloaltonetworks.com/",
+      "short": "U42",
+      "hue": 22,
+      "topics": [
+        "malware",
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2024-47575"
+      ]
+    },
+    {
+      "id": "788400810f90a806c51618cf6bcc3302",
+      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+      "domain": "darkreading.com",
+      "snippet": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+      "author": "Rob Wright",
+      "date": "2026-10-14T21:20:13Z",
+      "slug": "ivanti-ics-zero-day-attacks-highlight-vendor-patching-hurdles-78840081",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2026-104935"
+      ]
+    },
+    {
+      "id": "fdd8d14c7be84619740c8d57d8135f53",
+      "title": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
+      "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
+      "domain": "therecord.media",
+      "snippet": "A raid on a home in a North Macedonian village led to the arrest of the suspected administrator of the OLVX market, according to the…",
+      "author": "",
+      "date": "2026-10-14T21:10:00Z",
+      "slug": "north-macedonian-police-arrest-alleged-administrator-behind-olvx-cyber-fdd8d14c",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "203b618871b53515867576c5e4e0856b",
+      "title": "Yam Store: The Phishing Network Behind a Billion Messages",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+      "domain": "darkreading.com",
+      "snippet": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
+      "author": "Alexander Culafi",
+      "date": "2026-10-14T20:57:16Z",
+      "slug": "yam-store-the-phishing-network-behind-a-billion-messages-203b6188",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "phishing"
+      ],
+      "cves": []
+    },
+    {
+      "id": "6aadb27599825110ab666089232d7c10",
+      "title": "Brooklyn DA’s office disrupts crypto scam targeting Russian community",
+      "url": "https://therecord.media/brooklyn-da-server-takedowns-crypto-scam-russian-speakers",
+      "domain": "therecord.media",
+      "snippet": "Russian-speaking Brooklyn residents began tipping off local authorities to a cryptocurrency fraud scheme three years ago, leading to an operation to take down the associated…",
+      "author": "",
+      "date": "2026-10-14T20:33:00Z",
+      "slug": "brooklyn-da-s-office-disrupts-crypto-scam-targeting-russian-community-6aadb275",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
+      "topics": [
+        "phishing"
+      ],
+      "cves": []
+    },
+    {
+      "id": "27378f9eca71377a7d5024f69b3694f3",
+      "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "domain": "darkreading.com",
+      "snippet": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude…",
+      "author": "Becky Bracken",
+      "date": "2026-10-14T20:09:42Z",
+      "slug": "anthropic-sneakpeek-flaw-is-a-silent-zero-click-threat-27378f9e",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "f5298475776fafd33d0c81705c58db36",
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187…",
+      "author": "Bill Toulas",
+      "date": "2026-10-14T19:41:43Z",
+      "slug": "fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested-f5298475",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "policy"
+      ],
+      "cves": []
+    },
+    {
+      "id": "402aaeff71af9a0903716f2ab9c96504",
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "domain": "thehackernews.com",
+      "snippet": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-14T18:38:56Z",
+      "slug": "cisco-warns-of-active-attacks-exploiting-new-critical-secure-email-gat-402aaeff",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "vuln"
+      ],
+      "cves": []
+    },
     {
       "id": "0077d1f981ae153d0f8e049bd5b67d7e",
       "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
@@ -50,6 +226,26 @@
       "cves": []
     },
     {
+      "id": "2720649a8fdd7cf6e4c8edecfb9604ba",
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "domain": "thehackernews.com",
+      "snippet": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-14T17:38:31Z",
+      "slug": "hackers-backdoor-nextcloud-servers-through-critical-flaw-in-collabora-2720649a",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "malware",
+        "vuln"
+      ],
+      "cves": []
+    },
+    {
       "id": "9960150300a621c54080e4a9cf9c527c",
       "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
@@ -65,6 +261,25 @@
       "hue": 8,
       "topics": [
         "vuln"
+      ],
+      "cves": []
+    },
+    {
+      "id": "fbe33babcbabc6a0c3e7d55eb9e04074",
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "domain": "thehackernews.com",
+      "snippet": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-14T17:09:15Z",
+      "slug": "microsoft-disrupts-3-phishing-kits-linked-to-over-1-billion-scam-messa-fbe33bab",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [
+        "phishing"
       ],
       "cves": []
     },
@@ -904,196 +1119,82 @@
       "hue": 150,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "23fbae9ef74d90a13f118f918bcaed18",
-      "title": "Meshery: Open-source cloud-native manager for Kubernetes",
-      "url": "https://www.helpnetsecurity.com/2026/10/14/meshery-open-source-cloud-native-manager-kubernetes/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Meshery is an open-source tool for designing, deploying and managing Kubernetes infrastructure, built by Layer5 and its community and hosted as a Cloud Native Computing…",
-      "author": "Anamarija Pogorelec",
-      "date": "2026-10-14T05:00:01Z",
-      "slug": "meshery-open-source-cloud-native-manager-for-kubernetes-23fbae9e",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
+      "id": "10dada637c3ef8019c7e50ea7c2227ec",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.",
+      "author": "Lawrence Abrams",
+      "date": "2026-10-14T22:56:47Z",
+      "slug": "palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks-10dada63",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
       "topics": [
-        "cloud"
+        "vuln"
       ],
-      "cves": []
+      "cves": [
+        "CVE-2026-0322"
+      ]
     },
     {
-      "id": "58e09ff61a3137a21a299e7d6ed90d7a",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "url": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "id": "d73bcf51f60eea7482c2eee995bc57f9",
+      "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+      "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+      "domain": "unit42.paloaltonetworks.com",
+      "snippet": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware.",
+      "author": "Daniel Gott and Shawn Westfall",
+      "date": "2026-10-14T22:00:44Z",
+      "slug": "unit-42-uncovers-peerstitch-a-stealthy-fortigate-implant-d73bcf51",
+      "sourceId": "unit42",
+      "sourceName": "Unit 42",
+      "sourceHome": "https://unit42.paloaltonetworks.com/",
+      "short": "U42",
+      "hue": 22,
+      "topics": [
+        "malware",
+        "vuln"
+      ],
+      "cves": [
+        "CVE-2024-47575"
+      ]
+    },
+    {
+      "id": "788400810f90a806c51618cf6bcc3302",
+      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
       "domain": "darkreading.com",
-      "snippet": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "author": "Nate Nelson",
-      "date": "2026-10-14T05:00:00Z",
-      "slug": "ransomware-gangs-embrace-physical-threats-family-stalking-58e09ff6",
+      "snippet": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+      "author": "Rob Wright",
+      "date": "2026-10-14T21:20:13Z",
+      "slug": "ivanti-ics-zero-day-attacks-highlight-vendor-patching-hurdles-78840081",
       "sourceId": "darkreading",
       "sourceName": "Dark Reading",
       "sourceHome": "https://www.darkreading.com/",
       "short": "DR",
       "hue": 275,
       "topics": [
-        "ransomware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "9917fb9c5e95cc7a28f075867858f4c9",
-      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
-      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
-      "domain": "thehackernews.com",
-      "snippet": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-14T04:34:43Z",
-      "slug": "microsoft-patches-record-1-413-flaws-including-exploited-windows-shell-9917fb9c",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
         "vuln"
       ],
-      "cves": []
+      "cves": [
+        "CVE-2026-104935"
+      ]
     },
     {
-      "id": "08721e3efb2498d86427902c5bcbe7f0",
-      "title": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
-      "url": "https://www.helpnetsecurity.com/2026/10/14/ciso-ai-agent-insider-risk/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Software that works on an employee’s behalf is now turning up in incident reports. At 95% of the companies in a Trellix survey of 600…",
-      "author": "Anamarija Pogorelec",
-      "date": "2026-10-14T04:30:05Z",
-      "slug": "most-companies-count-ai-agents-as-insiders-and-cisos-worry-about-their-08721e3e",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "22b3bb213582c5f7f22f32ed65e921ec",
-      "title": "Google quadruples Chrome bug bounty base pay, offers up to $20,000 for sandbox escapes",
-      "url": "https://www.helpnetsecurity.com/2026/10/14/google-chrome-vulnerability-rewards-program-updates/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Google is updating its Chrome Vulnerability Rewards Program (Chrome VRP), increasing payments for memory corruption vulnerabilities and expanding rewards for other security flaws, fixes and…",
-      "author": "Anamarija Pogorelec",
-      "date": "2026-10-14T04:00:43Z",
-      "slug": "google-quadruples-chrome-bug-bounty-base-pay-offers-up-to-20-000-for-s-22b3bb21",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "eea2f3b82395326b9dd9e77edde05114",
-      "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33424",
-      "domain": "isc.sans.edu",
-      "snippet": "",
-      "author": "",
-      "date": "2026-10-14T02:00:03Z",
-      "slug": "isc-stormcast-for-wednesday-october-14th-2026-https-isc-sans-edu-podca-eea2f3b8",
-      "sourceId": "sans_isc",
-      "sourceName": "SANS ISC",
-      "sourceHome": "https://isc.sans.edu/diary.html",
-      "short": "ISC",
-      "hue": 350,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "3c73a02d5d703858b6bf5710cdbc6976",
-      "title": "SANS Stormcast Wednesday, October 14th, 2026: October 2026 Patch Tuesday: Microsoft Fixes 1,417 Vulnerabilities; Ivanti Connect Secure Exploited; Adobe ColdFusion and Commerce Critical Patches #podcast #security",
-      "url": "https://traffic.libsyn.com/securitypodcast/10136.mp3",
-      "domain": "traffic.libsyn.com",
-      "snippet": "",
-      "author": "",
-      "date": "2026-10-14T02:00:03Z",
-      "slug": "sans-stormcast-wednesday-october-14th-2026-october-2026-patch-tuesday-3c73a02d",
-      "sourceId": "sans_stormcast",
-      "sourceName": "SANS Stormcast",
-      "sourceHome": "https://isc.sans.edu/podcastdetail.html",
-      "short": "SC",
-      "hue": 60,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "4bc4c10ddd8c2d7068efe2ee9a223d35",
-      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-      "domain": "thehackernews.com",
-      "snippet": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-14T01:59:25Z",
-      "slug": "openai-employee-arrested-for-allegedly-planting-hidden-recorder-in-exe-4bc4c10d",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "0fbd64ca10e3ba0a1614ea76e80b28f2",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "domain": "krebsonsecurity.com",
-      "snippet": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's…",
-      "author": "BrianKrebs",
-      "date": "2026-10-13T23:24:53Z",
-      "slug": "microsoft-patches-more-than-1-400-security-flaws-0fbd64ca",
-      "sourceId": "krebs",
-      "sourceName": "Krebs on Security",
-      "sourceHome": "https://krebsonsecurity.com/",
-      "short": "KS",
-      "hue": 32,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "1864d3270f9b6689a1c0df354b03dd0f",
-      "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
-      "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
-      "domain": "securityweek.com",
-      "snippet": "Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI.",
-      "author": "Associated Press",
-      "date": "2026-10-13T23:07:00Z",
-      "slug": "employee-arrested-after-listening-device-found-in-openai-conference-ro-1864d327",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "838871d1308daa97c55b996eb5c2c53a",
-      "title": "Saudi national charged with planting spy device in OpenAI executive conference room",
-      "url": "https://therecord.media/saudi-national-charged-with-spy-device-openai",
+      "id": "fdd8d14c7be84619740c8d57d8135f53",
+      "title": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
+      "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
       "domain": "therecord.media",
-      "snippet": "Abdulrahman Alfozan, 35, a Saudi national working as an engineer for OpenAI, was charged Tuesday with secretly bugging an executive conference room at one of…",
+      "snippet": "A raid on a home in a North Macedonian village led to the arrest of the suspected administrator of the OLVX market, according to the…",
       "author": "",
-      "date": "2026-10-13T23:00:00Z",
-      "slug": "saudi-national-charged-with-planting-spy-device-in-openai-executive-co-838871d1",
+      "date": "2026-10-14T21:10:00Z",
+      "slug": "north-macedonian-police-arrest-alleged-administrator-behind-olvx-cyber-fdd8d14c",
       "sourceId": "therecord",
       "sourceName": "The Record",
       "sourceHome": "https://therecord.media/",
@@ -1101,148 +1202,76 @@
       "hue": 190,
       "topics": [],
       "cves": []
-    }
-  ],
-  "rail": [
+    },
     {
-      "id": "0077d1f981ae153d0f8e049bd5b67d7e",
-      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "id": "203b618871b53515867576c5e4e0856b",
+      "title": "Yam Store: The Phishing Network Behind a Billion Messages",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+      "domain": "darkreading.com",
+      "snippet": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
+      "author": "Alexander Culafi",
+      "date": "2026-10-14T20:57:16Z",
+      "slug": "yam-store-the-phishing-network-behind-a-billion-messages-203b6188",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "phishing"
+      ],
+      "cves": []
+    },
+    {
+      "id": "6aadb27599825110ab666089232d7c10",
+      "title": "Brooklyn DA’s office disrupts crypto scam targeting Russian community",
+      "url": "https://therecord.media/brooklyn-da-server-takedowns-crypto-scam-russian-speakers",
+      "domain": "therecord.media",
+      "snippet": "Russian-speaking Brooklyn residents began tipping off local authorities to a cryptocurrency fraud scheme three years ago, leading to an operation to take down the associated…",
+      "author": "",
+      "date": "2026-10-14T20:33:00Z",
+      "slug": "brooklyn-da-s-office-disrupts-crypto-scam-targeting-russian-community-6aadb275",
+      "sourceId": "therecord",
+      "sourceName": "The Record",
+      "sourceHome": "https://therecord.media/",
+      "short": "TR",
+      "hue": 190,
+      "topics": [
+        "phishing"
+      ],
+      "cves": []
+    },
+    {
+      "id": "27378f9eca71377a7d5024f69b3694f3",
+      "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "domain": "darkreading.com",
+      "snippet": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude…",
+      "author": "Becky Bracken",
+      "date": "2026-10-14T20:09:42Z",
+      "slug": "anthropic-sneakpeek-flaw-is-a-silent-zero-click-threat-27378f9e",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "f5298475776fafd33d0c81705c58db36",
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
       "domain": "bleepingcomputer.com",
-      "snippet": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and…",
+      "snippet": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187…",
       "author": "Bill Toulas",
-      "date": "2026-10-14T17:46:50Z",
-      "slug": "ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attac-0077d1f9",
+      "date": "2026-10-14T19:41:43Z",
+      "slug": "fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested-f5298475",
       "sourceId": "bleepingcomputer",
       "sourceName": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
       "short": "BC",
       "hue": 8,
-      "topics": [
-        "supplychain"
-      ],
-      "cves": []
-    },
-    {
-      "id": "9960150300a621c54080e4a9cf9c527c",
-      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-10-14T17:29:14Z",
-      "slug": "cisco-patches-new-secure-email-gateway-zero-day-exploited-in-attacks-99601503",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "4aba75c00239d044d1e159336f05b0bf",
-      "title": "Spyware manufacturer had access to data harvested by former Polish government, current PM says",
-      "url": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government",
-      "domain": "therecord.media",
-      "snippet": "Prime Minister Donald Tusk, who ordered the investigation, on Monday called the sprawling spyware operation spearheaded by the country’s previous ruling party “one of the…",
-      "author": "",
-      "date": "2026-10-14T16:50:00Z",
-      "slug": "spyware-manufacturer-had-access-to-data-harvested-by-former-polish-gov-4aba75c0",
-      "sourceId": "therecord",
-      "sourceName": "The Record",
-      "sourceHome": "https://therecord.media/",
-      "short": "TR",
-      "hue": 190,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "6d011349c01c46dc04b8a0b81b3e1e8d",
-      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-      "domain": "thehackernews.com",
-      "snippet": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-14T16:34:31Z",
-      "slug": "u-s-shuts-down-over-40-laptop-farms-charges-14-in-north-korean-it-work-6d011349",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "b33a7bddb2dff5f393f9f7aab1ec7e6b",
-      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
-      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
-      "domain": "securityweek.com",
-      "snippet": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in…",
-      "author": "Kevin Townsend",
-      "date": "2026-10-14T16:00:00Z",
-      "slug": "ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-b33a7bdd",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "3e16f8a63b6117bbf72fa270149a121a",
-      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
-      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
-      "domain": "securityweek.com",
-      "snippet": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability.",
-      "author": "Eduard Kovacs",
-      "date": "2026-10-14T15:15:15Z",
-      "slug": "ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblo-3e16f8a6",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "9bde80472ad4dddeab5cb601a10d7f66",
-      "title": "Microsoft fixes VPN issues caused by September Windows updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-10-14T14:27:01Z",
-      "slug": "microsoft-fixes-vpn-issues-caused-by-september-windows-updates-9bde8047",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "679425e2c5ab85db838a94c30e74c7ef",
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "domain": "krebsonsecurity.com",
-      "snippet": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to…",
-      "author": "BrianKrebs",
-      "date": "2026-10-14T14:22:49Z",
-      "slug": "u-k-sanctions-cryptomus-for-ru-money-laundering-679425e2",
-      "sourceId": "krebs",
-      "sourceName": "Krebs on Security",
-      "sourceHome": "https://krebsonsecurity.com/",
-      "short": "KS",
-      "hue": 32,
       "topics": [
         "policy"
       ],
@@ -1306,31 +1335,25 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 58
+      "count": 63
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 23
+      "count": 25
     },
     {
       "id": "ransomware",
       "label": "Ransomware",
       "blurb": "Extortion operations: encryption, data-leak sites, and the crews and affiliates running them.",
-      "count": 15
+      "count": 14
     },
     {
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 10
-    },
-    {
-      "id": "supplychain",
-      "label": "Supply Chain",
-      "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
-      "count": 7
+      "count": 13
     },
     {
       "id": "breach",
@@ -1339,16 +1362,22 @@
       "count": 7
     },
     {
-      "id": "apt",
-      "label": "Nation-State",
-      "blurb": "State-linked intrusion sets, espionage campaigns, and attribution reporting.",
-      "count": 5
+      "id": "supplychain",
+      "label": "Supply Chain",
+      "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
+      "count": 6
     },
     {
       "id": "policy",
       "label": "Policy & Regulation",
       "blurb": "Law, enforcement, sanctions, disclosure mandates, and government advisories.",
-      "count": 4
+      "count": 5
+    },
+    {
+      "id": "apt",
+      "label": "Nation-State",
+      "blurb": "State-linked intrusion sets, espionage campaigns, and attribution reporting.",
+      "count": 5
     },
     {
       "id": "cloud",
@@ -1365,6 +1394,10 @@
   ],
   "topCves": [
     {
+      "id": "CVE-2026-104935",
+      "count": 2
+    },
+    {
       "id": "CVE-2026-96951",
       "count": 2
     },
@@ -1377,23 +1410,19 @@
       "count": 2
     },
     {
+      "id": "CVE-2026-0322",
+      "count": 1
+    },
+    {
+      "id": "CVE-2024-47575",
+      "count": 1
+    },
+    {
       "id": "CVE-2026-39919",
       "count": 1
     },
     {
-      "id": "CVE-2026-104935",
-      "count": 1
-    },
-    {
       "id": "CVE-2026-105445",
-      "count": 1
-    },
-    {
-      "id": "CVE-2026-85097",
-      "count": 1
-    },
-    {
-      "id": "CVE-2026-0257",
       "count": 1
     }
   ],
@@ -1402,7 +1431,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 454,
-      "last_run": "2026-10-14T18:51:30Z",
+      "last_run": "2026-10-14T23:25:03Z",
       "last_status": "not_modified",
       "newest": "2026-10-14T13:00:49Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1415,10 +1444,10 @@
     {
       "id": "thehackernews",
       "name": "The Hacker News",
-      "held": 434,
-      "last_run": "2026-10-14T18:51:29Z",
+      "held": 437,
+      "last_run": "2026-10-14T23:25:02Z",
       "last_status": "ok",
-      "newest": "2026-10-14T16:34:31Z",
+      "newest": "2026-10-14T18:38:56Z",
       "home": "https://thehackernews.com/",
       "kind": "news",
       "short": "HN",
@@ -1429,10 +1458,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 404,
-      "last_run": "2026-10-14T18:51:28Z",
+      "held": 406,
+      "last_run": "2026-10-14T23:25:02Z",
       "last_status": "ok",
-      "newest": "2026-10-14T17:46:50Z",
+      "newest": "2026-10-14T22:56:47Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1444,8 +1473,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 366,
-      "last_run": "2026-10-14T18:51:29Z",
-      "last_status": "ok",
+      "last_run": "2026-10-14T23:25:02Z",
+      "last_status": "not_modified",
       "newest": "2026-10-14T16:00:00Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1457,10 +1486,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 202,
-      "last_run": "2026-10-14T18:51:30Z",
+      "held": 205,
+      "last_run": "2026-10-14T23:25:03Z",
       "last_status": "ok",
-      "newest": "2026-10-14T13:00:00Z",
+      "newest": "2026-10-14T21:20:13Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1471,10 +1500,10 @@
     {
       "id": "therecord",
       "name": "The Record",
-      "held": 193,
-      "last_run": "2026-10-14T18:51:29Z",
+      "held": 195,
+      "last_run": "2026-10-14T23:25:02Z",
       "last_status": "ok",
-      "newest": "2026-10-14T16:50:00Z",
+      "newest": "2026-10-14T21:10:00Z",
       "home": "https://therecord.media/",
       "kind": "news",
       "short": "TR",
@@ -1486,7 +1515,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 79,
-      "last_run": "2026-10-14T18:51:33Z",
+      "last_run": "2026-10-14T23:25:08Z",
       "last_status": "ok",
       "newest": "2026-10-14T06:49:46Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1500,7 +1529,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 66,
-      "last_run": "2026-10-14T18:51:33Z",
+      "last_run": "2026-10-14T23:25:08Z",
       "last_status": "not_modified",
       "newest": "2026-10-14T02:00:03Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1514,7 +1543,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 40,
-      "last_run": "2026-10-14T18:51:30Z",
+      "last_run": "2026-10-14T23:25:03Z",
       "last_status": "ok",
       "newest": "2026-10-14T14:00:00Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1528,8 +1557,8 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 40,
-      "last_run": "2026-10-14T18:51:33Z",
-      "last_status": "ok",
+      "last_run": "2026-10-14T23:25:07Z",
+      "last_status": "not_modified",
       "newest": "2026-10-14T13:00:00Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
       "kind": "research",
@@ -1541,10 +1570,10 @@
     {
       "id": "unit42",
       "name": "Unit 42",
-      "held": 32,
-      "last_run": "2026-10-14T18:51:30Z",
-      "last_status": "not_modified",
-      "newest": "2026-10-13T22:00:04Z",
+      "held": 33,
+      "last_run": "2026-10-14T23:25:03Z",
+      "last_status": "ok",
+      "newest": "2026-10-14T22:00:44Z",
       "home": "https://unit42.paloaltonetworks.com/",
       "kind": "research",
       "short": "U42",
@@ -1556,7 +1585,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 26,
-      "last_run": "2026-10-14T18:51:32Z",
+      "last_run": "2026-10-14T23:25:07Z",
       "last_status": "ok",
       "newest": "2026-09-30T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1570,8 +1599,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 20,
-      "last_run": "2026-10-14T18:51:30Z",
-      "last_status": "ok",
+      "last_run": "2026-10-14T23:25:03Z",
+      "last_status": "not_modified",
       "newest": "2026-10-14T14:22:49Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1584,7 +1613,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 13,
-      "last_run": "2026-10-14T18:51:32Z",
+      "last_run": "2026-10-14T23:25:07Z",
       "last_status": "not_modified",
       "newest": "2026-10-06T07:00:00Z",
       "home": "https://projectzero.google/",

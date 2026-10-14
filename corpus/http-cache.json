@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-10-14T18:51:28Z",
-    "etag": "91fb06e2c54fd05bbf9be4cf8daf01f2",
-    "last_modified": "Wed, 14 Oct 2026 18:46:53 GMT"
+    "checked": "2026-10-14T23:25:02Z",
+    "etag": "f8fc3c2e6d94bfb0f412f3079faabda1",
+    "last_modified": "Wed, 14 Oct 2026 23:16:48 GMT"
   },
   "darkreading": {
-    "checked": "2026-10-14T18:51:30Z",
+    "checked": "2026-10-14T23:25:03Z",
     "etag": "",
-    "last_modified": "Wed, 14 Oct 2026 18:51:29 GMT"
+    "last_modified": "Wed, 14 Oct 2026 23:25:03 GMT"
   },
   "googletil": {
-    "checked": "2026-10-14T18:51:32Z",
+    "checked": "2026-10-14T23:25:06Z",
     "etag": "",
     "last_modified": ""
   },
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 13 Oct 2026 21:15:49 GMT"
   },
   "sans_isc": {
-    "checked": "2026-10-14T18:51:33Z",
-    "etag": "W/\"1f64-65dd1624743b5\"",
-    "last_modified": "Wed, 14 Oct 2026 18:48:58 GMT"
+    "checked": "2026-10-14T23:25:08Z",
+    "etag": "W/\"1f64-65dd539b59410\"",
+    "last_modified": "Wed, 14 Oct 2026 23:23:57 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-10-14T07:59:34Z",
@@ -50,23 +50,23 @@
     "last_modified": "Wed, 14 Oct 2026 17:44:18 GMT"
   },
   "talos": {
-    "checked": "2026-10-14T18:51:30Z",
-    "etag": "W/\"b5aaf-wKbhqDeJJ76bdyil0H/JGVETd2w\"",
+    "checked": "2026-10-14T23:25:03Z",
+    "etag": "W/\"b5aaf-Ua1ytIs5aWKX1YoV9nFLaIwXmro\"",
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-10-14T18:51:29Z",
+    "checked": "2026-10-14T23:25:02Z",
     "etag": "",
-    "last_modified": "Wed, 14 Oct 2026 16:54:19 GMT"
+    "last_modified": "Wed, 14 Oct 2026 23:21:34 GMT"
   },
   "therecord": {
-    "checked": "2026-10-14T18:51:29Z",
+    "checked": "2026-10-14T23:25:02Z",
     "etag": "",
     "last_modified": ""
   },
   "unit42": {
-    "checked": "2026-10-14T01:22:13Z",
-    "etag": "\"d84809eb91ea39e9f8ae83504477dd16-gzip\"",
-    "last_modified": "Tue, 13 Oct 2026 22:00:04 GMT"
+    "checked": "2026-10-14T23:25:03Z",
+    "etag": "\"57a991197490cd77cb575b8cb4de7d88-gzip\"",
+    "last_modified": "Wed, 14 Oct 2026 22:00:44 GMT"
   }
 }
