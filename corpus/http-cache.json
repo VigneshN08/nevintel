@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-10-18T18:53:14Z",
-    "etag": "ffe874173249e8f20ffeeab1a98c90d1",
-    "last_modified": "Sun, 18 Oct 2026 18:49:16 GMT"
+    "checked": "2026-10-18T22:34:35Z",
+    "etag": "0ecd1aa35e0b43534c133f501884a966",
+    "last_modified": "Sun, 18 Oct 2026 22:29:23 GMT"
   },
   "darkreading": {
-    "checked": "2026-10-18T18:53:16Z",
+    "checked": "2026-10-18T22:34:36Z",
     "etag": "",
-    "last_modified": "Sun, 18 Oct 2026 18:53:16 GMT"
+    "last_modified": "Sun, 18 Oct 2026 22:34:36 GMT"
   },
   "googletil": {
-    "checked": "2026-10-18T18:53:20Z",
+    "checked": "2026-10-18T22:34:38Z",
     "etag": "",
     "last_modified": ""
   },
@@ -25,9 +25,9 @@
     "last_modified": "Sun, 18 Oct 2026 11:36:55 GMT"
   },
   "msrc": {
-    "checked": "2026-10-16T18:19:32Z",
-    "etag": "\"e57f834e7cb5d790bd472872730bb700-gzip\"",
-    "last_modified": "Fri, 16 Oct 2026 16:53:57 GMT"
+    "checked": "2026-10-18T22:34:39Z",
+    "etag": "\"ee642af43a91c1170968e6f16bd881a5-gzip\"",
+    "last_modified": "Sun, 18 Oct 2026 19:47:35 GMT"
   },
   "projectzero": {
     "checked": "2026-10-13T21:31:14Z",
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 13 Oct 2026 21:15:49 GMT"
   },
   "sans_isc": {
-    "checked": "2026-10-18T18:53:21Z",
-    "etag": "W/\"17a3-65e21d999e339\"",
-    "last_modified": "Sun, 18 Oct 2026 18:48:57 GMT"
+    "checked": "2026-10-18T22:34:39Z",
+    "etag": "W/\"17a3-65e24ec61ef88\"",
+    "last_modified": "Sun, 18 Oct 2026 22:28:57 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-10-16T07:29:43Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-10-18T18:53:15Z",
+    "checked": "2026-10-18T22:34:36Z",
     "etag": "",
-    "last_modified": "Sun, 18 Oct 2026 18:26:52 GMT"
+    "last_modified": "Sun, 18 Oct 2026 20:32:32 GMT"
   },
   "therecord": {
-    "checked": "2026-10-18T18:53:15Z",
+    "checked": "2026-10-18T22:34:36Z",
     "etag": "",
     "last_modified": ""
   },
