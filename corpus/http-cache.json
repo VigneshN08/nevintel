@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-10-20T17:29:30Z",
-    "etag": "54e637b384f0022b77f0b0fdaed7aee1",
-    "last_modified": "Tue, 20 Oct 2026 17:29:11 GMT"
+    "checked": "2026-10-20T21:50:17Z",
+    "etag": "b7284125f475e3cf6ed382c69964838a",
+    "last_modified": "Tue, 20 Oct 2026 21:46:47 GMT"
   },
   "darkreading": {
-    "checked": "2026-10-20T17:29:31Z",
+    "checked": "2026-10-20T21:50:18Z",
     "etag": "",
-    "last_modified": "Tue, 20 Oct 2026 17:29:31 GMT"
+    "last_modified": "Tue, 20 Oct 2026 21:50:18 GMT"
   },
   "googletil": {
-    "checked": "2026-10-20T17:29:33Z",
+    "checked": "2026-10-20T21:50:21Z",
     "etag": "",
     "last_modified": ""
   },
@@ -25,9 +25,9 @@
     "last_modified": "Mon, 19 Oct 2026 23:54:03 GMT"
   },
   "msrc": {
-    "checked": "2026-10-19T13:53:57Z",
-    "etag": "\"975e30a4a2cc7af45d1e23d0b4d2b9b1-gzip\"",
-    "last_modified": "Mon, 19 Oct 2026 13:03:33 GMT"
+    "checked": "2026-10-20T21:50:22Z",
+    "etag": "\"d2a2ecc891ad655213d0253aef6d8818-gzip\"",
+    "last_modified": "Tue, 20 Oct 2026 17:22:46 GMT"
   },
   "projectzero": {
     "checked": "2026-10-13T21:31:14Z",
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 13 Oct 2026 21:15:49 GMT"
   },
   "sans_isc": {
-    "checked": "2026-10-20T17:29:34Z",
-    "etag": "W/\"7a74-65e48e53e763a\"",
-    "last_modified": "Tue, 20 Oct 2026 17:23:56 GMT"
+    "checked": "2026-10-20T21:50:22Z",
+    "etag": "W/\"17a4-65e4c98ff0884\"",
+    "last_modified": "Tue, 20 Oct 2026 21:48:57 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-10-20T05:13:15Z",
@@ -55,18 +55,18 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-10-20T17:29:30Z",
+    "checked": "2026-10-20T21:50:17Z",
     "etag": "",
-    "last_modified": "Tue, 20 Oct 2026 16:10:36 GMT"
+    "last_modified": "Tue, 20 Oct 2026 21:06:01 GMT"
   },
   "therecord": {
-    "checked": "2026-10-20T17:29:30Z",
+    "checked": "2026-10-20T21:50:17Z",
     "etag": "",
     "last_modified": ""
   },
   "unit42": {
-    "checked": "2026-10-19T23:54:51Z",
-    "etag": "\"3922563dc6c7c3d914eee6ca102d1bf7-gzip\"",
-    "last_modified": "Mon, 19 Oct 2026 22:58:38 GMT"
+    "checked": "2026-10-20T21:50:18Z",
+    "etag": "\"be0ff0121c19aa54e1d227a316134884-gzip\"",
+    "last_modified": "Tue, 20 Oct 2026 20:35:17 GMT"
   }
 }
