@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-22T21:54:20Z",
-  "articles": 2755,
+  "builtAt": "2026-10-23T00:54:31Z",
+  "articles": 2756,
   "sources": 14,
-  "rendered": 2755,
+  "rendered": 2756,
   "live": {
-    "storiesToday": 62,
-    "storiesWeek": 317,
+    "storiesToday": 61,
+    "storiesWeek": 314,
     "cvesWeek": 9,
     "sourcesOk": 14,
     "sourcesTotal": 14
@@ -61,6 +61,25 @@
       "hue": 190,
       "topics": [
         "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "c8b85a504961daad28984083a6a5faf6",
+      "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+      "domain": "darkreading.com",
+      "snippet": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
+      "author": "Jai Vijayan",
+      "date": "2026-10-22T20:42:17Z",
+      "slug": "microsoft-links-storm-0940-to-connectwise-supply-chain-attack-c8b85a50",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "supplychain"
       ],
       "cves": []
     },
@@ -1085,28 +1104,6 @@
       "hue": 350,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "e1ccf06a52fdce2e645918259af06d98",
-      "title": "SANS Stormcast Thursday, October 22nd, 2026: Critical PHP RCE Vulnerabilities Exploited (CVE-2026-109618, CVE-2026-109619); Fortinet AI-Driven Security Hardening Release for FortiOS and More #podcast #security",
-      "url": "https://traffic.libsyn.com/securitypodcast/10146.mp3",
-      "domain": "traffic.libsyn.com",
-      "snippet": "",
-      "author": "",
-      "date": "2026-10-22T02:00:02Z",
-      "slug": "sans-stormcast-thursday-october-22nd-2026-critical-php-rce-vulnerabili-e1ccf06a",
-      "sourceId": "sans_stormcast",
-      "sourceName": "SANS Stormcast",
-      "sourceHome": "https://isc.sans.edu/podcastdetail.html",
-      "short": "SC",
-      "hue": 60,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-109618",
-        "CVE-2026-109619"
-      ]
     }
   ],
   "rail": [
@@ -1143,6 +1140,25 @@
       "hue": 190,
       "topics": [
         "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "c8b85a504961daad28984083a6a5faf6",
+      "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+      "domain": "darkreading.com",
+      "snippet": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
+      "author": "Jai Vijayan",
+      "date": "2026-10-22T20:42:17Z",
+      "slug": "microsoft-links-storm-0940-to-connectwise-supply-chain-attack-c8b85a50",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "supplychain"
       ],
       "cves": []
     },
@@ -1237,23 +1253,6 @@
         "vuln"
       ],
       "cves": []
-    },
-    {
-      "id": "954f0c2a69a5f90039820f033b7c49a7",
-      "title": "Indian tech company eMudhra announces withdrawal from certificate business after security incident",
-      "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
-      "domain": "therecord.media",
-      "snippet": "The issue was publicized by cybersecurity researcher Scott Helme, who published a blog saying that instead of a random 384-bit number, one of the company's…",
-      "author": "",
-      "date": "2026-10-22T18:46:00Z",
-      "slug": "indian-tech-company-emudhra-announces-withdrawal-from-certificate-busi-954f0c2a",
-      "sourceId": "therecord",
-      "sourceName": "The Record",
-      "sourceHome": "https://therecord.media/",
-      "short": "TR",
-      "hue": 190,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1319,13 +1318,13 @@
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 37
+      "count": 36
     },
     {
       "id": "supplychain",
       "label": "Supply Chain",
       "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
-      "count": 18
+      "count": 19
     },
     {
       "id": "ransomware",
@@ -1337,7 +1336,7 @@
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 11
+      "count": 10
     },
     {
       "id": "apt",
@@ -1403,7 +1402,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 533,
-      "last_run": "2026-10-22T21:54:16Z",
+      "last_run": "2026-10-23T00:54:26Z",
       "last_status": "not_modified",
       "newest": "2026-10-22T13:10:28Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1417,7 +1416,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 515,
-      "last_run": "2026-10-22T21:54:15Z",
+      "last_run": "2026-10-23T00:54:26Z",
       "last_status": "ok",
       "newest": "2026-10-22T19:05:17Z",
       "home": "https://thehackernews.com/",
@@ -1431,7 +1430,7 @@
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
       "held": 466,
-      "last_run": "2026-10-22T21:54:15Z",
+      "last_run": "2026-10-23T00:54:25Z",
       "last_status": "ok",
       "newest": "2026-10-22T21:25:31Z",
       "home": "https://www.bleepingcomputer.com/",
@@ -1445,7 +1444,7 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 424,
-      "last_run": "2026-10-22T21:54:16Z",
+      "last_run": "2026-10-23T00:54:26Z",
       "last_status": "not_modified",
       "newest": "2026-10-22T14:31:34Z",
       "home": "https://www.securityweek.com/",
@@ -1458,10 +1457,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 237,
-      "last_run": "2026-10-22T21:54:16Z",
+      "held": 238,
+      "last_run": "2026-10-23T00:54:26Z",
       "last_status": "ok",
-      "newest": "2026-10-22T20:33:10Z",
+      "newest": "2026-10-22T20:42:17Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1473,7 +1472,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 229,
-      "last_run": "2026-10-22T21:54:15Z",
+      "last_run": "2026-10-23T00:54:26Z",
       "last_status": "ok",
       "newest": "2026-10-22T20:52:00Z",
       "home": "https://therecord.media/",
@@ -1487,7 +1486,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 88,
-      "last_run": "2026-10-22T21:54:20Z",
+      "last_run": "2026-10-23T00:54:30Z",
       "last_status": "ok",
       "newest": "2026-10-22T02:00:02Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1501,7 +1500,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 71,
-      "last_run": "2026-10-22T21:54:20Z",
+      "last_run": "2026-10-23T00:54:31Z",
       "last_status": "not_modified",
       "newest": "2026-10-22T02:00:02Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1515,7 +1514,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 46,
-      "last_run": "2026-10-22T21:54:17Z",
+      "last_run": "2026-10-23T00:54:26Z",
       "last_status": "ok",
       "newest": "2026-10-22T18:04:32Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1529,7 +1528,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 43,
-      "last_run": "2026-10-22T21:54:20Z",
+      "last_run": "2026-10-23T00:54:29Z",
       "last_status": "not_modified",
       "newest": "2026-10-21T18:23:55Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1543,7 +1542,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 40,
-      "last_run": "2026-10-22T21:54:17Z",
+      "last_run": "2026-10-23T00:54:27Z",
       "last_status": "ok",
       "newest": "2026-10-22T17:15:32Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1557,7 +1556,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 28,
-      "last_run": "2026-10-22T21:54:19Z",
+      "last_run": "2026-10-23T00:54:29Z",
       "last_status": "ok",
       "newest": "2026-10-15T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1571,8 +1570,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 22,
-      "last_run": "2026-10-22T21:54:17Z",
-      "last_status": "ok",
+      "last_run": "2026-10-23T00:54:26Z",
+      "last_status": "not_modified",
       "newest": "2026-10-21T15:26:07Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1585,7 +1584,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 13,
-      "last_run": "2026-10-22T21:54:20Z",
+      "last_run": "2026-10-23T00:54:29Z",
       "last_status": "not_modified",
       "newest": "2026-10-06T07:00:00Z",
       "home": "https://projectzero.google/",
