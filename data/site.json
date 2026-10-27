@@ -1,33 +1,103 @@
 {
-  "builtAt": "2026-10-26T21:10:36Z",
-  "articles": 2872,
+  "builtAt": "2026-10-27T01:36:35Z",
+  "articles": 2877,
   "sources": 14,
-  "rendered": 2872,
+  "rendered": 2877,
   "live": {
-    "storiesToday": 52,
-    "storiesWeek": 327,
+    "storiesToday": 56,
+    "storiesWeek": 328,
     "cvesWeek": 7,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "cb6e7d403caae273d17924b57af63bab",
-    "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-    "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-    "domain": "bleepingcomputer.com",
-    "snippet": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework…",
-    "author": "Bill Toulas",
-    "date": "2026-10-26T21:08:28Z",
-    "slug": "former-pentester-used-artex-ai-to-steal-8-2-million-data-records-cb6e7d40",
-    "sourceId": "bleepingcomputer",
-    "sourceName": "BleepingComputer",
-    "sourceHome": "https://www.bleepingcomputer.com/",
-    "short": "BC",
-    "hue": 8,
+    "id": "12bf2922831c2253549db264b9125d73",
+    "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+    "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+    "domain": "darkreading.com",
+    "snippet": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your…",
+    "author": "Robert Lemos",
+    "date": "2026-10-27T00:26:50Z",
+    "slug": "so-many-ai-security-benchmarks-but-none-tell-the-whole-story-12bf2922",
+    "sourceId": "darkreading",
+    "sourceName": "Dark Reading",
+    "sourceHome": "https://www.darkreading.com/",
+    "short": "DR",
+    "hue": 275,
     "topics": [],
     "cves": []
   },
   "feed": [
+    {
+      "id": "12bf2922831c2253549db264b9125d73",
+      "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+      "domain": "darkreading.com",
+      "snippet": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your…",
+      "author": "Robert Lemos",
+      "date": "2026-10-27T00:26:50Z",
+      "slug": "so-many-ai-security-benchmarks-but-none-tell-the-whole-story-12bf2922",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "344bdc9286a24997bdeb0879ec846728",
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-10-26T23:34:37Z",
+      "slug": "apple-patches-for-october-2026-mon-oct-26th-344bdc92",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "6d9d5e5887ab889b2ebf20c14d8bb2ee",
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people.",
+      "author": "Bill Toulas",
+      "date": "2026-10-26T22:20:36Z",
+      "slug": "university-of-copenhagen-data-breach-exposes-data-of-525-000-people-6d9d5e58",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "711b61639b30a123e5f693b169e89ef4",
+      "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
+      "url": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
+      "domain": "darkreading.com",
+      "snippet": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
+      "author": "Jai Vijayan",
+      "date": "2026-10-26T21:44:33Z",
+      "slug": "risks-rewards-how-ai-is-redefining-the-ciso-s-role-711b6163",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "cb6e7d403caae273d17924b57af63bab",
       "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
@@ -60,6 +130,25 @@
       "short": "TR",
       "hue": 190,
       "topics": [],
+      "cves": []
+    },
+    {
+      "id": "631b0902569c74ab3b6343eb2ce423e0",
+      "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+      "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+      "domain": "darkreading.com",
+      "snippet": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
+      "author": "Alexander Culafi",
+      "date": "2026-10-26T20:59:26Z",
+      "slug": "in-the-wild-attack-abuses-ai-agents-trust-in-markdown-631b0902",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "ai"
+      ],
       "cves": []
     },
     {
@@ -1008,100 +1097,79 @@
       "cves": [
         "CVE-2026-109618"
       ]
-    },
-    {
-      "id": "5db2cad8ad53b4cb9cf0b64d6f9a55bc",
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
-      "author": "Bill Toulas",
-      "date": "2026-10-25T15:49:38Z",
-      "slug": "ai-coding-agents-hijacked-using-agents-md-file-in-downloads-folder-5db2cad8",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "supplychain"
-      ],
-      "cves": []
-    },
-    {
-      "id": "38c705de0f5ebeead9e1e5a2f2ff98bf",
-      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
-      "domain": "securityweek.com",
-      "snippet": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.",
-      "author": "Kevin Townsend",
-      "date": "2026-10-25T11:00:00Z",
-      "slug": "former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-38c705de",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "28611d0d6d9b0e124efa1af0fe6f73db",
-      "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
-      "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get…",
-      "author": "Help Net Security",
-      "date": "2026-10-25T09:00:56Z",
-      "slug": "week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalp-28611d0d",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "2b44ac8d0a52ce9fe00c2800adcc48c1",
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "domain": "thehackernews.com",
-      "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-25T06:54:29Z",
-      "slug": "openai-ai-agents-demonstrate-vm-escapes-and-secret-cross-sandbox-commu-2b44ac8d",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "ed9fe79f62b579cc63434a8cb2b25991",
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and…",
-      "author": "Bill Toulas",
-      "date": "2026-10-24T14:17:32Z",
-      "slug": "blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot-ed9fe79f",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
     }
   ],
   "rail": [
+    {
+      "id": "12bf2922831c2253549db264b9125d73",
+      "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+      "domain": "darkreading.com",
+      "snippet": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your…",
+      "author": "Robert Lemos",
+      "date": "2026-10-27T00:26:50Z",
+      "slug": "so-many-ai-security-benchmarks-but-none-tell-the-whole-story-12bf2922",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "344bdc9286a24997bdeb0879ec846728",
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
+      "domain": "isc.sans.edu",
+      "snippet": "",
+      "author": "",
+      "date": "2026-10-26T23:34:37Z",
+      "slug": "apple-patches-for-october-2026-mon-oct-26th-344bdc92",
+      "sourceId": "sans_isc",
+      "sourceName": "SANS ISC",
+      "sourceHome": "https://isc.sans.edu/diary.html",
+      "short": "ISC",
+      "hue": 350,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "6d9d5e5887ab889b2ebf20c14d8bb2ee",
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people.",
+      "author": "Bill Toulas",
+      "date": "2026-10-26T22:20:36Z",
+      "slug": "university-of-copenhagen-data-breach-exposes-data-of-525-000-people-6d9d5e58",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "711b61639b30a123e5f693b169e89ef4",
+      "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
+      "url": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
+      "domain": "darkreading.com",
+      "snippet": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
+      "author": "Jai Vijayan",
+      "date": "2026-10-26T21:44:33Z",
+      "slug": "risks-rewards-how-ai-is-redefining-the-ciso-s-role-711b6163",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "cb6e7d403caae273d17924b57af63bab",
       "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
@@ -1137,6 +1205,25 @@
       "cves": []
     },
     {
+      "id": "631b0902569c74ab3b6343eb2ce423e0",
+      "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+      "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+      "domain": "darkreading.com",
+      "snippet": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
+      "author": "Alexander Culafi",
+      "date": "2026-10-26T20:59:26Z",
+      "slug": "in-the-wild-attack-abuses-ai-agents-trust-in-markdown-631b0902",
+      "sourceId": "darkreading",
+      "sourceName": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "short": "DR",
+      "hue": 275,
+      "topics": [
+        "ai"
+      ],
+      "cves": []
+    },
+    {
       "id": "77ef2d30d3450429eb0feb730e9aa281",
       "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
@@ -1152,97 +1239,6 @@
       "hue": 8,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "19779d7009cad78691b9648b8fe8efa5",
-      "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
-      "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-      "domain": "securityweek.com",
-      "snippet": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful…",
-      "author": "Associated Press",
-      "date": "2026-10-26T20:20:56Z",
-      "slug": "anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-r-19779d70",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "e83553d746d52cddc9e1adfe33b695c7",
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "domain": "bleepingcomputer.com",
-      "snippet": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface.",
-      "author": "Bill Toulas",
-      "date": "2026-10-26T19:26:20Z",
-      "slug": "dreamhost-forces-password-resets-in-ongoing-incident-e83553d7",
-      "sourceId": "bleepingcomputer",
-      "sourceName": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "short": "BC",
-      "hue": 8,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "4764a547323cc60e09a947be683393ab",
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "domain": "thehackernews.com",
-      "snippet": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-26T18:12:22Z",
-      "slug": "hackers-infect-953-online-stores-with-scanner-evading-javascript-mostl-4764a547",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "9954d1a67aa0fdd06efceed65d67d6db",
-      "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
-      "domain": "darkreading.com",
-      "snippet": "An ongoing supply chain attack is harvesting credentials and sensitive data from thousands of developer repositories.",
-      "author": "Elizabeth Montalbano",
-      "date": "2026-10-26T18:01:40Z",
-      "slug": "gheist-weaponizes-github-tokens-to-steal-cloud-secrets-9954d1a6",
-      "sourceId": "darkreading",
-      "sourceName": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "short": "DR",
-      "hue": 275,
-      "topics": [
-        "supplychain"
-      ],
-      "cves": []
-    },
-    {
-      "id": "c85198bbddef2ec11ea9bd7e48957ff3",
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "domain": "thehackernews.com",
-      "snippet": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-26T17:45:57Z",
-      "slug": "php-issues-second-windows-security-update-in-five-days-to-fix-brotli-c-c85198bb",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "vuln"
-      ],
-      "cves": [
-        "CVE-2026-111497"
-      ]
     }
   ],
   "topics": [
@@ -1302,31 +1298,31 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 58
+      "count": 57
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
-      "count": 32
+      "count": 31
     },
     {
       "id": "supplychain",
       "label": "Supply Chain",
       "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
-      "count": 21
-    },
-    {
-      "id": "ransomware",
-      "label": "Ransomware",
-      "blurb": "Extortion operations: encryption, data-leak sites, and the crews and affiliates running them.",
-      "count": 11
+      "count": 20
     },
     {
       "id": "breach",
       "label": "Data Breach",
       "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
       "count": 11
+    },
+    {
+      "id": "ransomware",
+      "label": "Ransomware",
+      "blurb": "Extortion operations: encryption, data-leak sites, and the crews and affiliates running them.",
+      "count": 10
     },
     {
       "id": "apt",
@@ -1338,13 +1334,13 @@
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
-      "count": 7
+      "count": 6
     },
     {
       "id": "ai",
       "label": "AI Security",
       "blurb": "Attacks on and with machine-learning systems: prompt injection, model abuse, and AI-assisted operations.",
-      "count": 3
+      "count": 4
     },
     {
       "id": "policy",
@@ -1367,11 +1363,11 @@
       "count": 2
     },
     {
-      "id": "CVE-2026-0257",
-      "count": 2
+      "id": "CVE-2026-113380",
+      "count": 1
     },
     {
-      "id": "CVE-2026-113380",
+      "id": "CVE-2026-0257",
       "count": 1
     },
     {
@@ -1388,7 +1384,7 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 555,
-      "last_run": "2026-10-26T21:10:32Z",
+      "last_run": "2026-10-27T01:36:31Z",
       "last_status": "not_modified",
       "newest": "2026-10-26T13:24:24Z",
       "home": "https://www.helpnetsecurity.com/",
@@ -1402,7 +1398,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 543,
-      "last_run": "2026-10-26T21:10:31Z",
+      "last_run": "2026-10-27T01:36:30Z",
       "last_status": "ok",
       "newest": "2026-10-26T18:12:22Z",
       "home": "https://thehackernews.com/",
@@ -1415,10 +1411,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 484,
-      "last_run": "2026-10-26T21:10:31Z",
+      "held": 485,
+      "last_run": "2026-10-27T01:36:30Z",
       "last_status": "ok",
-      "newest": "2026-10-26T21:08:28Z",
+      "newest": "2026-10-26T22:20:36Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1430,8 +1426,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 443,
-      "last_run": "2026-10-26T21:10:31Z",
-      "last_status": "ok",
+      "last_run": "2026-10-27T01:36:30Z",
+      "last_status": "not_modified",
       "newest": "2026-10-26T20:20:56Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1443,10 +1439,10 @@
     {
       "id": "darkreading",
       "name": "Dark Reading",
-      "held": 248,
-      "last_run": "2026-10-26T21:10:32Z",
+      "held": 251,
+      "last_run": "2026-10-27T01:36:31Z",
       "last_status": "ok",
-      "newest": "2026-10-26T18:01:40Z",
+      "newest": "2026-10-27T00:26:50Z",
       "home": "https://www.darkreading.com/",
       "kind": "news",
       "short": "DR",
@@ -1458,7 +1454,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 239,
-      "last_run": "2026-10-26T21:10:31Z",
+      "last_run": "2026-10-27T01:36:30Z",
       "last_status": "ok",
       "newest": "2026-10-26T21:03:00Z",
       "home": "https://therecord.media/",
@@ -1471,10 +1467,10 @@
     {
       "id": "sans_isc",
       "name": "SANS ISC",
-      "held": 94,
-      "last_run": "2026-10-26T21:10:36Z",
+      "held": 95,
+      "last_run": "2026-10-27T01:36:35Z",
       "last_status": "ok",
-      "newest": "2026-10-26T09:38:03Z",
+      "newest": "2026-10-26T23:34:37Z",
       "home": "https://isc.sans.edu/diary.html",
       "kind": "research",
       "short": "ISC",
@@ -1486,7 +1482,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 73,
-      "last_run": "2026-10-26T21:10:36Z",
+      "last_run": "2026-10-27T01:36:35Z",
       "last_status": "not_modified",
       "newest": "2026-10-26T03:30:11Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1500,8 +1496,8 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 46,
-      "last_run": "2026-10-26T21:10:32Z",
-      "last_status": "ok",
+      "last_run": "2026-10-27T01:36:31Z",
+      "last_status": "not_modified",
       "newest": "2026-10-22T18:04:32Z",
       "home": "https://blog.talosintelligence.com/",
       "kind": "research",
@@ -1514,7 +1510,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 44,
-      "last_run": "2026-10-26T21:10:36Z",
+      "last_run": "2026-10-27T01:36:34Z",
       "last_status": "ok",
       "newest": "2026-10-23T18:12:19Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1528,7 +1524,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 40,
-      "last_run": "2026-10-26T21:10:33Z",
+      "last_run": "2026-10-27T01:36:31Z",
       "last_status": "ok",
       "newest": "2026-10-22T17:15:32Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1542,7 +1538,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 28,
-      "last_run": "2026-10-26T21:10:35Z",
+      "last_run": "2026-10-27T01:36:34Z",
       "last_status": "ok",
       "newest": "2026-10-15T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1556,7 +1552,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 22,
-      "last_run": "2026-10-26T21:10:32Z",
+      "last_run": "2026-10-27T01:36:31Z",
       "last_status": "ok",
       "newest": "2026-10-21T15:26:07Z",
       "home": "https://krebsonsecurity.com/",
@@ -1570,7 +1566,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 13,
-      "last_run": "2026-10-26T21:10:35Z",
+      "last_run": "2026-10-27T01:36:34Z",
       "last_status": "not_modified",
       "newest": "2026-10-06T07:00:00Z",
       "home": "https://projectzero.google/",
