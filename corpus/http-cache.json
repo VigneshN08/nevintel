@@ -1,28 +1,28 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-10-28T22:49:34Z",
-    "etag": "e0325a2cce9d52bb12f9c062009c95e8",
-    "last_modified": "Wed, 28 Oct 2026 22:47:26 GMT"
+    "checked": "2026-10-29T06:24:52Z",
+    "etag": "7414c7ac3f71b0930cfda53b315ca289",
+    "last_modified": "Thu, 29 Oct 2026 06:17:41 GMT"
   },
   "darkreading": {
-    "checked": "2026-10-28T22:49:35Z",
+    "checked": "2026-10-29T06:24:53Z",
     "etag": "",
-    "last_modified": "Wed, 28 Oct 2026 22:49:35 GMT"
+    "last_modified": "Thu, 29 Oct 2026 06:24:53 GMT"
   },
   "googletil": {
-    "checked": "2026-10-28T22:49:38Z",
+    "checked": "2026-10-29T06:24:56Z",
     "etag": "",
     "last_modified": ""
   },
   "helpnetsecurity": {
-    "checked": "2026-10-28T22:49:36Z",
+    "checked": "2026-10-29T06:24:54Z",
     "etag": "",
-    "last_modified": "Wed, 28 Oct 2026 17:24:11 GMT"
+    "last_modified": "Thu, 29 Oct 2026 06:07:18 GMT"
   },
   "krebs": {
-    "checked": "2026-10-28T22:49:36Z",
+    "checked": "2026-10-29T06:24:54Z",
     "etag": "",
-    "last_modified": "Wed, 28 Oct 2026 22:42:45 GMT"
+    "last_modified": "Thu, 29 Oct 2026 06:19:08 GMT"
   },
   "msrc": {
     "checked": "2026-10-28T22:49:38Z",
@@ -30,19 +30,19 @@
     "last_modified": "Wed, 28 Oct 2026 19:29:53 GMT"
   },
   "projectzero": {
-    "checked": "2026-10-27T20:56:33Z",
+    "checked": "2026-10-29T06:24:57Z",
     "etag": "",
-    "last_modified": "Tue, 27 Oct 2026 17:22:58 GMT"
+    "last_modified": "Thu, 29 Oct 2026 06:15:42 GMT"
   },
   "sans_isc": {
-    "checked": "2026-10-28T22:49:39Z",
-    "etag": "W/\"1860-65eee4c6c2551\"",
-    "last_modified": "Wed, 28 Oct 2026 22:43:57 GMT"
+    "checked": "2026-10-29T06:24:58Z",
+    "etag": "W/\"19ef-65ef4a79de26d\"",
+    "last_modified": "Thu, 29 Oct 2026 06:18:57 GMT"
   },
   "sans_stormcast": {
-    "checked": "2026-10-28T08:57:12Z",
-    "etag": "W/\"2d638-65edd53b9d642\"",
-    "last_modified": "Wed, 28 Oct 2026 02:29:05 GMT"
+    "checked": "2026-10-29T06:24:58Z",
+    "etag": "W/\"2d6cd-65ef200b325c3\"",
+    "last_modified": "Thu, 29 Oct 2026 03:09:07 GMT"
   },
   "securityweek": {
     "checked": "2026-10-28T22:49:35Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-10-28T22:49:34Z",
+    "checked": "2026-10-29T06:24:52Z",
     "etag": "",
-    "last_modified": "Wed, 28 Oct 2026 22:43:34 GMT"
+    "last_modified": "Thu, 29 Oct 2026 04:53:43 GMT"
   },
   "therecord": {
-    "checked": "2026-10-28T22:49:34Z",
+    "checked": "2026-10-29T06:24:53Z",
     "etag": "",
     "last_modified": ""
   },
