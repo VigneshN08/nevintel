@@ -1,35 +1,54 @@
 {
-  "builtAt": "2026-11-01T15:26:18Z",
-  "articles": 3161,
+  "builtAt": "2026-11-01T20:48:21Z",
+  "articles": 3163,
   "sources": 14,
-  "rendered": 3161,
+  "rendered": 3163,
   "live": {
-    "storiesToday": 11,
-    "storiesWeek": 345,
+    "storiesToday": 10,
+    "storiesWeek": 343,
     "cvesWeek": 13,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "d6448e6ee754fd41b678b17df7066535",
-    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "id": "5d7adb06ae584dbcb4a1616d2b68ba65",
+    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
     "domain": "bleepingcomputer.com",
-    "snippet": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server…",
-    "author": "Bill Toulas",
-    "date": "2026-11-01T15:11:21Z",
-    "slug": "alpine-linux-rebuilds-gitlab-after-attempted-rce-attack-d6448e6e",
+    "snippet": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest…",
+    "author": "Lawrence Abrams",
+    "date": "2026-11-01T19:57:53Z",
+    "slug": "fbi-links-6-3-billion-binance-crypto-heist-to-north-korean-hackers-5d7adb06",
     "sourceId": "bleepingcomputer",
     "sourceName": "BleepingComputer",
     "sourceHome": "https://www.bleepingcomputer.com/",
     "short": "BC",
     "hue": 8,
     "topics": [
-      "vuln"
+      "apt"
     ],
     "cves": []
   },
   "feed": [
+    {
+      "id": "5d7adb06ae584dbcb4a1616d2b68ba65",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest…",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-01T19:57:53Z",
+      "slug": "fbi-links-6-3-billion-binance-crypto-heist-to-north-korean-hackers-5d7adb06",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "apt"
+      ],
+      "cves": []
+    },
     {
       "id": "d6448e6ee754fd41b678b17df7066535",
       "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
@@ -760,6 +779,23 @@
       "cves": []
     },
     {
+      "id": "36cefacc2f9f6c465fc4878904e9d82c",
+      "title": "ARTEX and Friends: Enter Agentic Offensive Frameworks",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/",
+      "domain": "cloud.google.com",
+      "snippet": "Written by: Aurora Blum, David Mainor, Rohit Nambiar, Omar ElAhdan, Matthew McWhirt, Will Silverstone, Bhavesh Dhake, Chris Busse Introduction Recent intrusions in which threat actors…",
+      "author": "Mandiant",
+      "date": "2026-10-30T14:00:00Z",
+      "slug": "artex-and-friends-enter-agentic-offensive-frameworks-36cefacc",
+      "sourceId": "googletil",
+      "sourceName": "Google Threat Intelligence",
+      "sourceHome": "https://cloud.google.com/blog/topics/threat-intelligence",
+      "short": "GTI",
+      "hue": 218,
+      "topics": [],
+      "cves": []
+    },
+    {
       "id": "5232c2a9c7111d04338dc571f286b778",
       "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
       "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
@@ -1060,47 +1096,28 @@
       "hue": 168,
       "topics": [],
       "cves": []
-    },
+    }
+  ],
+  "rail": [
     {
-      "id": "072fcb7482ba39ff74f60d52cb31be40",
-      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "id": "5d7adb06ae584dbcb4a1616d2b68ba65",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
       "domain": "bleepingcomputer.com",
-      "snippet": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-10-30T10:16:07Z",
-      "slug": "drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks-072fcb74",
+      "snippet": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest…",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-01T19:57:53Z",
+      "slug": "fbi-links-6-3-billion-binance-crypto-heist-to-north-korean-hackers-5d7adb06",
       "sourceId": "bleepingcomputer",
       "sourceName": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
       "short": "BC",
       "hue": 8,
       "topics": [
-        "vuln"
+        "apt"
       ],
       "cves": []
     },
-    {
-      "id": "5c714b64e3217d32cb5f2a7cc1300158",
-      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-      "domain": "securityweek.com",
-      "snippet": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.",
-      "author": "Eduard Kovacs",
-      "date": "2026-10-30T09:41:36Z",
-      "slug": "2-million-drained-from-polymarket-traders-in-new-supply-chain-attack-5c714b64",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [
-        "supplychain"
-      ],
-      "cves": []
-    }
-  ],
-  "rail": [
     {
       "id": "d6448e6ee754fd41b678b17df7066535",
       "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
@@ -1223,23 +1240,6 @@
       "hue": 168,
       "topics": [],
       "cves": []
-    },
-    {
-      "id": "e1dc1203c72851bbedcb84b0a5fe2133",
-      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-      "domain": "thehackernews.com",
-      "snippet": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-01T07:03:00Z",
-      "slug": "fbi-links-north-korea-s-tradertraitor-to-record-6-43-billion-binance-c-e1dc1203",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [],
-      "cves": []
     }
   ],
   "topics": [
@@ -1299,19 +1299,13 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 65
+      "count": 64
     },
     {
       "id": "malware",
       "label": "Malware",
       "blurb": "Loaders, stealers, backdoors, botnets, and the tooling behind campaigns.",
       "count": 28
-    },
-    {
-      "id": "supplychain",
-      "label": "Supply Chain",
-      "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
-      "count": 12
     },
     {
       "id": "breach",
@@ -1326,10 +1320,16 @@
       "count": 11
     },
     {
+      "id": "supplychain",
+      "label": "Supply Chain",
+      "blurb": "Compromise of packages, dependencies, build systems, and third-party providers.",
+      "count": 11
+    },
+    {
       "id": "apt",
       "label": "Nation-State",
       "blurb": "State-linked intrusion sets, espionage campaigns, and attribution reporting.",
-      "count": 8
+      "count": 9
     },
     {
       "id": "phishing",
@@ -1374,10 +1374,6 @@
       "count": 2
     },
     {
-      "id": "CVE-2026-109618",
-      "count": 2
-    },
-    {
       "id": "CVE-2026-58882",
       "count": 1
     },
@@ -1388,6 +1384,10 @@
     {
       "id": "CVE-2026-111585",
       "count": 1
+    },
+    {
+      "id": "CVE-2026-118539",
+      "count": 1
     }
   ],
   "sources_detail": [
@@ -1395,8 +1395,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 611,
-      "last_run": "2026-11-01T15:26:15Z",
-      "last_status": "ok",
+      "last_run": "2026-11-01T20:48:18Z",
+      "last_status": "not_modified",
       "newest": "2026-11-01T09:00:00Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1409,7 +1409,7 @@
       "id": "thehackernews",
       "name": "The Hacker News",
       "held": 600,
-      "last_run": "2026-11-01T15:26:14Z",
+      "last_run": "2026-11-01T20:48:17Z",
       "last_status": "ok",
       "newest": "2026-11-01T08:51:31Z",
       "home": "https://thehackernews.com/",
@@ -1422,10 +1422,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 534,
-      "last_run": "2026-11-01T15:26:14Z",
+      "held": 535,
+      "last_run": "2026-11-01T20:48:17Z",
       "last_status": "ok",
-      "newest": "2026-11-01T15:11:21Z",
+      "newest": "2026-11-01T19:57:53Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1437,8 +1437,8 @@
       "id": "securityweek",
       "name": "SecurityWeek",
       "held": 487,
-      "last_run": "2026-11-01T15:26:14Z",
-      "last_status": "ok",
+      "last_run": "2026-11-01T20:48:17Z",
+      "last_status": "not_modified",
       "newest": "2026-11-01T11:15:00Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
@@ -1451,7 +1451,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 272,
-      "last_run": "2026-11-01T15:26:15Z",
+      "last_run": "2026-11-01T20:48:18Z",
       "last_status": "ok",
       "newest": "2026-10-30T20:05:58Z",
       "home": "https://www.darkreading.com/",
@@ -1465,7 +1465,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 270,
-      "last_run": "2026-11-01T15:26:14Z",
+      "last_run": "2026-11-01T20:48:17Z",
       "last_status": "ok",
       "newest": "2026-10-30T20:45:00Z",
       "home": "https://therecord.media/",
@@ -1479,7 +1479,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 104,
-      "last_run": "2026-11-01T15:26:18Z",
+      "last_run": "2026-11-01T20:48:21Z",
       "last_status": "ok",
       "newest": "2026-11-01T09:12:23Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1493,7 +1493,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 77,
-      "last_run": "2026-11-01T15:26:18Z",
+      "last_run": "2026-11-01T20:48:21Z",
       "last_status": "not_modified",
       "newest": "2026-10-30T03:30:17Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1507,7 +1507,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 52,
-      "last_run": "2026-11-01T15:26:15Z",
+      "last_run": "2026-11-01T20:48:18Z",
       "last_status": "not_modified",
       "newest": "2026-10-31T12:00:00Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1521,7 +1521,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 49,
-      "last_run": "2026-11-01T15:26:18Z",
+      "last_run": "2026-11-01T20:48:20Z",
       "last_status": "not_modified",
       "newest": "2026-10-31T01:02:57Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1535,7 +1535,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 41,
-      "last_run": "2026-11-01T15:26:15Z",
+      "last_run": "2026-11-01T20:48:18Z",
       "last_status": "not_modified",
       "newest": "2026-10-28T18:00:10Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1548,10 +1548,10 @@
     {
       "id": "googletil",
       "name": "Google Threat Intelligence",
-      "held": 28,
-      "last_run": "2026-11-01T15:26:17Z",
+      "held": 29,
+      "last_run": "2026-11-01T20:48:20Z",
       "last_status": "ok",
-      "newest": "2026-10-15T14:00:00Z",
+      "newest": "2026-10-30T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
       "kind": "research",
       "short": "GTI",
@@ -1563,7 +1563,7 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 22,
-      "last_run": "2026-11-01T15:26:15Z",
+      "last_run": "2026-11-01T20:48:18Z",
       "last_status": "not_modified",
       "newest": "2026-10-21T15:26:07Z",
       "home": "https://krebsonsecurity.com/",
@@ -1577,7 +1577,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 14,
-      "last_run": "2026-11-01T15:26:17Z",
+      "last_run": "2026-11-01T20:48:20Z",
       "last_status": "not_modified",
       "newest": "2026-10-27T07:00:00Z",
       "home": "https://projectzero.google/",
