@@ -1,16 +1,16 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-11-03T19:46:22Z",
-    "etag": "4169aac9e27ce0b7618628aad2f7d8f5",
-    "last_modified": "Tue, 03 Nov 2026 19:41:06 GMT"
+    "checked": "2026-11-04T00:51:49Z",
+    "etag": "7d62c8ffaac2c697ac16ab7647c4511d",
+    "last_modified": "Wed, 04 Nov 2026 00:48:54 GMT"
   },
   "darkreading": {
-    "checked": "2026-11-03T19:46:23Z",
+    "checked": "2026-11-04T00:51:50Z",
     "etag": "",
-    "last_modified": "Tue, 03 Nov 2026 19:46:23 GMT"
+    "last_modified": "Wed, 04 Nov 2026 00:51:50 GMT"
   },
   "googletil": {
-    "checked": "2026-11-03T19:46:24Z",
+    "checked": "2026-11-04T00:51:52Z",
     "etag": "",
     "last_modified": ""
   },
@@ -20,9 +20,9 @@
     "last_modified": "Tue, 03 Nov 2026 14:32:49 GMT"
   },
   "krebs": {
-    "checked": "2026-11-03T19:46:23Z",
+    "checked": "2026-11-04T00:51:50Z",
     "etag": "",
-    "last_modified": "Tue, 03 Nov 2026 13:11:38 GMT"
+    "last_modified": "Wed, 04 Nov 2026 00:48:03 GMT"
   },
   "msrc": {
     "checked": "2026-11-03T19:46:26Z",
@@ -30,14 +30,14 @@
     "last_modified": "Tue, 03 Nov 2026 18:21:13 GMT"
   },
   "projectzero": {
-    "checked": "2026-10-29T06:24:57Z",
+    "checked": "2026-11-04T00:51:53Z",
     "etag": "",
-    "last_modified": "Thu, 29 Oct 2026 06:15:42 GMT"
+    "last_modified": "Tue, 03 Nov 2026 22:31:07 GMT"
   },
   "sans_isc": {
-    "checked": "2026-11-03T19:46:26Z",
-    "etag": "W/\"1b47-65f647bba1624\"",
-    "last_modified": "Tue, 03 Nov 2026 19:43:57 GMT"
+    "checked": "2026-11-04T00:51:53Z",
+    "etag": "W/\"1b47-65f68be7ff3b6\"",
+    "last_modified": "Wed, 04 Nov 2026 00:48:57 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-11-03T02:37:28Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-11-03T19:46:22Z",
+    "checked": "2026-11-04T00:51:49Z",
     "etag": "",
-    "last_modified": "Tue, 3 Nov 2026 18:52:46 GMT"
+    "last_modified": "Tue, 3 Nov 2026 23:43:47 GMT"
   },
   "therecord": {
-    "checked": "2026-11-03T19:46:22Z",
+    "checked": "2026-11-04T00:51:49Z",
     "etag": "",
     "last_modified": ""
   },
