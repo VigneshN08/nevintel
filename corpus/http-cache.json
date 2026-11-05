@@ -1,33 +1,33 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-11-05T07:20:34Z",
-    "etag": "425473aaf91b01e1cfeb4b1322e1e7ca",
-    "last_modified": "Thu, 05 Nov 2026 07:15:34 GMT"
+    "checked": "2026-11-05T16:47:16Z",
+    "etag": "7b32c3d81674c1a35a2a8c00d911dc56",
+    "last_modified": "Thu, 05 Nov 2026 16:44:28 GMT"
   },
   "darkreading": {
-    "checked": "2026-11-05T07:20:36Z",
+    "checked": "2026-11-05T16:47:17Z",
     "etag": "",
-    "last_modified": "Thu, 05 Nov 2026 07:20:36 GMT"
+    "last_modified": "Thu, 05 Nov 2026 16:47:17 GMT"
   },
   "googletil": {
-    "checked": "2026-11-05T07:20:38Z",
+    "checked": "2026-11-05T16:47:19Z",
     "etag": "",
     "last_modified": ""
   },
   "helpnetsecurity": {
-    "checked": "2026-11-05T07:20:36Z",
+    "checked": "2026-11-05T16:47:17Z",
     "etag": "",
-    "last_modified": "Thu, 05 Nov 2026 07:04:35 GMT"
+    "last_modified": "Thu, 05 Nov 2026 15:04:07 GMT"
   },
   "krebs": {
-    "checked": "2026-11-05T07:20:36Z",
+    "checked": "2026-11-05T16:47:17Z",
     "etag": "",
-    "last_modified": "Thu, 05 Nov 2026 04:47:33 GMT"
+    "last_modified": "Thu, 05 Nov 2026 16:19:27 GMT"
   },
   "msrc": {
-    "checked": "2026-11-04T23:54:40Z",
-    "etag": "\"7a54a09513ed97ffb348d8d30855eace-gzip\"",
-    "last_modified": "Wed, 04 Nov 2026 23:10:52 GMT"
+    "checked": "2026-11-05T16:47:20Z",
+    "etag": "\"6d7964b5ad423b6c5d0948f39b045bd0-gzip\"",
+    "last_modified": "Thu, 05 Nov 2026 16:00:00 GMT"
   },
   "projectzero": {
     "checked": "2026-11-04T00:51:53Z",
@@ -35,32 +35,32 @@
     "last_modified": "Tue, 03 Nov 2026 22:31:07 GMT"
   },
   "sans_isc": {
-    "checked": "2026-11-05T07:20:39Z",
-    "etag": "W/\"1b79-65f824f0c5cb9\"",
-    "last_modified": "Thu, 05 Nov 2026 07:18:56 GMT"
+    "checked": "2026-11-05T16:47:20Z",
+    "etag": "W/\"1d66-65f8a33b16810\"",
+    "last_modified": "Thu, 05 Nov 2026 16:43:57 GMT"
   },
   "sans_stormcast": {
-    "checked": "2026-11-04T09:48:24Z",
-    "etag": "W/\"2d8d9-65f69dd54e6da\"",
-    "last_modified": "Wed, 04 Nov 2026 02:09:09 GMT"
+    "checked": "2026-11-05T16:47:21Z",
+    "etag": "W/\"2d93a-65f85bbc50569\"",
+    "last_modified": "Thu, 05 Nov 2026 11:24:05 GMT"
   },
   "securityweek": {
-    "checked": "2026-11-04T18:12:55Z",
-    "etag": "\"e4e26507dac00a5ed8d851f84a1e4958\"",
-    "last_modified": "Wed, 04 Nov 2026 17:56:45 GMT"
+    "checked": "2026-11-05T16:47:16Z",
+    "etag": "\"51efe701cc40ee3e9849f2fa515a4fe3\"",
+    "last_modified": "Thu, 05 Nov 2026 13:25:57 GMT"
   },
   "talos": {
-    "checked": "2026-11-04T18:12:56Z",
-    "etag": "W/\"fa872-0eKXdGxWRFI8x06on185B4wK2IU\"",
+    "checked": "2026-11-05T16:47:18Z",
+    "etag": "W/\"fa872-qpl0CJUw1jAWYBCHiuN1YgrC8B4\"",
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-11-05T07:20:35Z",
+    "checked": "2026-11-05T16:47:16Z",
     "etag": "",
-    "last_modified": "Thu, 5 Nov 2026 06:11:05 GMT"
+    "last_modified": "Thu, 5 Nov 2026 15:25:24 GMT"
   },
   "therecord": {
-    "checked": "2026-11-05T07:20:35Z",
+    "checked": "2026-11-05T16:47:16Z",
     "etag": "",
     "last_modified": ""
   },
