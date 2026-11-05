@@ -1,28 +1,28 @@
 {
   "bleepingcomputer": {
-    "checked": "2026-11-04T23:54:36Z",
-    "etag": "5a3f5de3c3596d7915bb3b02efc9eae0",
-    "last_modified": "Wed, 04 Nov 2026 23:51:22 GMT"
+    "checked": "2026-11-05T07:20:34Z",
+    "etag": "425473aaf91b01e1cfeb4b1322e1e7ca",
+    "last_modified": "Thu, 05 Nov 2026 07:15:34 GMT"
   },
   "darkreading": {
-    "checked": "2026-11-04T23:54:37Z",
+    "checked": "2026-11-05T07:20:36Z",
     "etag": "",
-    "last_modified": "Wed, 04 Nov 2026 23:54:37 GMT"
+    "last_modified": "Thu, 05 Nov 2026 07:20:36 GMT"
   },
   "googletil": {
-    "checked": "2026-11-04T23:54:39Z",
+    "checked": "2026-11-05T07:20:38Z",
     "etag": "",
     "last_modified": ""
   },
   "helpnetsecurity": {
-    "checked": "2026-11-04T18:12:56Z",
+    "checked": "2026-11-05T07:20:36Z",
     "etag": "",
-    "last_modified": "Wed, 04 Nov 2026 14:40:23 GMT"
+    "last_modified": "Thu, 05 Nov 2026 07:04:35 GMT"
   },
   "krebs": {
-    "checked": "2026-11-04T00:51:50Z",
+    "checked": "2026-11-05T07:20:36Z",
     "etag": "",
-    "last_modified": "Wed, 04 Nov 2026 00:48:03 GMT"
+    "last_modified": "Thu, 05 Nov 2026 04:47:33 GMT"
   },
   "msrc": {
     "checked": "2026-11-04T23:54:40Z",
@@ -35,9 +35,9 @@
     "last_modified": "Tue, 03 Nov 2026 22:31:07 GMT"
   },
   "sans_isc": {
-    "checked": "2026-11-04T23:54:41Z",
-    "etag": "W/\"1b79-65f7c05b5af14\"",
-    "last_modified": "Wed, 04 Nov 2026 23:48:56 GMT"
+    "checked": "2026-11-05T07:20:39Z",
+    "etag": "W/\"1b79-65f824f0c5cb9\"",
+    "last_modified": "Thu, 05 Nov 2026 07:18:56 GMT"
   },
   "sans_stormcast": {
     "checked": "2026-11-04T09:48:24Z",
@@ -55,12 +55,12 @@
     "last_modified": ""
   },
   "thehackernews": {
-    "checked": "2026-11-04T23:54:36Z",
+    "checked": "2026-11-05T07:20:35Z",
     "etag": "",
-    "last_modified": "Wed, 4 Nov 2026 23:13:00 GMT"
+    "last_modified": "Thu, 5 Nov 2026 06:11:05 GMT"
   },
   "therecord": {
-    "checked": "2026-11-04T23:54:37Z",
+    "checked": "2026-11-05T07:20:35Z",
     "etag": "",
     "last_modified": ""
   },
