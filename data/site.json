@@ -1,35 +1,88 @@
 {
-  "builtAt": "2026-11-15T09:52:06Z",
-  "articles": 3806,
+  "builtAt": "2026-11-15T17:22:43Z",
+  "articles": 3810,
   "sources": 14,
-  "rendered": 3806,
+  "rendered": 3810,
   "live": {
     "storiesToday": 7,
-    "storiesWeek": 340,
+    "storiesWeek": 341,
     "cvesWeek": 16,
     "sourcesOk": 14,
     "sourcesTotal": 14
   },
   "lead": {
-    "id": "82bfdc687bb628781b64952866913f72",
-    "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
-    "url": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/",
-    "domain": "helpnetsecurity.com",
-    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: What a security leader should tell the CEO about leaked…",
-    "author": "Help Net Security",
-    "date": "2026-11-15T09:00:37Z",
-    "slug": "week-in-review-secret-stealer-hits-github-repos-claude-code-turned-int-82bfdc68",
-    "sourceId": "helpnetsecurity",
-    "sourceName": "Help Net Security",
-    "sourceHome": "https://www.helpnetsecurity.com/",
-    "short": "HN",
-    "hue": 150,
+    "id": "288ae0a72da3a810158ba4b8083b94e6",
+    "title": "TSMC employee data breach linked to cloud provider",
+    "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+    "domain": "bleepingcomputer.com",
+    "snippet": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from…",
+    "author": "Bill Toulas",
+    "date": "2026-11-15T15:23:48Z",
+    "slug": "tsmc-employee-data-breach-linked-to-cloud-provider-288ae0a7",
+    "sourceId": "bleepingcomputer",
+    "sourceName": "BleepingComputer",
+    "sourceHome": "https://www.bleepingcomputer.com/",
+    "short": "BC",
+    "hue": 8,
     "topics": [
-      "malware"
+      "breach"
     ],
     "cves": []
   },
   "feed": [
+    {
+      "id": "288ae0a72da3a810158ba4b8083b94e6",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from…",
+      "author": "Bill Toulas",
+      "date": "2026-11-15T15:23:48Z",
+      "slug": "tsmc-employee-data-breach-linked-to-cloud-provider-288ae0a7",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "04cc2ecb3f01d7498618208fe6e05cee",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "domain": "securityweek.com",
+      "snippet": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.",
+      "author": "SecurityWeek News",
+      "date": "2026-11-15T12:51:33Z",
+      "slug": "pentagon-renames-cdao-super-intelligence-office-04cc2ecb",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [],
+      "cves": []
+    },
+    {
+      "id": "dabf7b9c559f7a5e27a391e834e42b5d",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "domain": "thehackernews.com",
+      "snippet": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them…",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-15T11:27:31Z",
+      "slug": "italy-fines-meta-805-million-over-facebook-s-android-gallery-access-wi-dabf7b9c",
+      "sourceId": "thehackernews",
+      "sourceName": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "short": "HN",
+      "hue": 168,
+      "topics": [],
+      "cves": []
+    },
     {
       "id": "82bfdc687bb628781b64952866913f72",
       "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
@@ -65,6 +118,25 @@
       "hue": 168,
       "topics": [
         "breach"
+      ],
+      "cves": []
+    },
+    {
+      "id": "70459a203654cc6400e3b5af2bd93970",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "domain": "securityweek.com",
+      "snippet": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.",
+      "author": "Associated Press",
+      "date": "2026-11-14T19:00:00Z",
+      "slug": "meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-70459a20",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [
+        "policy"
       ],
       "cves": []
     },
@@ -1034,33 +1106,54 @@
         "phishing"
       ],
       "cves": []
+    }
+  ],
+  "rail": [
+    {
+      "id": "288ae0a72da3a810158ba4b8083b94e6",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "domain": "bleepingcomputer.com",
+      "snippet": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from…",
+      "author": "Bill Toulas",
+      "date": "2026-11-15T15:23:48Z",
+      "slug": "tsmc-employee-data-breach-linked-to-cloud-provider-288ae0a7",
+      "sourceId": "bleepingcomputer",
+      "sourceName": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "short": "BC",
+      "hue": 8,
+      "topics": [
+        "breach"
+      ],
+      "cves": []
     },
     {
-      "id": "71c043912335204d9307ee2a70deb2fb",
-      "title": "Suspected North Korean IT workers reached onboarding at companies with open data",
-      "url": "https://www.helpnetsecurity.com/2026/11/13/north-korean-it-workers-onboarding/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "Material Security followed suspected North Korean fake IT workers through the hiring pipelines of organizations it monitors and counted 27 personas that reached onboarding over…",
-      "author": "Mirko Zorz",
-      "date": "2026-11-13T06:00:22Z",
-      "slug": "suspected-north-korean-it-workers-reached-onboarding-at-companies-with-71c04391",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
+      "id": "04cc2ecb3f01d7498618208fe6e05cee",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "domain": "securityweek.com",
+      "snippet": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.",
+      "author": "SecurityWeek News",
+      "date": "2026-11-15T12:51:33Z",
+      "slug": "pentagon-renames-cdao-super-intelligence-office-04cc2ecb",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
       "topics": [],
       "cves": []
     },
     {
-      "id": "5f110aa5732b2dc45743bffb4ec8f01e",
-      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "id": "dabf7b9c559f7a5e27a391e834e42b5d",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
       "domain": "thehackernews.com",
-      "snippet": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell…",
+      "snippet": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them…",
       "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-13T05:43:28Z",
-      "slug": "hackers-exploit-n-central-flaws-to-infect-21-servers-including-19-runn-5f110aa5",
+      "date": "2026-11-15T11:27:31Z",
+      "slug": "italy-fines-meta-805-million-over-facebook-s-android-gallery-access-wi-dabf7b9c",
       "sourceId": "thehackernews",
       "sourceName": "The Hacker News",
       "sourceHome": "https://thehackernews.com/",
@@ -1069,42 +1162,6 @@
       "topics": [],
       "cves": []
     },
-    {
-      "id": "2165b8b9e31384b18b0361e1d7638a68",
-      "title": "Your pinned MCP server may not be as pinned as you think",
-      "url": "https://www.helpnetsecurity.com/2026/11/13/corelight-mcp-server-supply-chain/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "An MCP server configured to run one fixed release on an administrator’s workstation ran with 15 different sets of dependencies over five weeks, with its…",
-      "author": "Mirko Zorz",
-      "date": "2026-11-13T05:30:22Z",
-      "slug": "your-pinned-mcp-server-may-not-be-as-pinned-as-you-think-2165b8b9",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "57f799e56afaf1c71d0861c5c9a187fc",
-      "title": "Digital sovereignty leaves enterprises chasing their own audit trails",
-      "url": "https://www.helpnetsecurity.com/2026/11/13/ibm-digital-sovereignty-challenges-report/",
-      "domain": "helpnetsecurity.com",
-      "snippet": "94% of surveyed enterprises experienced at least one digital sovereignty challenge in the past three years, according to IBM’s Digital Sovereignty Index. Of those affected…",
-      "author": "Anamarija Pogorelec",
-      "date": "2026-11-13T05:00:54Z",
-      "slug": "digital-sovereignty-leaves-enterprises-chasing-their-own-audit-trails-57f799e5",
-      "sourceId": "helpnetsecurity",
-      "sourceName": "Help Net Security",
-      "sourceHome": "https://www.helpnetsecurity.com/",
-      "short": "HN",
-      "hue": 150,
-      "topics": [],
-      "cves": []
-    }
-  ],
-  "rail": [
     {
       "id": "82bfdc687bb628781b64952866913f72",
       "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
@@ -1144,6 +1201,25 @@
       "cves": []
     },
     {
+      "id": "70459a203654cc6400e3b5af2bd93970",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "domain": "securityweek.com",
+      "snippet": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.",
+      "author": "Associated Press",
+      "date": "2026-11-14T19:00:00Z",
+      "slug": "meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-70459a20",
+      "sourceId": "securityweek",
+      "sourceName": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "short": "SW",
+      "hue": 210,
+      "topics": [
+        "policy"
+      ],
+      "cves": []
+    },
+    {
       "id": "2396f465be9396c94b74ec08f1b5ff96",
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -1174,76 +1250,6 @@
       "sourceHome": "https://www.bleepingcomputer.com/",
       "short": "BC",
       "hue": 8,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "f8b55e53d88a81420516acb6d51a3520",
-      "title": "Is AI Making Us Worse at Cybersecurity?",
-      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
-      "domain": "securityweek.com",
-      "snippet": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook.",
-      "author": "Joshua Goldfarb",
-      "date": "2026-11-14T14:00:00Z",
-      "slug": "is-ai-making-us-worse-at-cybersecurity-f8b55e53",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "e577b898eca3316fd935fc7a4df7581c",
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "domain": "thehackernews.com",
-      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to…",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-14T12:38:35Z",
-      "slug": "attackers-exploit-unrealircd-flaw-that-enables-server-level-command-in-e577b898",
-      "sourceId": "thehackernews",
-      "sourceName": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "short": "HN",
-      "hue": 168,
-      "topics": [
-        "vuln"
-      ],
-      "cves": []
-    },
-    {
-      "id": "f6a32c5f6448063c5be85d326dd0e0f2",
-      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
-      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
-      "domain": "securityweek.com",
-      "snippet": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones.",
-      "author": "Eduard Kovacs",
-      "date": "2026-11-14T11:00:00Z",
-      "slug": "apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data-f6a32c5f",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
-      "topics": [],
-      "cves": []
-    },
-    {
-      "id": "3b2e4affe53ca50b3d0fa9ead24cf995",
-      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
-      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
-      "domain": "securityweek.com",
-      "snippet": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.",
-      "author": "Eduard Kovacs",
-      "date": "2026-11-14T08:40:22Z",
-      "slug": "no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-softwa-3b2e4aff",
-      "sourceId": "securityweek",
-      "sourceName": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "short": "SW",
-      "hue": 210,
       "topics": [],
       "cves": []
     }
@@ -1305,7 +1311,7 @@
       "id": "vuln",
       "label": "Vulnerabilities",
       "blurb": "Newly disclosed flaws, patches, and proof-of-concept exploit code.",
-      "count": 82
+      "count": 81
     },
     {
       "id": "malware",
@@ -1317,7 +1323,7 @@
       "id": "breach",
       "label": "Data Breach",
       "blurb": "Confirmed exposure or theft of records, and the disclosure and notification that follows.",
-      "count": 15
+      "count": 16
     },
     {
       "id": "apt",
@@ -1332,16 +1338,16 @@
       "count": 9
     },
     {
+      "id": "policy",
+      "label": "Policy & Regulation",
+      "blurb": "Law, enforcement, sanctions, disclosure mandates, and government advisories.",
+      "count": 5
+    },
+    {
       "id": "phishing",
       "label": "Phishing & Fraud",
       "blurb": "Credential theft, social engineering, business email compromise, and scam infrastructure.",
       "count": 5
-    },
-    {
-      "id": "policy",
-      "label": "Policy & Regulation",
-      "blurb": "Law, enforcement, sanctions, disclosure mandates, and government advisories.",
-      "count": 4
     },
     {
       "id": "supplychain",
@@ -1362,15 +1368,15 @@
       "count": 3
     },
     {
-      "id": "CVE-2026-123158",
-      "count": 3
-    },
-    {
       "id": "CVE-2026-102895",
       "count": 2
     },
     {
       "id": "CVE-2026-124194",
+      "count": 2
+    },
+    {
+      "id": "CVE-2026-123158",
       "count": 2
     },
     {
@@ -1395,8 +1401,8 @@
       "id": "helpnetsecurity",
       "name": "Help Net Security",
       "held": 747,
-      "last_run": "2026-11-15T09:52:02Z",
-      "last_status": "ok",
+      "last_run": "2026-11-15T17:22:40Z",
+      "last_status": "not_modified",
       "newest": "2026-11-15T09:00:37Z",
       "home": "https://www.helpnetsecurity.com/",
       "kind": "news",
@@ -1408,10 +1414,10 @@
     {
       "id": "thehackernews",
       "name": "The Hacker News",
-      "held": 718,
-      "last_run": "2026-11-15T09:52:01Z",
+      "held": 719,
+      "last_run": "2026-11-15T17:22:39Z",
       "last_status": "ok",
-      "newest": "2026-11-15T08:22:04Z",
+      "newest": "2026-11-15T11:27:31Z",
       "home": "https://thehackernews.com/",
       "kind": "news",
       "short": "HN",
@@ -1422,10 +1428,10 @@
     {
       "id": "bleepingcomputer",
       "name": "BleepingComputer",
-      "held": 647,
-      "last_run": "2026-11-15T09:52:00Z",
+      "held": 648,
+      "last_run": "2026-11-15T17:22:39Z",
       "last_status": "ok",
-      "newest": "2026-11-14T17:27:25Z",
+      "newest": "2026-11-15T15:23:48Z",
       "home": "https://www.bleepingcomputer.com/",
       "kind": "news",
       "short": "BC",
@@ -1436,10 +1442,10 @@
     {
       "id": "securityweek",
       "name": "SecurityWeek",
-      "held": 593,
-      "last_run": "2026-11-15T09:52:01Z",
-      "last_status": "not_modified",
-      "newest": "2026-11-14T14:00:00Z",
+      "held": 595,
+      "last_run": "2026-11-15T17:22:39Z",
+      "last_status": "ok",
+      "newest": "2026-11-15T12:51:33Z",
       "home": "https://www.securityweek.com/",
       "kind": "news",
       "short": "SW",
@@ -1451,7 +1457,7 @@
       "id": "therecord",
       "name": "The Record",
       "held": 332,
-      "last_run": "2026-11-15T09:52:01Z",
+      "last_run": "2026-11-15T17:22:39Z",
       "last_status": "ok",
       "newest": "2026-11-13T21:32:00Z",
       "home": "https://therecord.media/",
@@ -1465,7 +1471,7 @@
       "id": "darkreading",
       "name": "Dark Reading",
       "held": 322,
-      "last_run": "2026-11-15T09:52:02Z",
+      "last_run": "2026-11-15T17:22:40Z",
       "last_status": "ok",
       "newest": "2026-11-13T20:20:27Z",
       "home": "https://www.darkreading.com/",
@@ -1479,7 +1485,7 @@
       "id": "sans_isc",
       "name": "SANS ISC",
       "held": 123,
-      "last_run": "2026-11-15T09:52:05Z",
+      "last_run": "2026-11-15T17:22:42Z",
       "last_status": "ok",
       "newest": "2026-11-13T03:41:41Z",
       "home": "https://isc.sans.edu/diary.html",
@@ -1493,7 +1499,7 @@
       "id": "sans_stormcast",
       "name": "SANS Stormcast",
       "held": 87,
-      "last_run": "2026-11-15T09:52:05Z",
+      "last_run": "2026-11-15T17:22:43Z",
       "last_status": "not_modified",
       "newest": "2026-11-13T02:00:03Z",
       "home": "https://isc.sans.edu/podcastdetail.html",
@@ -1507,7 +1513,7 @@
       "id": "msrc",
       "name": "Microsoft Security",
       "held": 63,
-      "last_run": "2026-11-15T09:52:05Z",
+      "last_run": "2026-11-15T17:22:42Z",
       "last_status": "not_modified",
       "newest": "2026-11-13T21:31:44Z",
       "home": "https://www.microsoft.com/en-us/security/blog/",
@@ -1521,7 +1527,7 @@
       "id": "talos",
       "name": "Cisco Talos",
       "held": 56,
-      "last_run": "2026-11-15T09:52:02Z",
+      "last_run": "2026-11-15T17:22:40Z",
       "last_status": "not_modified",
       "newest": "2026-11-13T20:57:13Z",
       "home": "https://blog.talosintelligence.com/",
@@ -1535,7 +1541,7 @@
       "id": "unit42",
       "name": "Unit 42",
       "held": 46,
-      "last_run": "2026-11-15T09:52:02Z",
+      "last_run": "2026-11-15T17:22:40Z",
       "last_status": "not_modified",
       "newest": "2026-11-12T15:00:31Z",
       "home": "https://unit42.paloaltonetworks.com/",
@@ -1549,7 +1555,7 @@
       "id": "googletil",
       "name": "Google Threat Intelligence",
       "held": 31,
-      "last_run": "2026-11-15T09:52:04Z",
+      "last_run": "2026-11-15T17:22:42Z",
       "last_status": "ok",
       "newest": "2026-11-02T14:00:00Z",
       "home": "https://cloud.google.com/blog/topics/threat-intelligence",
@@ -1563,8 +1569,8 @@
       "id": "krebs",
       "name": "Krebs on Security",
       "held": 26,
-      "last_run": "2026-11-15T09:52:02Z",
-      "last_status": "ok",
+      "last_run": "2026-11-15T17:22:40Z",
+      "last_status": "not_modified",
       "newest": "2026-11-11T18:06:01Z",
       "home": "https://krebsonsecurity.com/",
       "kind": "research",
@@ -1577,7 +1583,7 @@
       "id": "projectzero",
       "name": "Project Zero",
       "held": 15,
-      "last_run": "2026-11-15T09:52:05Z",
+      "last_run": "2026-11-15T17:22:42Z",
       "last_status": "not_modified",
       "newest": "2026-11-13T08:00:00Z",
       "home": "https://projectzero.google/",
